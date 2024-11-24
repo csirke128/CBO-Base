@@ -1,0 +1,18 @@
+﻿l_russian:
+ PORTRAIT_MODIFIER_cbo_body_hair_custom:0 "Волосы на теле"
+ 
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_no_body_hair_custom:0 "Никаких волос на теле"
+ 
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_sparse_half_custom:0 "Разреженная половина"
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_avg_half_custom:0 "Средняя половина"
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_dense_half_custom:0 "Плотная половина"
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_sparse_low_stubble_half_custom:0 "Половина редкой щетины"
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_avg_low_stubble_half_custom:0 "Средняя половина щетины"
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_dense_low_stubble_half_custom:0 "Густая щетина Наполовину"
+ 
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_sparse_full_custom:0 "Sparse Full"
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_avg_full_custom:0 "Average Full"
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_dense_full_custom:0 "Dense Full"
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_sparse_low_stubble_full_custom:0 "Sparse Stubble Full"
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_avg_low_stubble_full_custom:0 "Average Stubble Full"
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_dense_low_stubble_full_custom:0 "Dense Stubble Full"

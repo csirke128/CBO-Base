@@ -1,0 +1,57 @@
+﻿#These special genes will not be part of a character's DNA.
+#The game can have hardcoded references to them and might use each of them differently
+special_genes = {
+	morph_genes = {
+		gene_bs_pregnant = {
+			pregnant = {
+				index = 0 
+				female = {
+					setting = { attribute = "bs_body_pregnant_1" value = { min = 0.0 max = 0.6 } }
+					setting = { attribute = "bs_body_pregnant" value = { min = 0.0 max = 0.6 } }
+					setting = {
+						required_tags = "waist_clothed,dressed"
+						attribute = "bs_body_pregnant_clothed" 
+						value = { min = 0.0 max = 0.6 }
+					}
+					setting = {
+						required_tags = "waist_clothed,dressed"
+						attribute = "bs_body_pregnant" 
+						value = { min = 0.0 max = -0.6 }
+					}
+					setting = { 
+						attribute = "bs_body_outie" 
+						curve = {
+							{ 0.0   0.0 }
+							{ 0.5   0.0 }
+							{ 0.501   1.0 }
+							{ 1.0   1.0 }
+						}
+					}
+					decal = {
+						body_part = torso
+						textures = {
+							diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_pregnant_01_diffuse.dds"
+							normal = "gfx/models/portraits/decals/female_body/decal_female_body_pregnant_01_normal.dds"
+						}
+						alpha_curve = { #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#character age%, decal alpha
+							{ 0.0   0.0 }
+							{ 0.5   0.0 }
+							{ 0.501   1.0 }
+							{ 1.0   1.0 }
+						}
+						blend_modes = { #overlay/replace/hard_light/multiply
+							diffuse = replace
+							normal = replace
+							# properties = 
+						}
+						priority = 0
+					}
+				}
+				male = female
+				boy = female
+				girl = female
+			}
+		}
+	}
+}

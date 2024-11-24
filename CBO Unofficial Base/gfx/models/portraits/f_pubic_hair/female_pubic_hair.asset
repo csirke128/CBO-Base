@@ -1,0 +1,40 @@
+pdxmesh = {
+	name = "female_pubic_hair_mesh"
+	file = "female_pubic_hair.mesh"
+	
+	blend_shape = { id = "female_pubic_hair_bs_dwarf"					type = "female_pubic_hair_bs_dwarf.mesh" }
+	blend_shape = { id = "female_pubic_hair_bs_briefs"					type = "female_pubic_hair_bs_briefs.mesh" }
+	blend_shape = { id = "female_pubic_hair_bs_g_string"				type = "female_pubic_hair_bs_g_string.mesh" }
+	blend_shape = { id = "female_pubic_hair_bs_thong"					type = "female_pubic_hair_bs_thong.mesh" }
+	blend_shape = { id = "female_pubic_hair_bs_panties"					type = "female_pubic_hair_bs_panties.mesh" }
+
+	meshsettings = {
+		name = "female_pubic_hairShape"
+		index = 0
+		texture_diffuse = "female_pubic_hair_01_diffuse.dds"
+		texture_normal = "female_pubic_hair_01_normal.dds"
+		texture_specular = "female_pubic_hair_01_properties.dds"
+		texture = { file = "black_ssao_color.dds" index = 3 }
+		shader = "portrait_hair"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "female_pubic_hair_entity"
+	pdxmesh = "female_pubic_hair_mesh"
+	
+	attribute = { name = "bs_body_dwarf_1"							blend_shape = "female_pubic_hair_bs_dwarf" }
+	attribute = { name = "bs_body_briefs"							blend_shape = "female_pubic_hair_bs_briefs" }
+	attribute = { name = "bs_body_g_string"							blend_shape = "female_pubic_hair_bs_g_string" }
+	attribute = { name = "bs_body_thong"							blend_shape = "female_pubic_hair_bs_thong" }
+	attribute = { name = "bs_body_panties"							blend_shape = "female_pubic_hair_bs_panties" }
+
+	game_data = {
+		portrait_entity_user_data = {
+			color_mask_remap_interval = {
+				interval = {0.0 1.0}
+			}
+		}
+	}
+}

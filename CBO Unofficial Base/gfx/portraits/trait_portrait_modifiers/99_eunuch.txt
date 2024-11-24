@@ -1,0 +1,38 @@
+﻿
+# Remove testicles from eunuchs
+eunuch = {
+    no_testicles = {
+        traits = { eunuch_1 beardless_eunuch }
+		dna_modifiers = {
+			human = {
+				morph = {
+					mode = modify_multiply
+					gene = gene_bs_penis_size
+					template = eunuch_penis_size
+					value = 1
+				}
+			}
+		}
+		dna_modifiers = {
+			human = {
+				morph = {
+					mode = modify_multiply
+					gene = gene_bs_ball_size
+					template = eunuch_ball_size
+					value = 1
+				}
+			}
+		}
+		dna_modifiers = {
+			human = {
+				accessory = {
+					mode = add
+					gene = balls
+					template = no_balls
+					value = 1
+				}
+			}
+		}
+    }
+
+}

@@ -1,0 +1,12 @@
+﻿
+
+male_pubic_hair = {
+	set_tags = "pubic_hair_body"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_pubic_hair_entity }
+}
+
+
+female_pubic_hair = {
+	set_tags = "pubic_hair_body"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_pubic_hair_entity }
+}

@@ -1,0 +1,19 @@
+﻿l_russian:
+ PORTRAIT_MODIFIER_cbo_custom_body_fix:0 "Fix Body for CBO Clothes"
+ 
+ PORTRAIT_MODIFIER_cbo_custom_body_fix_no_fix:0 "Fixed for Indian Clothes"
+ PORTRAIT_MODIFIER_cbo_custom_body_fix_fix:0 "Fixed for CBO Clothes"
+
+ PORTRAIT_MODIFIER_cbo_demon_customization:0 "Humanity"
+ 
+ PORTRAIT_MODIFIER_cbo_demon_customization_not_demon_custom:0 "Human"
+ PORTRAIT_MODIFIER_cbo_demon_customization_demon_tiny_custom:0 "Hornless Demon"
+ PORTRAIT_MODIFIER_cbo_demon_customization_demon_small_custom:0 "Small Demonic Horns"
+ PORTRAIT_MODIFIER_cbo_demon_customization_demon_medium_custom:0 "Medium Demonic Horns"
+ PORTRAIT_MODIFIER_cbo_demon_customization_demon_large_custom:0 "Large Demonic Horns"
+ PORTRAIT_MODIFIER_cbo_demon_customization_demon_huge_custom:0 "Huge Demonic Horns"
+
+ PORTRAIT_MODIFIER_eye_color_type_customization:0 "Eye Color Type"
+ 
+ PORTRAIT_MODIFIER_eye_color_type_customization_not_custom:0 "Default Eye Color"
+ PORTRAIT_MODIFIER_eye_color_type_customization_bright_eyes_custom:0 "Bright Eyes"

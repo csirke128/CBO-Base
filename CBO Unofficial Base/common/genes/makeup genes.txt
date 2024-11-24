@@ -1,0 +1,979 @@
+﻿
+special_genes = {
+	morph_genes = {
+
+
+	#####################################
+	#									#
+	# 			Makeup	 			    #
+	#									#
+	#####################################
+
+
+		lipstick = {
+			no_lipstick = {
+				index = 0
+				male = {
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			matte = {
+				index = 1
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_lipstick_diffuse.dds"
+							properties = "gfx/models/portraits/decals/cosmetics/decal_lipmatte_properties.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+							properties = replace
+						}
+						priority = 9
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			black_matte = {
+				index = 2
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_black_lipstick_diffuse.dds"
+							properties = "gfx/models/portraits/decals/cosmetics/decal_lipmatte_properties.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+							properties = replace
+						}
+						priority = 9
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			blue_matte = {
+				index = 3
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_blue_lipstick_diffuse.dds"
+							properties = "gfx/models/portraits/decals/cosmetics/decal_lipmatte_properties.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+							properties = replace
+						}
+						priority = 9
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			green_matte = {
+				index = 4
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_green_lipstick_diffuse.dds"
+							properties = "gfx/models/portraits/decals/cosmetics/decal_lipmatte_properties.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+							properties = replace
+						}
+						priority = 9
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			orange_matte = {
+				index = 5
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_orange_lipstick_diffuse.dds"
+							properties = "gfx/models/portraits/decals/cosmetics/decal_lipmatte_properties.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+							properties = replace
+						}
+						priority = 9
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			pink_matte = {
+				index = 6
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_pink_lipstick_diffuse.dds"
+							properties = "gfx/models/portraits/decals/cosmetics/decal_lipmatte_properties.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+							properties = replace
+						}
+						priority = 9
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			purple_matte = {
+				index = 7
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_purple_lipstick_diffuse.dds"
+							properties = "gfx/models/portraits/decals/cosmetics/decal_lipmatte_properties.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+							properties = replace
+						}
+						priority = 9
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			red_matte = {
+				index = 8
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_red_lipstick_diffuse.dds"
+							properties = "gfx/models/portraits/decals/cosmetics/decal_lipmatte_properties.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+							properties = replace
+						}
+						priority = 9
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			yellow_matte = {
+				index = 9
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_yellow_lipstick_diffuse.dds"
+							properties = "gfx/models/portraits/decals/cosmetics/decal_lipmatte_properties.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+							properties = replace
+						}
+						priority = 9
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			gloss = {
+				index = 10
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_lipstick_diffuse.dds"
+							properties = "gfx/models/portraits/decals/cosmetics/decal_lipgloss_properties.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+							properties = overlay
+						}
+						priority = 9
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			black_gloss = {
+				index = 11
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_black_lipstick_diffuse.dds"
+							properties = "gfx/models/portraits/decals/cosmetics/decal_lipgloss_properties.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+							properties = overlay
+						}
+						priority = 9
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			blue_gloss = {
+				index = 12
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_blue_lipstick_diffuse.dds"
+							properties = "gfx/models/portraits/decals/cosmetics/decal_lipgloss_properties.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+							properties = overlay
+						}
+						priority = 9
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			green_gloss = {
+				index = 13
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_green_lipstick_diffuse.dds"
+							properties = "gfx/models/portraits/decals/cosmetics/decal_lipgloss_properties.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+							properties = overlay
+						}
+						priority = 9
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			orange_gloss = {
+				index = 14
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_orange_lipstick_diffuse.dds"
+							properties = "gfx/models/portraits/decals/cosmetics/decal_lipgloss_properties.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+							properties = overlay
+						}
+						priority = 9
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			pink_gloss = {
+				index = 15
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_pink_lipstick_diffuse.dds"
+							properties = "gfx/models/portraits/decals/cosmetics/decal_lipgloss_properties.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+							properties = overlay
+						}
+						priority = 9
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			purple_gloss = {
+				index = 16
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_purple_lipstick_diffuse.dds"
+							properties = "gfx/models/portraits/decals/cosmetics/decal_lipgloss_properties.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+							properties = overlay
+						}
+						priority = 9
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			red_gloss = {
+				index = 17
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_red_lipstick_diffuse.dds"
+							properties = "gfx/models/portraits/decals/cosmetics/decal_lipgloss_properties.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+							properties = overlay
+						}
+						priority = 9
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			yellow_gloss = {
+				index = 18
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_yellow_lipstick_diffuse.dds"
+							properties = "gfx/models/portraits/decals/cosmetics/decal_lipgloss_properties.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+							properties = overlay
+						}
+						priority = 9
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+		eye_shadow = {
+			no_eye_shadow = {
+				index = 0
+				male = {
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			eye_shadow = {
+				index = 1
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_eye_shadow_diffuse.dds"
+							normal = "gfx/models/portraits/decals/cosmetics/decal_face_makeup_normal.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+							normal = overlay
+						}
+						priority = 9
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			black_eye_shadow = {
+				index = 2
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_black_eye_shadow_diffuse.dds"
+							normal = "gfx/models/portraits/decals/cosmetics/decal_face_makeup_normal.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+							normal = overlay
+						}
+						priority = 9
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			blue_eye_shadow = {
+				index = 3
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_blue_eye_shadow_diffuse.dds"
+							normal = "gfx/models/portraits/decals/cosmetics/decal_face_makeup_normal.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+							normal = overlay
+						}
+						priority = 9
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			green_eye_shadow = {
+				index = 4
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_green_eye_shadow_diffuse.dds"
+							normal = "gfx/models/portraits/decals/cosmetics/decal_face_makeup_normal.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+							normal = overlay
+						}
+						priority = 9
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			orange_eye_shadow = {
+				index = 5
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_orange_eye_shadow_diffuse.dds"
+							normal = "gfx/models/portraits/decals/cosmetics/decal_face_makeup_normal.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+							normal = overlay
+						}
+						priority = 9
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			pink_eye_shadow = {
+				index = 6
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_pink_eye_shadow_diffuse.dds"
+							normal = "gfx/models/portraits/decals/cosmetics/decal_face_makeup_normal.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+							normal = overlay
+						}
+						priority = 9
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			purple_eye_shadow = {
+				index = 7
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_purple_eye_shadow_diffuse.dds"
+							normal = "gfx/models/portraits/decals/cosmetics/decal_face_makeup_normal.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+							normal = overlay
+						}
+						priority = 9
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			red_eye_shadow = {
+				index = 8
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_red_eye_shadow_diffuse.dds"
+							normal = "gfx/models/portraits/decals/cosmetics/decal_face_makeup_normal.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+							normal = overlay
+						}
+						priority = 9
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			yellow_eye_shadow = {
+				index = 9
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_yellow_eye_shadow_diffuse.dds"
+							normal = "gfx/models/portraits/decals/cosmetics/decal_face_makeup_normal.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+							normal = overlay
+						}
+						priority = 9
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+		blush = {
+			no_blush = {
+				index = 0
+				male = {
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			blush = {
+				index = 1
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_face_makeup_red_blush_diffuse.dds"
+							normal = "gfx/models/portraits/decals/cosmetics/decal_face_makeup_normal.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+							normal = overlay
+						}
+						priority = 7
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			pink_blush = {
+				index = 2
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_face_makeup_pink_blush_diffuse.dds"
+							normal = "gfx/models/portraits/decals/cosmetics/decal_face_makeup_normal.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+							normal = overlay
+						}
+						priority = 7
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+		makeup_base = {
+			no_makeup_base = {
+				index = 0
+				male = {
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			makeup_base = {
+				index = 1
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_face_makeup_base_diffuse.dds"
+							normal = "gfx/models/portraits/decals/cosmetics/decal_face_makeup_normal.dds"
+							properties = "gfx/models/portraits/decals/cosmetics/decal_face_makeup_base_properties.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+							normal = overlay
+							properties = overlay
+						}
+						priority = 6
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+		eyeliner = {
+			no_eyeliner = {
+				index = 0
+				male = {
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			black_eyeliner = {
+				index = 1
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_black_eyeliner_diffuse.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+						}
+						priority = 10
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			blue_eyeliner = {
+				index = 2
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_blue_eyeliner_diffuse.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+						}
+						priority = 10
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			green_eyeliner = {
+				index = 3
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_green_eyeliner_diffuse.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+						}
+						priority = 10
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			pink_eyeliner = {
+				index = 4
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_pink_eyeliner_diffuse.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+						}
+						priority = 10
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			purple_eyeliner = {
+				index = 5
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_purple_eyeliner_diffuse.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+						}
+						priority = 10
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			red_eyeliner = {
+				index = 6
+				male = {
+					decal = {   
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cosmetics/decal_red_eyeliner_diffuse.dds"
+						}
+						alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+							#gene strength%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0  1.0 }
+						}
+						blend_modes = {				 #overlay/replace/hard_light/multiply
+							diffuse = replace
+						}
+						priority = 10
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+		eyelash_extensions = {
+			no_eyelash_extensions = {
+				index = 0
+				male = {
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			eyelash_extensions = {
+				index = 1
+				male = {
+					setting = {
+						attribute = "bs_eyelash_size_max" 
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   1.0 }
+						}
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+	}
+}

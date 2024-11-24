@@ -1,0 +1,552 @@
+﻿
+
+morph_genes = {
+	# gene_bs_nipples controls nipple size and should be zeroed out while wearing any nipple covering clothing to prevent cliping.
+	gene_bs_nipples = {
+		group = body
+		nipples = {
+			index = 0
+			male = { }
+			female = { 
+				setting = {
+					attribute = "bs_body_nipples_max" 
+					curve = {
+						{ 0.0   0.0 }
+						{ 0.5   0.0 }
+						{ 1.0   0.5 }
+					}
+				}
+				setting = {
+					required_tags = "bikini_1_body"
+					attribute = "bs_body_nipples_max" 
+					curve = {
+						{ 0.0   0.0 }
+						{ 0.5   0.0 }
+						{ 1.0   -0.1 }
+					}
+				}
+				setting = {
+					attribute = "bs_body_nipples_min" 
+					curve = {
+						{ 0.0   1.0 }
+						{ 0.5   0.0 }
+						{ 1.0   0.0 }
+					}
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_body_nipples_max" 
+					curve = {
+						{ 0.0   0.0 }
+						{ 0.5   0.0 }
+						{ 1.0   -0.5 }
+					}
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_body_nipples_min" 
+					curve = {
+						{ 0.0   -1.0 }
+						{ 0.5   0.0 }
+						{ 1.0   0.0 }
+					}
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_body_nipples_min" 
+					curve = {
+						{ 0.0   1.0 }
+						{ 1.0   1.0 }
+					}
+				}
+			}
+			boy = { }
+			girl = boy
+		}
+	}
+	# gene_areolas controls nipple size via the gene template. The gene should always be zeroed out.
+	# The gene value itself controls nipple color. Nipples darken during pregnancy and lactation, and the gene strength controls this.
+	gene_areolas = {
+		group = body
+		areolas_0 = {
+			index = 0
+			male = { }
+			female = { 
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_nipples_00_diffuse.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  1.0 }
+						{1.0   1.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = replace
+						# properties = 
+					}
+					priority = 1
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_nipples_00_diffuse.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  1.0 }
+						{1.0   1.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply
+						# properties = 
+					}
+					priority = 1
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_nipples_00_diffuse.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  0.25 }
+						{1.0   0.25 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply
+						# properties = 
+					}
+					priority = 1
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_nipples_00_diffuse.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  0.0 }
+						{1.0   1.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply
+						# properties = 
+					}
+					priority = 1
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_nipples_00_diffuse.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  0.0 }
+						{1.0   1.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply
+						# properties = 
+					}
+					priority = 1
+				}
+			}
+			boy = { }
+			girl = boy
+		}
+		areolas_1 = {
+			index = 1
+			male = { }
+			female = { 
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_nipples_01_diffuse.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  0.0 }
+						{1.0   1.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply
+						# properties = 
+					}
+					priority = 1
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_nipples_01_diffuse.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  0.0 }
+						{1.0   1.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply
+						# properties = 
+					}
+					priority = 1
+				}
+			}
+			boy = { }
+			girl = boy
+		}
+		areolas_2 = {
+			index = 2
+			male = { }
+			female = { 
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_nipples_02_diffuse.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  1.0 }
+						{1.0   1.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = replace
+						# properties = 
+					}
+					priority = 1
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_nipples_02_diffuse.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  1.0 }
+						{1.0   1.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply
+						# properties = 
+					}
+					priority = 1
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_nipples_02_diffuse.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  0.25 }
+						{1.0   0.25 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply
+						# properties = 
+					}
+					priority = 1
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_nipples_02_diffuse.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  0.0 }
+						{1.0   1.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply
+						# properties = 
+					}
+					priority = 1
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_nipples_02_diffuse.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  0.0 }
+						{1.0   1.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply
+						# properties = 
+					}
+					priority = 1
+				}
+			}
+			boy = { }
+			girl = boy
+		}
+		areolas_3 = {
+			index = 3
+			male = { }
+			female = { 
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_nipples_03_diffuse.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  1.0 }
+						{1.0   1.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = replace
+						# properties = 
+					}
+					priority = 1
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_nipples_03_diffuse.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  1.0 }
+						{1.0   1.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply
+						# properties = 
+					}
+					priority = 1
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_nipples_03_diffuse.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  0.25 }
+						{1.0   0.25 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply
+						# properties = 
+					}
+					priority = 1
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_nipples_03_diffuse.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  0.0 }
+						{1.0   1.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply
+						# properties = 
+					}
+					priority = 1
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_nipples_03_diffuse.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  0.0 }
+						{1.0   1.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply
+						# properties = 
+					}
+					priority = 1
+				}
+			}
+			boy = { }
+			girl = boy
+		}
+		areolas_4 = {
+			index = 4
+			male = { }
+			female = { 
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_nipples_04_diffuse.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  1.0 }
+						{1.0   1.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = replace
+						# properties = 
+					}
+					priority = 1
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_nipples_04_diffuse.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  1.0 }
+						{1.0   1.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply
+						# properties = 
+					}
+					priority = 1
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_nipples_04_diffuse.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  0.25 }
+						{1.0   0.25 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply
+						# properties = 
+					}
+					priority = 1
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_nipples_04_diffuse.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  0.0 }
+						{1.0   1.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply
+						# properties = 
+					}
+					priority = 1
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_nipples_04_diffuse.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  0.0 }
+						{1.0   1.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply
+						# properties = 
+					}
+					priority = 1
+				}
+			}
+			boy = { }
+			girl = boy
+		}
+		areolas_5 = {
+			index = 5
+			male = { }
+			female = { 
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_nipples_05_diffuse.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  1.0 }
+						{1.0   1.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = replace
+						# properties = 
+					}
+					priority = 1
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_nipples_05_diffuse.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  1.0 }
+						{1.0   1.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply
+						# properties = 
+					}
+					priority = 1
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_nipples_05_diffuse.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  0.25 }
+						{1.0   0.25 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply
+						# properties = 
+					}
+					priority = 1
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_nipples_05_diffuse.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  0.0 }
+						{1.0   1.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply
+						# properties = 
+					}
+					priority = 1
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_nipples_05_diffuse.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  0.0 }
+						{1.0   1.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply
+						# properties = 
+					}
+					priority = 1
+				}
+			}
+			boy = { }
+			girl = boy
+		}
+	}
+}

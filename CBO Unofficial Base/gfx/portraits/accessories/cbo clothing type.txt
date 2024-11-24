@@ -1,0 +1,65 @@
+﻿
+dressed = {
+	set_tags = "dressed"
+	entity = {	shared_pose_entity = torso }
+}
+
+undressed = {
+	set_tags = "undressed"
+	entity = {	shared_pose_entity = torso }
+}
+
+breasts_clothed = {
+	set_tags = "breasts_clothed"
+	entity = {	shared_pose_entity = torso }
+}
+
+breasts_free = {
+	set_tags = "breasts_free"
+	entity = {	shared_pose_entity = torso }
+}
+
+default_clothing = {
+	set_tags = "default_clothing"
+	entity = {	shared_pose_entity = torso }
+}
+
+butt_clothed = {
+	set_tags = "butt_clothed"
+	entity = {	shared_pose_entity = torso }
+}
+
+butt_free = {
+	set_tags = "butt_free"
+	entity = {	shared_pose_entity = torso }
+}
+
+hips_clothed = {
+	set_tags = "hips_clothed"
+	entity = {	shared_pose_entity = torso }
+}
+
+hips_free = {
+	set_tags = "hips_free"
+	entity = {	shared_pose_entity = torso }
+}
+
+shoulders_clothed = {
+	set_tags = "shoulders_clothed"
+	entity = {	shared_pose_entity = torso }
+}
+
+shoulders_free = {
+	set_tags = "shoulders_free"
+	entity = {	shared_pose_entity = torso }
+}
+
+waist_clothed = {
+	set_tags = "waist_clothed"
+	entity = {	shared_pose_entity = torso }
+}
+
+waist_free = {
+	set_tags = "waist_free"
+	entity = {	shared_pose_entity = torso }
+}

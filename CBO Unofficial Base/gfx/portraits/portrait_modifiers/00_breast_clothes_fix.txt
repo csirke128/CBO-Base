@@ -1,0 +1,26 @@
+﻿
+breast_clothes_fix = {
+	usage = game
+	selection_behavior = max
+	breast_clothes_fix = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				template = bust_default
+				value = 1.0
+				}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				has_gene = {
+					category = gene_bs_bust
+					template = bust_clothes
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+﻿muscularity_max = {
+	default = paradox_default
+
+	paradox_default = {
+		flag = paradox_default
+		flag = GG_can_change_rule
+	}
+	
+	more_muscular = {
+		flag = more_muscular
+		flag = GG_can_change_rule
+	}
+
+}
+

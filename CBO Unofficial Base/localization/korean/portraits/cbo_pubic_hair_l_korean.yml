@@ -1,0 +1,8 @@
+﻿l_korean:
+ PORTRAIT_MODIFIER_cbo_pubic_hair_custom:0 "음모"
+ 
+ PORTRAIT_MODIFIER_cbo_pubic_hair_custom_no_pubic_hair_custom:0 "음모 없음"
+ PORTRAIT_MODIFIER_cbo_pubic_hair_custom_pubic_hair_custom:0 "음모 있음"
+
+ PORTRAIT_MODIFIER_cbo_pubic_hair_no_pubic_hair:0 "음모 없음"
+ PORTRAIT_MODIFIER_cbo_pubic_hair_pubic_hair:0 "음모 있음"

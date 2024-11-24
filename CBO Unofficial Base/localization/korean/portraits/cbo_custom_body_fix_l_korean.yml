@@ -1,0 +1,19 @@
+﻿l_korean:
+ PORTRAIT_MODIFIER_cbo_custom_body_fix:0 "CBO 의상에 맞게 신체 고치기"
+ 
+ PORTRAIT_MODIFIER_cbo_custom_body_fix_no_fix:0 "인도 의상에 맞춤"
+ PORTRAIT_MODIFIER_cbo_custom_body_fix_fix:0 "CBO 의상에 맞춤"
+
+ PORTRAIT_MODIFIER_cbo_demon_customization:0 "인간성"
+ 
+ PORTRAIT_MODIFIER_cbo_demon_customization_not_demon_custom:0 "인간"
+ PORTRAIT_MODIFIER_cbo_demon_customization_demon_tiny_custom:0 "뿔 없는 악마"
+ PORTRAIT_MODIFIER_cbo_demon_customization_demon_small_custom:0 "작은 악마의 뿔"
+ PORTRAIT_MODIFIER_cbo_demon_customization_demon_medium_custom:0 "중간 크기의 악마 뿔"
+ PORTRAIT_MODIFIER_cbo_demon_customization_demon_large_custom:0 "큰 악마의 뿔"
+ PORTRAIT_MODIFIER_cbo_demon_customization_demon_huge_custom:0 "거대한 악마의 뿔"
+
+ PORTRAIT_MODIFIER_eye_color_type_customization:0 "눈 색상 유형"
+ 
+ PORTRAIT_MODIFIER_eye_color_type_customization_not_custom:0 "기본 눈 색상"
+ PORTRAIT_MODIFIER_eye_color_type_customization_bright_eyes_custom:0 "밝은 눈동자"

@@ -1,0 +1,70 @@
+﻿cbo_pubic_hair = {
+	# interface_position = 1
+	usage = game
+	selection_behavior = max
+	no_pubic_hair = {
+		ignore_outfit_tags = yes
+		usage = game 
+		dna_modifiers = { }
+		weight = {
+			base = 50
+		}
+	}
+	pubic_hair = {
+		ignore_outfit_tags = yes
+		usage = game 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = pubic_hair
+				template = pubic_hair
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				age >= 18
+				is_adult = yes
+				has_game_rule = cbo_pubic_hair_active
+			}
+		}
+	}
+}
+
+cbo_pubic_hair_custom = {
+	# interface_position = 1
+	usage = customization
+	interface_position = 16
+	no_pubic_hair_custom = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = pubic_hair
+				template = no_pubic_hair
+				range = { 0 1 }
+			}
+		}
+		is_valid_custom = {
+			is_adult = yes
+			age >= 18
+		}
+	}
+	pubic_hair_custom = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = pubic_hair
+				template = pubic_hair
+				range = { 0 1 }
+			}
+		}
+		is_valid_custom = {
+			is_adult = yes
+			age >= 18
+		}
+	}
+}

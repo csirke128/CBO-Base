@@ -1,0 +1,13 @@
+﻿l_english:
+
+ rule_muscularity_max: "Muscularity Maximum"
+ setting_paradox_default: "Paradox Default"
+ setting_paradox_default_desc: "Do you even lift bro?"
+ setting_more_muscular: "More Muscular"
+ setting_more_muscular_desc: "Scales at the same rate as paradox until 25 prowess, keeps getting more muscular until 50 prowess."
+ 
+ rule_cbo_pubic_hair: "Pubic Hair"
+ setting_cbo_pubic_hair_active: "Pubic Hair Active"
+ setting_cbo_pubic_hair_active_desc: "Characters have a pubic hair mesh by default."
+ setting_cbo_pubic_hair_inactive: "Pubic Hair Inactive"
+ setting_cbo_pubic_hair_inactive_desc: "The paradox default."

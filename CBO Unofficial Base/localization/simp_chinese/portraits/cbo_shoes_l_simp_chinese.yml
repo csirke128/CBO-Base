@@ -1,0 +1,28 @@
+﻿l_simp_chinese:
+ PORTRAIT_MODIFIER_cbo_shoes_customization:0 "CBO鞋"
+ 
+ PORTRAIT_MODIFIER_cbo_shoes_customization_male_shoes_western_common_01:0 "西式鞋"
+ PORTRAIT_MODIFIER_cbo_shoes_customization_male_shoes_mena_war_nobility_01:0 "阿拉伯式靴"
+ PORTRAIT_MODIFIER_cbo_shoes_customization_male_shoes_mena_common_01:0 "阿拉伯式鞋"
+ PORTRAIT_MODIFIER_cbo_shoes_customization_male_shoes_fp1_common_01:0 "诺斯式鞋"
+ PORTRAIT_MODIFIER_cbo_shoes_customization_male_shoes_ep1_jester_01:0 "弄臣鞋"
+
+ PORTRAIT_MODIFIER_cbo_shoes_customization_female_shoes_western_common_01:0 "西式鞋"
+ PORTRAIT_MODIFIER_cbo_shoes_customization_female_shoes_mena_war_nobility_01:0 "阿拉伯式靴"
+ PORTRAIT_MODIFIER_cbo_shoes_customization_female_shoes_mena_common_01:0 "阿拉伯式鞋"
+ PORTRAIT_MODIFIER_cbo_shoes_customization_female_shoes_fp1_common_01:0 "诺斯式鞋"
+ PORTRAIT_MODIFIER_cbo_shoes_customization_female_shoes_ep1_jester_01:0 "弄臣鞋"
+ 
+ PORTRAIT_MODIFIER_cbo_shoes_customization_heels_mid_calf:0 "短高跟"
+ PORTRAIT_MODIFIER_cbo_shoes_customization_heels_thigh_high_01:0 "长高跟1"
+ PORTRAIT_MODIFIER_cbo_shoes_customization_heels_thigh_high_02:0 "长高跟2"
+ PORTRAIT_MODIFIER_cbo_shoes_customization_thigh_high_war:0 "长筒靴"
+ PORTRAIT_MODIFIER_cbo_shoes_customization_ankle_boot_heels_01:0 "超短高跟1"
+ PORTRAIT_MODIFIER_cbo_shoes_customization_ankle_boot_heels_02:0 "超短高跟2"
+ PORTRAIT_MODIFIER_cbo_shoes_customization_ankle_boot_heels_03:0 "超短高跟3"
+
+ PORTRAIT_MODIFIER_cbo_shoes_customization_western_shoes:0 "西式鞋"
+ PORTRAIT_MODIFIER_cbo_shoes_customization_mena_war_nobility_shoes:0 "阿拉伯式靴"
+ PORTRAIT_MODIFIER_cbo_shoes_customization_mena_shoes:0 "阿拉伯式鞋"
+ PORTRAIT_MODIFIER_cbo_shoes_customization_fp1_shoes:0 "诺斯式鞋"
+ PORTRAIT_MODIFIER_cbo_shoes_customization_jester_shoes:0 "弄臣鞋"

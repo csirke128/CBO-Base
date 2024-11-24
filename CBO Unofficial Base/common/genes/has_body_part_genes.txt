@@ -1,0 +1,108 @@
+﻿
+special_genes = {
+	accessory_genes = {
+		penis = {
+			has_penis = {
+				index = 0
+				male = {
+					1 = has_penis
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+
+			no_penis = {
+				index = 1
+				male = {
+					1 = no_penis
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+		balls = {
+			has_balls = {
+				index = 0
+				male = {
+					1 = has_balls
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+
+			no_balls = {
+				index = 1
+				male = {
+					1 = no_balls
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+		vagina = {
+			has_vagina = {
+				index = 0
+				male = {
+					1 = has_vagina
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+
+			no_vagina = {
+				index = 1
+				male = {
+					1 = no_vagina
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+		penis_erection = {
+			not_penis_erection = {
+				index = 0
+				male = {
+					1 = no_penis_erection
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+
+			penis_erection = {
+				index = 1
+				male = {
+					1 = penis_erection
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+		penis_erection_correction = {
+			not_penis_erection_correction = {
+				index = 0
+				male = { }
+				female = male
+				boy = male
+				girl = male
+			}
+
+			penis_erection_correction = {
+				index = 1
+				male = {
+					1 = penis_erection_correction
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+	}
+}

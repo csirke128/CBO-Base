@@ -1,0 +1,945 @@
+﻿makeup_base_customization = {
+	interface_position = 17
+	usage = customization
+	no_makeup_base = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = makeup_base
+				template = no_makeup_base
+				value = 0
+			}
+		}
+	}
+	makeup_base_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = makeup_base
+				template = makeup_base
+				value = 1.0
+			}
+		}
+	}	
+	makeup_base_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = makeup_base
+				template = makeup_base
+				value = 0.5
+			}
+		}
+	}
+}
+mascara_customization = {
+	interface_position = 18
+	usage = customization
+	no_mascara = {
+		usage = customization
+		dna_modifiers = { }
+	}
+	mascara = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cbo_eyelashes_accessory
+				template = mascara_eyelashes
+				value = 1.0
+			}
+		}
+	}	
+}
+eyelash_extensions_customization = {
+	interface_position = 19
+	usage = customization
+	no_extensions = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eyelash_extensions
+				template = no_eyelash_extensions
+				value = 0
+			}
+		}
+	}
+	small_eyelash_extensions = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eyelash_extensions
+				template = eyelash_extensions
+				value = 0.25
+			}
+		}
+	}	
+	normal_eyelash_extensions = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eyelash_extensions
+				template = eyelash_extensions
+				value = 0.5
+			}
+		}
+	}
+	large_eyelash_extensions = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eyelash_extensions
+				template = eyelash_extensions
+				value = 0.75
+			}
+		}
+	}
+	huge_eyelash_extensions = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eyelash_extensions
+				template = eyelash_extensions
+				value = 1.0
+			}
+		}
+	}
+}
+eyeliner_customization = {
+	interface_position = 1
+	usage = customization
+	no_eyeliner = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eyeliner
+				template = no_eyeliner
+				value = 0
+			}
+		}
+	}
+	black_eyeliner_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eyeliner
+				template = black_eyeliner
+				value = 1.0
+			}
+		}
+	}	
+	black_eyeliner_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eyeliner
+				template = black_eyeliner
+				value = 0.5
+			}
+		}
+	}
+	pink_eyeliner_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eyeliner
+				template = pink_eyeliner
+				value = 1.0
+			}
+		}
+	}	
+	pink_eyeliner_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eyeliner
+				template = pink_eyeliner
+				value = 0.5
+			}
+		}
+	}
+	purple_eyeliner_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eyeliner
+				template = purple_eyeliner
+				value = 1.0
+			}
+		}
+	}	
+	purple_eyeliner_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eyeliner
+				template = purple_eyeliner
+				value = 0.5
+			}
+		}
+	}
+	blue_eyeliner_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eyeliner
+				template = blue_eyeliner
+				value = 1.0
+			}
+		}
+	}	
+	blue_eyeliner_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eyeliner
+				template = blue_eyeliner
+				value = 0.5
+			}
+		}
+	}
+	red_eyeliner_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eyeliner
+				template = red_eyeliner
+				value = 1.0
+			}
+		}
+	}	
+	red_eyeliner_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eyeliner
+				template = red_eyeliner
+				value = 0.5
+			}
+		}
+	}
+	green_eyeliner_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eyeliner
+				template = green_eyeliner
+				value = 1.0
+			}
+		}
+	}	
+	green_eyeliner_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eyeliner
+				template = green_eyeliner
+				value = 0.5
+			}
+		}
+	}
+}
+eye_shadow_customization = {
+	interface_position = 1
+	usage = customization
+	no_eye_shadow = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eye_shadow
+				template = no_eye_shadow
+				value = 0
+			}
+		}
+	}
+	eye_shadow_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eye_shadow
+				template = eye_shadow
+				value = 1.0
+			}
+		}
+	}	
+	eye_shadow_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eye_shadow
+				template = eye_shadow
+				value = 0.5
+			}
+		}
+	}
+	black_eye_shadow_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eye_shadow
+				template = black_eye_shadow
+				value = 1.0
+			}
+		}
+	}	
+	black_eye_shadow_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eye_shadow
+				template = black_eye_shadow
+				value = 0.5
+			}
+		}
+	}
+	pink_eye_shadow_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eye_shadow
+				template = pink_eye_shadow
+				value = 1.0
+			}
+		}
+	}	
+	pink_eye_shadow_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eye_shadow
+				template = pink_eye_shadow
+				value = 0.5
+			}
+		}
+	}
+	purple_eye_shadow_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eye_shadow
+				template = purple_eye_shadow
+				value = 1.0
+			}
+		}
+	}	
+	purple_eye_shadow_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eye_shadow
+				template = purple_eye_shadow
+				value = 0.5
+			}
+		}
+	}
+	blue_eye_shadow_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eye_shadow
+				template = blue_eye_shadow
+				value = 1.0
+			}
+		}
+	}	
+	blue_eye_shadow_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eye_shadow
+				template = blue_eye_shadow
+				value = 0.5
+			}
+		}
+	}
+	red_eye_shadow_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eye_shadow
+				template = red_eye_shadow
+				value = 1.0
+			}
+		}
+	}	
+	red_eye_shadow_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eye_shadow
+				template = red_eye_shadow
+				value = 0.5
+			}
+		}
+	}
+	green_eye_shadow_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eye_shadow
+				template = green_eye_shadow
+				value = 1.0
+			}
+		}
+	}	
+	green_eye_shadow_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eye_shadow
+				template = green_eye_shadow
+				value = 0.5
+			}
+		}
+	}
+	yellow_eye_shadow_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eye_shadow
+				template = yellow_eye_shadow
+				value = 1.0
+			}
+		}
+	}	
+	yellow_eye_shadow_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eye_shadow
+				template = yellow_eye_shadow
+				value = 0.5
+			}
+		}
+	}
+	orange_eye_shadow_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eye_shadow
+				template = orange_eye_shadow
+				value = 1.0
+			}
+		}
+	}	
+	orange_eye_shadow_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = eye_shadow
+				template = orange_eye_shadow
+				value = 0.5
+			}
+		}
+	}
+}
+blush_customization = {
+	interface_position = 22
+	usage = customization
+	no_blush = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = blush
+				template = no_blush
+				value = 0
+			}
+		}
+	}
+	blush_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = blush
+				template = blush
+				value = 1.0
+			}
+		}
+	}	
+	blush_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = blush
+				template = blush
+				value = 0.5
+			}
+		}
+	}
+	pink_blush_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = blush
+				template = pink_blush
+				value = 1.0
+			}
+		}
+	}	
+	pink_blush_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = blush
+				template = pink_blush
+				value = 0.5
+			}
+		}
+	}
+}
+lipstick_customization = {
+	interface_position = 1
+	usage = customization
+	no_lipstick = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = no_lipstick
+				value = 0
+			}
+		}
+	}
+	matte_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = matte
+				value = 1.0
+			}
+		}
+	}	
+	matte_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = matte
+				value = 0.5
+			}
+		}
+	}
+	red_matte_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = red_matte
+				value = 1.0
+			}
+		}
+	}	
+	red_matte_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = red_matte
+				value = 0.5
+			}
+		}
+	}
+	pink_matte_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = pink_matte
+				value = 1.0
+			}
+		}
+	}	
+	pink_matte_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = pink_matte
+				value = 0.5
+			}
+		}
+	}
+	purple_matte_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = purple_matte
+				value = 1.0
+			}
+		}
+	}	
+	purple_matte_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = purple_matte
+				value = 0.5
+			}
+		}
+	}
+	black_matte_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = black_matte
+				value = 1.0
+			}
+		}
+	}	
+	black_matte_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = black_matte
+				value = 0.5
+			}
+		}
+	}
+	blue_matte_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = blue_matte
+				value = 1.0
+			}
+		}
+	}	
+	blue_matte_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = blue_matte
+				value = 0.5
+			}
+		}
+	}
+	green_matte_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = green_matte
+				value = 1.0
+			}
+		}
+	}	
+	green_matte_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = green_matte
+				value = 0.5
+			}
+		}
+	}
+	orange_matte_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = orange_matte
+				value = 1.0
+			}
+		}
+	}	
+	orange_matte_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = orange_matte
+				value = 0.5
+			}
+		}
+	}
+	yellow_matte_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = yellow_matte
+				value = 1.0
+			}
+		}
+	}	
+	yellow_matte_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = yellow_matte
+				value = 0.5
+			}
+		}
+	}
+	gloss_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = gloss
+				value = 1.0
+			}
+		}
+	}	
+	gloss_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = gloss
+				value = 0.5
+			}
+		}
+	}
+	red_gloss_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = red_gloss
+				value = 1.0
+			}
+		}
+	}	
+	red_gloss_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = red_gloss
+				value = 0.5
+			}
+		}
+	}
+	pink_gloss_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = pink_gloss
+				value = 1.0
+			}
+		}
+	}	
+	pink_gloss_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = pink_gloss
+				value = 0.5
+			}
+		}
+	}
+	purple_gloss_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = purple_gloss
+				value = 1.0
+			}
+		}
+	}	
+	purple_gloss_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = purple_gloss
+				value = 0.5
+			}
+		}
+	}
+	black_gloss_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = black_gloss
+				value = 1.0
+			}
+		}
+	}	
+	black_gloss_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = black_gloss
+				value = 0.5
+			}
+		}
+	}
+	blue_gloss_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = blue_gloss
+				value = 1.0
+			}
+		}
+	}	
+	blue_gloss_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = blue_gloss
+				value = 0.5
+			}
+		}
+	}
+	green_gloss_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = green_gloss
+				value = 1.0
+			}
+		}
+	}	
+	green_gloss_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = green_gloss
+				value = 0.5
+			}
+		}
+	}
+	orange_gloss_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = orange_gloss
+				value = 1.0
+			}
+		}
+	}	
+	orange_gloss_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = orange_gloss
+				value = 0.5
+			}
+		}
+	}
+	yellow_gloss_full = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = yellow_gloss
+				value = 1.0
+			}
+		}
+	}	
+	yellow_gloss_half = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = lipstick
+				template = yellow_gloss
+				value = 0.5
+			}
+		}
+	}
+}

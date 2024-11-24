@@ -1,0 +1,949 @@
+﻿age_presets = {
+	age_preset_ken_doll = {
+		mode = multiply
+		curve = {
+			{ 0.00 0.0 }
+			{ 0.05 0.6 }
+			{ 0.10 0.9 }
+			{ 0.15 1.0 }
+			{ 0.17 1.0 }
+			{ 0.18 0.0 }
+		}
+	}
+	age_preset_nudity = {
+		mode = multiply
+		curve = {
+			{ 0.00 0.0 }
+			{ 0.17 0.0 }
+			{ 0.18 1.0 }
+		}
+	}
+}
+
+morph_genes = {
+	gene_bs_penis_size = {
+		group = body
+		penis_size = {
+            index = 0 
+			male = { 
+				setting = { 
+					attribute = "bs_body_penis_size_max" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   1.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = {
+					attribute = "bs_body_ball_size_max" 
+					#value = { min = 0.0 max = 3.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   1.0 }
+					}
+					age = age_preset_nudity
+				}
+				setting = {
+					required_tags = "penis_clothed,dressed"
+					attribute = "bs_body_penis_size_max" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   -1.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = {
+					required_tags = "penis_clothed,dressed"
+					attribute = "bs_body_ball_size_max" 
+					#value = { min = 0.0 max = 3.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   -1.0 }
+					}
+					age = age_preset_nudity
+				}
+				setting = {
+					attribute = "bs_body_penis_size_max_clothed" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   2.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = { 
+					required_tags = "penis_erection"
+					attribute = "bs_body_penis_size_max" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   -1.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = {
+					required_tags = "penis_erection,penis_erection_correction"
+					attribute = "bs_body_penis_erection" 
+					# value = { min = -1.0 max = 1.0 }
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 -1.0 }
+					}
+					age = age_preset_nudity
+				}
+				setting = {
+					required_tags = "penis_erection,penis_erection_correction"
+					attribute = "bs_body_penis_erection_3" 
+					# value = { min = -1.0 max = 1.0 }
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 1.0 }
+					}
+					age = age_preset_nudity
+				}
+				setting = {
+					required_tags = "penis_erection"
+					attribute = "bs_body_penis_erection" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   1.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = {
+					required_tags = "penis_erection"
+					attribute = "bs_body_penis_erection_min" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   1.0 }
+						{ 1.0   0.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					required_tags = "no_penis"
+					attribute = "bs_body_penis_size_max" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   -1.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = {
+					required_tags = "no_balls"
+					attribute = "bs_body_ball_size_max" 
+					#value = { min = 0.0 max = 3.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   -1.0 }
+					}
+					age = age_preset_nudity
+				}
+				setting = { 
+					required_tags = "no_balls"
+					attribute = "bs_body_no_testicles" 
+					value = { min = 1.0 max = 1.0 } 
+					age = age_preset_nudity 
+				}
+				setting = { 
+					attribute = "bs_body_nudity" 
+					value = { min = 1.0 max = 1.0 } 
+					age = age_preset_nudity
+				}
+				setting = {
+					attribute = "bs_body_ken_doll"
+					value = { min = 1.0 max = 1.0 }
+					age = age_preset_ken_doll
+				}
+			}
+			female = {
+				setting = { 
+					required_tags = "has_penis,no_balls,no_penis_erection"
+					attribute = "bs_body_penis_size_max" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   1.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					required_tags = "has_penis,no_balls,no_penis_erection"
+					attribute = "bs_body_penis_size_min" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   1.0 }
+						{ 1.0   0.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					required_tags = "has_penis,no_balls,penis_clothed,dressed,no_penis_erection"
+					attribute = "bs_body_penis_size_max" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   -1.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					required_tags = "has_penis,no_balls,penis_clothed,dressed,no_penis_erection"
+					attribute = "bs_body_penis_size_min" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   -1.0 }
+						{ 1.0   0.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					required_tags = "has_penis,penis_clothed,dressed,no_penis_erection"
+					attribute = "bs_body_penis_size_max_clothed" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   2.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = { 
+					required_tags = "has_penis,no_balls,penis_clothed,dressed,no_penis_erection"
+					attribute = "bs_body_penis_size_min_clothed" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   1.0 }
+						{ 1.0   0.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "has_penis,no_balls,penis_erection"
+					attribute = "bs_body_penis_erection" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   1.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					required_tags = "has_penis,no_balls,penis_erection"
+					attribute = "bs_body_penis_erection_min" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   1.0 }
+						{ 1.0   0.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					required_tags = "has_penis,has_balls,no_penis_erection"
+					attribute = "bs_body_penis_size_max_gen" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   1.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					required_tags = "has_penis,has_balls,no_penis_erection"
+					attribute = "bs_body_penis_gen" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   1.0 }
+						{ 1.0   0.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					required_tags = "has_penis,has_balls"
+					attribute = "bs_body_ball_size_max_gen" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   2.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					required_tags = "has_penis,has_balls,penis_clothed,dressed,no_penis_erection"
+					attribute = "bs_body_penis_size_max_gen" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   -1.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					required_tags = "has_penis,has_balls,penis_clothed,dressed,no_penis_erection"
+					attribute = "bs_body_penis_gen" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   -1.0 }
+						{ 1.0   0.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					required_tags = "has_penis,has_balls,penis_clothed,dressed"
+					attribute = "bs_body_ball_size_max_gen" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   -2.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					required_tags = "has_penis,has_balls,penis_erection"
+					attribute = "bs_body_penis_erection_gen" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   1.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					required_tags = "has_penis,has_balls,penis_erection"
+					attribute = "bs_body_penis_erection_min_gen" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   1.0 }
+						{ 1.0   0.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = {
+					attribute = "bs_body_nudity"
+					value = { min = 1.0 max = 1.0 }
+					age = age_preset_nudity
+				}
+				setting = {
+					attribute = "bs_body_ken_doll"
+					value = { min = 1.0 max = 1.0 }
+					age = age_preset_ken_doll
+				}
+			}
+			boy = { 
+				setting = {
+					attribute = "bs_body_ken_doll"
+					value = { min = 1.0 max = 1.0 }
+					age = age_preset_ken_doll
+				}
+			}
+			girl = { 
+				setting = {
+					attribute = "bs_body_ken_doll"
+					value = { min = 1.0 max = 1.0 }
+					age = age_preset_ken_doll
+				}
+			}
+		}
+		eunuch_penis_size = {
+			index = 1 
+			visible = no
+			generic = no
+			male = { 
+				setting = { 
+					attribute = "bs_body_penis_size_max" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   1.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = {
+					required_tags = "has_penis,penis_clothed,dressed"
+					attribute = "bs_body_penis_size_max" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   -1.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = {
+					attribute = "bs_body_penis_size_max_clothed" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   2.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = { 
+					required_tags = "has_penis,penis_erection"
+					attribute = "bs_body_penis_size_max" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   -1.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = {
+					required_tags = "has_penis,penis_erection,penis_erection_correction"
+					attribute = "bs_body_penis_erection" 
+					# value = { min = -1.0 max = 1.0 }
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 -1.0 }
+					}
+					age = age_preset_nudity
+				}
+				setting = {
+					required_tags = "has_penis,penis_erection,penis_erection_correction"
+					attribute = "bs_body_penis_erection_3" 
+					# value = { min = -1.0 max = 1.0 }
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 -1.0 }
+					}
+					age = age_preset_nudity
+				}
+				setting = {
+					required_tags = "has_penis,penis_erection"
+					attribute = "bs_body_penis_erection" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   1.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = {
+					required_tags = "has_penis,penis_erection"
+					attribute = "bs_body_penis_erection_min" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   1.0 }
+						{ 1.0   0.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					required_tags = "no_penis"
+					attribute = "bs_body_penis_size_max" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   -1.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = {
+					attribute = "bs_body_no_testicles" 
+					value = { min = 1.0 max = 1.0 } 
+					age = age_preset_nudity 
+				}
+				setting = { 
+					attribute = "bs_body_nudity" 
+					value = { min = 1.0 max = 1.0 } 
+					age = age_preset_nudity
+				}
+				setting = {
+					attribute = "bs_body_ken_doll"
+					value = { min = 1.0 max = 1.0 }
+					age = age_preset_ken_doll
+				}
+			}
+			female = { 
+				setting = { 
+					required_tags = "has_penis,no_balls"
+					attribute = "bs_body_penis_size_max" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   1.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					required_tags = "has_penis,no_balls"
+					attribute = "bs_body_penis_size_min" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   1.0 }
+						{ 1.0   0.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					required_tags = "has_penis,no_balls,penis_clothed,dressed"
+					attribute = "bs_body_penis_size_max" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   -1.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					required_tags = "has_penis,no_balls,penis_clothed,dressed"
+					attribute = "bs_body_penis_size_min" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   -1.0 }
+						{ 1.0   0.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					required_tags = "has_penis,penis_clothed,dressed"
+					attribute = "bs_body_penis_size_max_clothed" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   2.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = { 
+					required_tags = "has_penis,no_balls,penis_clothed,dressed"
+					attribute = "bs_body_penis_size_min_clothed" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   1.0 }
+						{ 1.0   0.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "has_penis,no_balls,penis_erection"
+					attribute = "bs_body_penis_erection" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   1.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					required_tags = "has_penis,no_balls,penis_erection"
+					attribute = "bs_body_penis_erection_min" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   1.0 }
+						{ 1.0   0.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					required_tags = "has_penis,has_balls"
+					attribute = "bs_body_penis_size_max_gen" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   1.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					required_tags = "has_penis,has_balls"
+					attribute = "bs_body_penis_gen" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   1.0 }
+						{ 1.0   0.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					required_tags = "has_penis,has_balls,penis_clothed,dressed"
+					attribute = "bs_body_penis_size_max_gen" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   -1.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					required_tags = "has_penis,has_balls,penis_clothed,dressed"
+					attribute = "bs_body_penis_gen" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   -1.0 }
+						{ 1.0   0.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					required_tags = "has_penis,has_balls,penis_erection"
+					attribute = "bs_body_penis_erection_gen" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   1.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					required_tags = "has_penis,has_balls,penis_erection"
+					attribute = "bs_body_penis_erection_min_gen" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   1.0 }
+						{ 1.0   0.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					required_tags = "has_penis,has_balls,penis_erection"
+					attribute = "bs_body_penis_size_max_gen" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   -1.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					required_tags = "has_penis,has_balls,penis_erection"
+					attribute = "bs_body_penis_gen" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   -1.0 }
+						{ 1.0   0.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = {
+					attribute = "bs_body_nudity"
+					value = { min = 1.0 max = 1.0 }
+					age = age_preset_nudity
+				}
+				setting = {
+					attribute = "bs_body_ken_doll"
+					value = { min = 1.0 max = 1.0 }
+					age = age_preset_ken_doll
+				}
+			}
+			boy = { 
+				setting = {
+					attribute = "bs_body_ken_doll"
+					value = { min = 1.0 max = 1.0 }
+					age = age_preset_ken_doll
+				}
+			}
+			girl = { 
+				setting = {
+					attribute = "bs_body_ken_doll"
+					value = { min = 1.0 max = 1.0 }
+					age = age_preset_ken_doll
+				}
+			}
+		}
+        penis_size_ruler_designer = {
+            index = 2
+            visible = no
+			generic = no
+            male = {
+                setting = { 
+					attribute = "bs_body_penis_size_max" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   1.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = {
+					attribute = "bs_body_ball_size_max" 
+					#value = { min = 0.0 max = 3.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   1.0 }
+					}
+					age = age_preset_nudity
+				}
+            }
+            female = {
+            	setting = { 
+					attribute = "bs_body_penis_size_max" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 1.0   1.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					attribute = "bs_body_penis_size_min" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   1.0 }
+						{ 1.0   0.0 }
+					}
+					age = age_preset_nudity 
+				}
+            }
+            boy = { 
+				setting = {
+					attribute = "bs_body_ken_doll"
+					value = { min = 1.0 max = 1.0 }
+					age = age_preset_ken_doll
+				}
+			}
+			girl = { 
+				setting = {
+					attribute = "bs_body_ken_doll"
+					value = { min = 1.0 max = 1.0 }
+					age = age_preset_ken_doll
+				}
+			}
+        }
+        no_penis = {
+            index = 3
+            visible = no
+			generic = no
+            male = { }
+            female = male
+            boy = male
+            girl = male
+        }
+	}
+	gene_bs_penis_thickness = {
+		group = body
+		penis_thickness = { 
+			index = 0 
+			male = {
+				setting = { 
+					attribute = "bs_body_penis_width_max" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 0.3   0.0 }
+						{ 1.0   1.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					required_tags = "penis_clothed,dressed"
+					attribute = "bs_body_penis_width_max" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 0.3   0.0 }
+						{ 1.0   -1.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					attribute = "bs_body_penis_width_min" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   1.0  }
+						{ 0.3   0.0  }
+						{ 1.0   0.0  }
+					}
+					age = age_preset_nudity 
+				}
+			}
+			female = {
+				setting = { 
+					required_tags = "has_penis"
+					attribute = "bs_body_penis_width_max" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 0.3   0.0 }
+						{ 1.0   1.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					required_tags = "has_penis,penis_clothed,dressed"
+					attribute = "bs_body_penis_width_max" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 0.3   0.0 }
+						{ 1.0   -1.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					required_tags = "has_penis"
+					attribute = "bs_body_penis_width_min" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   1.0  }
+						{ 0.3   0.0  }
+						{ 1.0   0.0  }
+					}
+					age = age_preset_nudity 
+				}
+			}
+			boy = { }
+			girl = boy
+		}
+        penis_thickness_ruler_designer = {
+            index = 1
+            visible = no
+			generic = no
+            male = {
+				setting = { 
+					attribute = "bs_body_penis_width_max" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 0.3   0.0 }
+						{ 1.0   1.0 }
+					}
+					age = age_preset_nudity 
+				}
+
+				setting = { 
+					attribute = "bs_body_penis_width_min" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   1.0  }
+						{ 0.3   0.0  }
+						{ 1.0   0.0  }
+					}
+					age = age_preset_nudity 
+				}
+			}
+			female = {
+				setting = { 
+					attribute = "bs_body_penis_width_max" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 0.3   0.0 }
+						{ 1.0   1.0 }
+					}
+					age = age_preset_nudity 
+				}
+				setting = { 
+					attribute = "bs_body_penis_width_min" 
+					#value = { min = 0.0 max = 1.0 } 
+					curve = {
+						{ 0.0   1.0  }
+						{ 0.3   0.0  }
+						{ 1.0   0.0  }
+					}
+					age = age_preset_nudity 
+				}
+			}
+			boy = { }
+			girl = boy
+        }        
+	}
+	gene_bs_ball_size = {
+		group = body
+		ball_size = {
+			index = 0 
+			male = {
+				setting = {
+					attribute = "bs_body_ball_size_max" 
+					curve = {
+						{ 0.0   0.0 }
+						{ 0.3   0.0 }
+						{ 1.0   2.0 }
+					}
+					age = age_preset_nudity
+				}
+				setting = {
+					attribute = "bs_body_ball_size_min" 
+					curve = {
+						{ 0.0   0.25 }
+						{ 0.3   0.0 }
+						{ 1.0   0.0 }
+					}
+					age = age_preset_nudity
+				}
+				setting = {
+					required_tags = "has_balls,penis_clothed,dressed"
+					attribute = "bs_body_ball_size_max" 
+					curve = {
+						{ 0.0   0.0 }
+						{ 0.3   0.0 }
+						{ 1.0   -2.0 }
+					}
+					age = age_preset_nudity
+				}
+				setting = {
+					required_tags = "no_balls"
+					attribute = "bs_body_ball_size_max" 
+					#value = { min = 0.0 max = 3.0 } 
+					curve = {
+						{ 0.0   0.0 }
+						{ 0.3   0.0 }
+						{ 1.0   -2.0 }
+					}
+					age = age_preset_nudity
+				}
+				setting = {
+					required_tags = "no_balls"
+					attribute = "bs_body_ball_size_min" 
+					#value = { min = 0.0 max = 3.0 } 
+					curve = {
+						{ 0.0   -0.25 }
+						{ 0.3   0.0 }
+						{ 1.0   0.0 }
+					}
+					age = age_preset_nudity
+				}
+			}
+			female = {
+				setting = {
+					required_tags = "has_balls"
+					attribute = "bs_body_ball_size_max" 
+					curve = {
+						{ 0.0   0.0 }
+						{ 0.3   0.0 }
+						{ 1.0   2.0 }
+					}
+					age = age_preset_nudity
+				}
+				setting = {
+					required_tags = "has_balls"
+					attribute = "bs_body_ball_size_min" 
+					curve = {
+						{ 0.0   0.25 }
+						{ 0.3   0.0 }
+						{ 1.0   0.0 }
+					}
+					age = age_preset_nudity
+				}
+				setting = {
+					required_tags = "has_balls,penis_clothed,dressed"
+					attribute = "bs_body_ball_size_max" 
+					curve = {
+						{ 0.0   0.0 }
+						{ 0.3   0.0 }
+						{ 1.0   -2.0 }
+					}
+					age = age_preset_nudity
+				}
+			}
+			boy = { }
+			girl = boy
+		}
+		eunuch_ball_size = {
+			index = 1 
+			visible = no
+			generic = no
+			male = {
+			}
+			female = { }
+			boy = female
+			girl = female
+		}
+	}
+}

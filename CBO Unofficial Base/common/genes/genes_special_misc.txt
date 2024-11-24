@@ -1,0 +1,47 @@
+﻿special_genes = {
+	morph_genes = {
+		gene_shrink_body = {
+		    shrink_all = { 
+		        index = 1 
+		        male = { 
+		       		setting = { attribute = "bs_hair_long" value = { min = 0.0 max = 1.0 } }
+
+		       		setting = { required_tags = "shrink_legs_boots,dressed" attribute = "bs_body_shrink_legs_2" value = { min = 0.0 max = 1.0 } }			
+                    
+		            setting = { required_tags = "shrink_arms,dressed" attribute = "bs_body_shrink_arms" value = { min = 0.0 max = 1.0 } } 
+		       		setting = { required_tags = "shrink_legs,dressed" attribute = "bs_body_shrink_legs" value = { min = 0.0 max = 1.0 } }
+		            setting = { required_tags = "shrink_chest,dressed" attribute = "bs_body_shrink_chest" value = { min = 0.0 max = 1.0 } }
+		            setting = { required_tags = "shrink_belly,dressed" attribute = "bs_body_shrink_belly" value = { min = 0.0 max = 1.0 } }
+		            setting = { required_tags = "shrink_armpit_default,dressed" attribute = "bs_body_slim_2" value = { min = 0.0 max = 1.0 } }
+		            setting = { required_tags = "shrink_butt,dressed" attribute = "bs_body_shrink_butt" value = { min = 0.0 max = 1.0 } }
+					setting = { required_tags = "shrink_hands,dressed" 	attribute = "bs_body_shrink_hands" 	value = { min = 0.0 max = 1.0 }  }
+					setting = { required_tags = "shrink_feet,dressed" 	attribute = "bs_body_shrink_feet" 	value = { min = 0.0 max = 1.0 }  }
+					setting = { required_tags = "pinched_feet,dressed" 	attribute = "bs_body_pinched_feet" 	value = { min = 0.0 max = 1.0 }  }
+					
+		            setting = { required_tags = "gloves_both,dressed" attribute = "bs_body_shrink_hands" value = { min = 0.0 max = 1.0 } }
+		            setting = { required_tags = "gloves_left,dressed" attribute = "bs_body_shrink_hands_2" value = { min = 0.0 max = 1.0 } }
+					
+		            setting = { required_tags = "briefs_body,dressed" attribute = "bs_body_briefs" value = { min = 0.0 max = 1.0 } }
+		            setting = { required_tags = "g_string_body,dressed" attribute = "bs_body_g_string" value = { min = 0.0 max = 1.0 } }
+		            setting = { required_tags = "panties_body,dressed" attribute = "bs_body_panties" value = { min = 0.0 max = 1.0 } }
+		            setting = { required_tags = "thong_body,dressed" attribute = "bs_body_thong" value = { min = 0.0 max = 1.0 } }
+		            setting = { required_tags = "bra_body,dressed" attribute = "bs_body_bra" value = { min = 0.0 max = 1.0 } }
+		            setting = { required_tags = "bikini_1_body,dressed" attribute = "bs_body_bikini_1" value = { min = 0.0 max = 1.0 } }
+		            setting = { required_tags = "tank_body,dressed" attribute = "bs_body_tank" value = { min = 0.0 max = 1.0 } }
+
+		            setting = { required_tags = "pubic_hair_body,dressed" attribute = "bs_pubic_hair" value = { min = 0.0 max = 1.0 } }
+		            setting = { required_tags = "heels_half,dressed" attribute = "bs_body_butt_size_max" value = { min = 0.025 max = 0.025 } }
+		            setting = { required_tags = "heels_half,dressed" attribute = "bs_body_butt_size_max_2" value = { min = 0.025 max = 0.025 } }
+		            setting = { required_tags = "heels_full,dressed" attribute = "bs_body_butt_size_max" value = { min = 0.05 max = 0.05 } }
+		            setting = { required_tags = "heels_full,dressed" attribute = "bs_body_butt_size_max_2" value = { min = 0.05 max = 0.05 } }
+		            setting = { required_tags = "heels_high,dressed" attribute = "bs_body_butt_size_max" value = { min = 0.1 max = 0.1 } }
+		            setting = { required_tags = "heels_high,dressed" attribute = "bs_body_butt_size_max_2" value = { min = 0.1 max = 0.1 } }
+		        }
+		        female = male
+		        boy = male
+		        girl = male
+		    }
+		}
+	}
+}
+

@@ -1,0 +1,13 @@
+﻿l_simp_chinese:
+ 
+rule_muscularity_max: "最大肌肉量"
+ setting_paradox_default: "P社默认"
+ setting_paradox_default_desc: "你撸过铁吗，兄弟？"
+ setting_more_muscular: "更多肌肉量"
+ setting_more_muscular_desc: "以与P社相同比率缩放直到 25 武力，不断增加肌肉直到 50 武力" 
+ 
+rule_cbo_pubic_hair: "阴部毛发"
+ setting_cbo_pubic_hair_active: "阴部毛发开启"
+ setting_cbo_pubic_hair_active_desc: "角色默认拥有阴部毛发"
+ setting_cbo_pubic_hair_inactive: "阴部毛发关闭"
+ setting_cbo_pubic_hair_inactive_desc: "P社默认"

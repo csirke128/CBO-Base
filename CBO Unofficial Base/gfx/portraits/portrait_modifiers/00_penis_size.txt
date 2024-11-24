@@ -1,0 +1,203 @@
+﻿
+penis_size = {
+	usage = game
+	selection_behavior = max
+	penis_size = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_penis_size
+				value = 1.0
+			}
+		}
+		weight = {
+			base = 1
+		}
+	}
+	small_penis_3 = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_penis_size
+				value = 0.10
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+                trigger_if = {
+					limit = { has_game_rule = carn_dt_enabled }
+                    OR = {
+                        has_trait = dick_small_good_3
+                        has_trait = dick_small_bad_3
+                    }
+				}
+				add = 100
+			}
+		}
+	}
+	small_penis_2 = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_penis_size
+				value = 0.10
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_penis_size
+				value = 0.10
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+                trigger_if = {
+                    limit = { has_game_rule = carn_dt_enabled }
+                    OR = {
+                        has_trait = dick_small_good_2
+                        has_trait = dick_small_bad_2
+                    }
+                }
+				add = 100
+			}
+		}
+	}
+	small_penis_1 = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_penis_size
+				value = 0.10
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_penis_size
+				value = 0.20
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+                trigger_if = {
+                    limit = { has_game_rule = carn_dt_enabled }
+                    OR = {
+                        has_trait = dick_small_good_1
+                        has_trait = dick_small_bad_1
+                    }
+                }
+				add = 100
+			}
+		}
+	}
+	average_penis = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_penis_size
+				value = 0.20
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_penis_size
+				value = 0.30
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				has_game_rule = carn_dt_enabled
+				add = 50
+			}
+		}
+	}
+	large_penis_1 = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_penis_size
+				value = 0.20
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_penis_size
+				value = 0.50
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+                trigger_if = {
+                    limit = { has_game_rule = carn_dt_enabled }
+                    OR = {
+                        has_trait = dick_big_good_1
+                        has_trait = dick_big_bad_1
+                    }
+                }
+				add = 100
+			}
+		}
+	}
+	large_penis_2 = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_penis_size
+				value = 0.20
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_penis_size
+				value = 0.70
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+                trigger_if = {
+                    limit = { has_game_rule = carn_dt_enabled }
+                    OR = {
+                        has_trait = dick_big_good_2
+                        has_trait = dick_big_bad_2
+                    }
+                }
+				add = 100
+			}
+		}
+	}
+	large_penis_3 = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_penis_size
+				value = 0.10
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_penis_size
+				value = 0.90
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+                trigger_if = {
+                    limit = { has_game_rule = carn_dt_enabled }
+                    OR = {
+                        has_trait = dick_big_good_3
+                        has_trait = dick_big_bad_3
+                    }
+                }
+				add = 100
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+﻿l_korean:
+
+ rule_muscularity_max: "근육 최대치"
+ setting_paradox_default: "파라독스 기본값"
+ setting_paradox_default_desc: "운동 좀 해보셨나요?"
+ setting_more_muscular: "많은 근육"
+ setting_more_muscular_desc: "파라독스 기본값과 동일한 비율로 25 기량까지 증가하며, 50 기량까지는 계속해서 근육이 더욱 발달합니다."
+ 
+ rule_cbo_pubic_hair: "음모"
+ setting_cbo_pubic_hair_active: "음모 활성화"
+ setting_cbo_pubic_hair_active_desc: "캐릭터들은 기본적으로 음모가 있습니다."
+ setting_cbo_pubic_hair_inactive: "음모 비활성화"
+ setting_cbo_pubic_hair_inactive_desc: "파라독스 기본값을 따릅니다."

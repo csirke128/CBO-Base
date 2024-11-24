@@ -1,0 +1,23 @@
+﻿drunkard = {
+	drunkard = {
+		traits = {
+			drunkard
+		}
+		trigger = {
+			trigger_if = {
+				limit = { exists = root }
+				NOT = { has_character_flag = no_drunkard_visual }
+			}
+		}
+		dna_modifiers = {
+			human = {
+				morph = {
+					mode = add
+					gene = gene_drunkard
+					range = { 0.0 0.5 }
+					template = drunkard
+				}
+			}
+		}
+	}
+}

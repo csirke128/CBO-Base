@@ -1,0 +1,26 @@
+﻿body_part_fix_penis = {
+	usage = game
+	selection_behavior = max
+    priority = 99
+	body_part_fix_penis = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_penis_size
+				template = penis_size
+				value = 1.0
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				has_gene = {
+					category = gene_bs_penis_size
+					template = penis_size_ruler_designer
+				}
+			}
+		}
+	}
+}

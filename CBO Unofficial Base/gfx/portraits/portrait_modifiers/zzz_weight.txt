@@ -1,0 +1,384 @@
+﻿@overweight_multiplier = 0.5
+@underweight_multiplier = -0.5
+
+weight = {
+	usage = game
+	priority = 99
+	overweight = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_type
+				value = 0
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_fat_distribution
+				value = 0
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_body_type
+				value = 0.5
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_body_fat_distribution
+				value = 0.5
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_body_type
+				value = {
+					value = scope:weight_for_portrait # An absolute and normalized value derived from character body weight
+					multiply = @overweight_multiplier
+				}
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_body_fat_distribution
+				value = {
+					value = scope:weight_for_portrait # An absolute and normalized value derived from character body weight
+					multiply = @overweight_multiplier
+				}
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				scope:current_weight > overweight_threshold
+			}
+			modifier = {
+                add = -100
+				exists = this
+                has_character_flag = has_scripted_weight
+            }
+		}
+	}
+
+	underweight = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_type
+				value = 0
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_fat_distribution
+				value = 0
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_body_type
+				value = 0.5
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_body_fat_distribution
+				value = 0.5
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_body_type
+				value = {
+					value = scope:weight_for_portrait # An absolute and normalized value derived from character body weight
+					multiply = @underweight_multiplier
+				}
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_body_fat_distribution
+				value = {
+					value = scope:weight_for_portrait # An absolute and normalized value derived from character body weight
+					multiply = @underweight_multiplier
+				}
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				scope:current_weight < underweight_threshold
+			}
+			modifier = {
+                add = -100
+				exists = this
+                has_character_flag = has_scripted_weight
+            }			  
+		}
+	}
+
+	ruler_designer_overweight = {
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_type
+				value = 0
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_fat_distribution
+				value = 0
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_body_type
+				value = 0.5
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_body_fat_distribution
+				value = 0.5
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_body_type
+				value = {
+					value = scope:weight_for_portrait # An absolute and normalized value derived from character body weight
+					multiply = @overweight_multiplier
+				}
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_body_fat_distribution
+				value = {
+					value = scope:weight_for_portrait # An absolute and normalized value derived from character body weight
+					multiply = @overweight_multiplier
+				}
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				exists = scope:ruler_designer
+				scope:current_weight > overweight_threshold
+			}
+		}
+	}
+	ruler_designer_underweight = {
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_type
+				value = 0
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_fat_distribution
+				value = 0
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_body_type
+				value = 0.5
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_body_fat_distribution
+				value = 0.5
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_body_type
+				value = {
+					value = scope:weight_for_portrait # An absolute and normalized value derived from character body weight
+					multiply = @underweight_multiplier
+				}
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_body_fat_distribution
+				value = {
+					value = scope:weight_for_portrait # An absolute and normalized value derived from character body weight
+					multiply = @underweight_multiplier
+				}
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				exists = scope:ruler_designer
+				scope:current_weight < underweight_threshold
+			}
+		}
+	}
+	barber = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = {
+				mode = modify
+				gene = gene_bs_body_type
+				value = {
+					value = var:bb_gene_bs_body_type
+					multiply = @overweight_multiplier
+				}
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_body_fat_distribution
+				value = {
+					value = var:bb_gene_bs_body_type
+					multiply = @overweight_multiplier
+				}
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				exists = var:bb_gene_bs_body_type
+                add = 200
+            }
+	
+		}
+	}
+}
+
+@muscle_multiply = 1
+@muscle_max = 1.0
+
+muscularity = {
+	usage = game
+	priority = 99
+	selection_behavior = max	
+	muscular = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_upper_body_muscle
+				value = 0
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_lower_body_muscle
+				value = 0
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_muscle_definition
+				value = 0
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_upper_body_muscle
+				value = {
+					value = 0
+					
+					if = {
+						limit = { NOT = { exists = var:bb_gene_bs_body_shape } }
+
+						if = {
+							limit = { exists = scope:ruler_designer }
+							add = scope:prowess
+						}
+						else_if = {
+							limit = { exists = this }
+							add = prowess_for_portrait
+						}
+						else = {
+							add = scope:prowess
+						}
+					}
+					else = {
+						add = var:bb_gene_bs_body_shape
+					}
+					multiply = 2
+
+					if = {
+						limit = { has_game_rule = more_muscular }
+						max = 1.0
+					}
+					else = {
+						max = 0.5
+					}
+					subtract = {
+						value = scope:weight_for_portrait # An absolute and normalized value derived from character body weight
+						multiply = @overweight_multiplier
+						min = 0
+					}
+				}
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_lower_body_muscle
+				value = {
+					value = 0
+
+					if = {
+						if = {
+							limit = { exists = scope:ruler_designer }
+							add = scope:prowess
+						}
+						else_if = {
+							limit = { exists = this }
+							add = prowess_for_portrait
+						}
+						else = {
+							add = scope:prowess
+						}
+					}
+					else = {
+						add = var:bb_gene_bs_body_shape
+					}
+					multiply = 2
+
+					if = {
+						limit = { has_game_rule = more_muscular }
+						max = 1.0
+					}
+					else = {
+						max = 0.5
+					}
+					subtract = {
+						value = scope:weight_for_portrait # An absolute and normalized value derived from character body weight
+						multiply = @overweight_multiplier
+						min = 0
+					}
+				}
+			}
+			morph = {
+				mode = modify
+				gene = gene_muscle_definition
+				value = {
+					value = 0
+
+					if = {
+						if = { 
+							limit = { exists = scope:ruler_designer }
+							add = scope:prowess
+						}
+						else_if = {
+							limit = { exists = this }
+							add = prowess_for_portrait
+						}
+						else = {
+							add = scope:prowess
+						}
+					}
+					else = {
+						add = var:bb_gene_bs_body_shape
+					}
+					multiply = 4
+
+					max = 1
+					subtract = {
+						value = scope:weight_for_portrait # An absolute and normalized value derived from character body weight
+						multiply = @overweight_multiplier
+						multiply = 4
+						min = 0
+					}
+					min = 0
+				}
+			}
+		}
+		weight = {
+			base = 100
+		}
+	}
+}

@@ -1,0 +1,1638 @@
+﻿morph_genes = {
+	gene_bs_bust = {
+		group = body
+		bust_clothes = {
+			index = 0 
+			visible = no
+			generic = no
+	        male = {
+	            setting = { # The "clothed" blend shape shrinks the body slightly in areas that are more likely to intersect with clothes
+	            	attribute = "bs_body_clothed"    
+	            	value = { min = 1.0 max = 1.0 } 
+	            }
+	        }
+			female = {
+				setting = {
+					attribute = "bs_body_breast_size_min" 
+					# value = {min = 1.0 max = -1.0 }
+					curve = {
+						{0.0   1.0 }
+						{0.25   0.0 }
+						{1.0   0.0 }
+					}	
+					age = age_preset_puberty  
+				}
+				setting = {
+					attribute = "bs_breast_size_min" 
+					# value = {min = 1.0 max = -1.0 }
+					curve = {
+						{0.0   1.0 }
+						{0.25   0.0 }
+						{1.0   0.0 }
+					}	
+					age = age_preset_puberty  
+				}
+				setting = {
+					attribute = "bs_body_breast_size_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   3.0 }
+					}	 
+					age = age_preset_puberty 
+				}
+				setting = {
+					attribute = "bs_breast_size_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   2.4 }
+					}	 
+					age = age_preset_puberty 
+				}
+	            setting = { # The "clothed" blend shape shrinks the body slightly in areas that are more likely to intersect with clothes
+	            	attribute = "bs_body_clothed"    
+	            	value = { min = 1.0 max = 1.0 } 
+	            }
+			}
+			boy = male
+			girl = female
+		}
+		bust_clothes_light = {
+			index = 1 
+			visible = no
+			generic = no
+	        male = {
+	            setting = { # The "clothed" blend shape shrinks the body slightly in areas that are more likely to intersect with clothes
+	            	attribute = "bs_body_clothed"    
+	            	value = { min = 1.0 max = 1.0 } 
+	            }
+	        }
+			female = {
+				setting = {
+					attribute = "bs_body_breast_size_min" 
+					# value = {min = 1.0 max = -1.0 }
+					curve = {
+						{0.0   1.0 }
+						{0.25   0.0 }
+						{1.0   0.0 }
+					}	
+					age = age_preset_puberty  
+				}
+				setting = {
+					attribute = "bs_breast_size_min" 
+					# value = {min = 1.0 max = -1.0 }
+					curve = {
+						{0.0   1.0 }
+						{0.25   0.0 }
+						{1.0   0.0 }
+					}	
+					age = age_preset_puberty  
+				}
+				setting = {
+					attribute = "bs_body_breast_size_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   2.4 }
+					}	 
+					age = age_preset_puberty 
+				}
+				setting = {
+					attribute = "bs_breast_size_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   0.8 }
+					}	 
+					age = age_preset_puberty 
+				}
+	            setting = { # The "clothed" blend shape shrinks the body slightly in areas that are more likely to intersect with clothes
+	            	attribute = "bs_body_clothed"    
+	            	value = { min = 1.0 max = 1.0 } 
+	            }
+			}
+			boy = male
+			girl = female
+		}
+		bust_default = {
+			index = 2 
+			visible = yes
+	        male = { }
+			female = {
+				setting = {
+					attribute = "bs_body_breast_size_min" 
+					# value = {min = 1.0 max = -1.0 }
+					curve = {
+						{0.0   1.0 }
+						{0.25   0.0 }
+						{1.0   0.0 }
+					}	
+					age = age_preset_puberty  
+				}
+				setting = {
+					attribute = "bs_breast_size_min" 
+					# value = {min = 1.0 max = -1.0 }
+					curve = {
+						{0.0   1.0 }
+						{0.25   0.0 }
+						{1.0   0.0 }
+					}	
+					age = age_preset_puberty  
+				}
+				setting = {
+					attribute = "bs_body_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   3.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					attribute = "bs_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   1.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_body_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   -3.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   -1.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_body_breast_size_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   2.4 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_breast_size_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   0.8 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "shrink_chest,breasts_clothed,dressed"
+					attribute = "bs_body_breast_size_3_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   -2.4 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					attribute = "bs_body_breast_shape_2" 
+					# value = {min = 0.5 max = 1.5 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{0.75   1.0 }
+					}
+					age = age_preset_aging_secondary_full  
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_body_breast_shape_2" 
+					# value = {min = 0.5 max = 1.5 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{0.75   -1.0 }
+					}
+					age = age_preset_aging_secondary_full  
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_max_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_min_normal.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  1.0 }
+						{0.25   0.0 }
+						{1.0   0.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+						# properties = 
+					}
+					priority = 1
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_max_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_max_normal.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.5  0.0 }
+						{1.0   1.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+						# properties = 
+					}
+					priority = 1
+				}
+			}
+			boy = male
+			girl = female
+		}
+
+		bust_shape_1_half = {
+			index = 3
+			visible = yes
+	        male = { }
+			female = {
+				setting = {
+					attribute = "bs_body_breast_size_min" 
+					# value = {min = 1.0 max = -1.0 }
+					curve = {
+						{0.0   1.0 }
+						{0.25   0.0 }
+						{1.0   0.0 }
+					}	
+					age = age_preset_puberty  
+				}
+				setting = {
+					attribute = "bs_breast_size_min" 
+					# value = {min = 1.0 max = -1.0 }
+					curve = {
+						{0.0   1.0 }
+						{0.25   0.0 }
+						{1.0   0.0 }
+					}	
+					age = age_preset_puberty  
+				}
+				setting = {
+					attribute = "bs_body_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{0.5   0.75 }
+						{1.0   2.75 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					attribute = "bs_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   1.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_body_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{0.5   -0.75 }
+						{1.0   -2.75 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   -1.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_body_breast_size_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   2.4 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_breast_size_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   0.8 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "shrink_chest,breasts_clothed,dressed"
+					attribute = "bs_body_breast_size_3_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   -2.4 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					attribute = "bs_body_breast_shape_2" 
+					# value = {min = 0.5 max = 1.5 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{0.75   1.0 }
+					}
+					age = age_preset_aging_secondary_full  
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_body_breast_shape_2" 
+					# value = {min = 0.5 max = 1.5 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{0.75   -1.0 }
+					}
+					age = age_preset_aging_secondary_full  
+				}
+				setting = {
+					attribute = "bs_body_breast_shape_1" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{0.5   1.0 }
+						{1.0   1.0 }
+					}  
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_body_breast_shape_1" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{0.5   -1.0 }
+						{1.0   -1.0 }
+					}  
+					age = age_preset_puberty 
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_max_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_min_normal.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  1.0 }
+						{0.25   0.0 }
+						{1.0   0.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+						# properties = 
+					}
+					priority = 1
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_max_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_max_normal.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.5  0.0 }
+						{1.0   1.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+						# properties = 
+					}
+					priority = 1
+				}
+			}
+			boy = male
+			girl = female
+		}
+
+		bust_shape_1_full = {
+			visible = yes
+			index = 4
+	        male = { }
+			female = {
+				setting = {
+					attribute = "bs_body_breast_size_min" 
+					# value = {min = 1.0 max = -1.0 }
+					curve = {
+						{0.0   1.0 }
+						{0.25   0.0 }
+						{1.0   0.0 }
+					}	
+					age = age_preset_puberty  
+				}
+				setting = {
+					attribute = "bs_breast_size_min" 
+					# value = {min = 1.0 max = -1.0 }
+					curve = {
+						{0.0   1.0 }
+						{0.25   0.0 }
+						{1.0   0.0 }
+					}	
+					age = age_preset_puberty  
+				}
+				setting = {
+					attribute = "bs_body_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{0.5   0.5 }
+						{1.0   2.5 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					attribute = "bs_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   1.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_body_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{0.5   -0.5 }
+						{1.0   -2.5 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   -1.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_body_breast_size_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   2.4 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_breast_size_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   0.8 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "shrink_chest,breasts_clothed,dressed"
+					attribute = "bs_body_breast_size_3_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   -2.4 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					attribute = "bs_body_breast_shape_2" 
+					# value = {min = 0.5 max = 1.5 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{0.75   1.0 }
+					}
+					age = age_preset_aging_secondary_full  
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_body_breast_shape_2" 
+					# value = {min = 0.5 max = 1.5 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{0.75   -1.0 }
+					}
+					age = age_preset_aging_secondary_full  
+				}
+				setting = {
+					attribute = "bs_body_breast_shape_1" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{0.5   2.0 }
+						{1.0   2.0 }
+					}  
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_body_breast_shape_1" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{0.5   -2.0 }
+						{1.0   -2.0 }
+					}  
+					age = age_preset_puberty 
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_max_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_min_normal.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  1.0 }
+						{0.25   0.0 }
+						{1.0   0.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+						# properties = 
+					}
+					priority = 1
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_max_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_max_normal.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.5  0.0 }
+						{1.0   1.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+						# properties = 
+					}
+					priority = 1
+				}
+			}
+			boy = male
+			girl = female
+		}
+
+		bust_shape_2_half = {
+			index = 5
+			visible = yes
+	        male = { }
+			female = {
+				setting = {
+					attribute = "bs_body_breast_size_min" 
+					# value = {min = 1.0 max = -1.0 }
+					curve = {
+						{0.0   1.0 }
+						{0.25   0.0 }
+						{1.0   0.0 }
+					}	
+					age = age_preset_puberty  
+				}
+				setting = {
+					attribute = "bs_breast_size_min" 
+					# value = {min = 1.0 max = -1.0 }
+					curve = {
+						{0.0   1.0 }
+						{0.25   0.0 }
+						{1.0   0.0 }
+					}	
+					age = age_preset_puberty  
+				}
+				setting = {
+					attribute = "bs_body_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   3.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					attribute = "bs_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   1.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_body_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   -3.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   -1.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_body_breast_size_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   2.4 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_breast_size_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   0.8 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "shrink_chest,breasts_clothed,dressed"
+					attribute = "bs_body_breast_size_3_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   -2.4 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					attribute = "bs_body_breast_shape_2" 
+					# value = {min = 0.5 max = 1.5 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{0.75   1.0 }
+					}
+					age = age_preset_aging_secondary_full  
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_body_breast_shape_2" 
+					# value = {min = 0.5 max = 1.5 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{0.75   -1.0 }
+					}
+					age = age_preset_aging_secondary_full  
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_max_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_min_normal.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  1.0 }
+						{0.25   0.0 }
+						{1.0   0.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+						# properties = 
+					}
+					priority = 1
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_max_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_max_normal.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.5  0.0 }
+						{1.0   1.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+						# properties = 
+					}
+					priority = 1
+				}
+			}
+			boy = male
+			girl = female
+		}
+
+		bust_shape_2_full = {
+			index = 6
+			visible = yes
+	        male = { }
+			female = {
+				setting = {
+					attribute = "bs_body_breast_size_min" 
+					# value = {min = 1.0 max = -1.0 }
+					curve = {
+						{0.0   1.0 }
+						{0.25   0.0 }
+						{1.0   0.0 }
+					}	
+					age = age_preset_puberty  
+				}
+				setting = {
+					attribute = "bs_breast_size_min" 
+					# value = {min = 1.0 max = -1.0 }
+					curve = {
+						{0.0   1.0 }
+						{0.25   0.0 }
+						{1.0   0.0 }
+					}	
+					age = age_preset_puberty  
+				}
+				setting = {
+					attribute = "bs_body_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   3.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					attribute = "bs_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   1.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_body_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   -3.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   -1.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_body_breast_size_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   2.4 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_breast_size_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   0.8 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "shrink_chest,breasts_clothed,dressed"
+					attribute = "bs_body_breast_size_3_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   -2.4 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					attribute = "bs_body_breast_shape_2" 
+					# value = {min = 0.5 max = 1.5 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{0.75   1.0 }
+					}
+					age = age_preset_aging_secondary_full  
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_body_breast_shape_2" 
+					# value = {min = 0.5 max = 1.5 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{0.75   -1.0 }
+					}
+					age = age_preset_aging_secondary_full  
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_max_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_min_normal.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  1.0 }
+						{0.25   0.0 }
+						{1.0   0.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+						# properties = 
+					}
+					priority = 1
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_max_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_max_normal.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.5  0.0 }
+						{1.0   1.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+						# properties = 
+					}
+					priority = 1
+				}
+			}
+			boy = male
+			girl = female
+		}
+
+		bust_shape_3_half = {
+			index = 7
+			visible = yes
+	        male = { }
+			female = {
+				setting = {
+					attribute = "bs_body_breast_size_min" 
+					# value = {min = 1.0 max = -1.0 }
+					curve = {
+						{0.0   1.0 }
+						{0.25   0.0 }
+						{1.0   0.0 }
+					}	
+					age = age_preset_puberty  
+				}
+				setting = {
+					attribute = "bs_breast_size_min" 
+					# value = {min = 1.0 max = -1.0 }
+					curve = {
+						{0.0   1.0 }
+						{0.25   0.0 }
+						{1.0   0.0 }
+					}	
+					age = age_preset_puberty  
+				}
+				setting = {
+					attribute = "bs_body_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   3.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					attribute = "bs_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   1.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_body_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   -3.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   -1.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_body_breast_size_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   2.4 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_breast_size_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   0.8 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "shrink_chest,breasts_clothed,dressed"
+					attribute = "bs_body_breast_size_3_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   -2.4 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					attribute = "bs_body_breast_shape_2" 
+					# value = {min = 0.5 max = 1.5 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{0.75   1.0 }
+					}
+					age = age_preset_aging_secondary_full  
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_body_breast_shape_2" 
+					# value = {min = 0.5 max = 1.5 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{0.75   -1.0 }
+					}
+					age = age_preset_aging_secondary_full  
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_max_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_min_normal.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  1.0 }
+						{0.25   0.0 }
+						{1.0   0.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+						# properties = 
+					}
+					priority = 1
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_max_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_max_normal.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.5  0.0 }
+						{1.0   1.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+						# properties = 
+					}
+					priority = 1
+				}
+			}
+			boy = male
+			girl = female
+		}
+
+		bust_shape_3_full = {
+			index = 8
+			visible = yes
+	        male = { }
+			female = {
+				setting = {
+					attribute = "bs_body_breast_size_min" 
+					# value = {min = 1.0 max = -1.0 }
+					curve = {
+						{0.0   1.0 }
+						{0.25   0.0 }
+						{1.0   0.0 }
+					}	
+					age = age_preset_puberty  
+				}
+				setting = {
+					attribute = "bs_breast_size_min" 
+					# value = {min = 1.0 max = -1.0 }
+					curve = {
+						{0.0   1.0 }
+						{0.25   0.0 }
+						{1.0   0.0 }
+					}	
+					age = age_preset_puberty  
+				}
+				setting = {
+					attribute = "bs_body_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   3.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					attribute = "bs_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   1.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_body_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   -3.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   -1.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_body_breast_size_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   2.4 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_breast_size_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   0.8 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "shrink_chest,breasts_clothed,dressed"
+					attribute = "bs_body_breast_size_3_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   -2.4 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					attribute = "bs_body_breast_shape_2" 
+					# value = {min = 0.5 max = 1.5 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{0.75   1.0 }
+					}
+					age = age_preset_aging_secondary_full  
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_body_breast_shape_2" 
+					# value = {min = 0.5 max = 1.5 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{0.75   -1.0 }
+					}
+					age = age_preset_aging_secondary_full  
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_max_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_min_normal.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  1.0 }
+						{0.25   0.0 }
+						{1.0   0.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+						# properties = 
+					}
+					priority = 1
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_max_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_max_normal.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.5  0.0 }
+						{1.0   1.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+						# properties = 
+					}
+					priority = 1
+				}
+			}
+			boy = male
+			girl = female
+		}
+
+		bust_shape_4_half = {
+			index = 9
+			visible = yes
+	        male = { }
+			female = {
+				setting = {
+					attribute = "bs_body_breast_size_min" 
+					# value = {min = 1.0 max = -1.0 }
+					curve = {
+						{0.0   1.0 }
+						{0.25   0.0 }
+						{1.0   0.0 }
+					}	
+					age = age_preset_puberty  
+				}
+				setting = {
+					attribute = "bs_breast_size_min" 
+					# value = {min = 1.0 max = -1.0 }
+					curve = {
+						{0.0   1.0 }
+						{0.25   0.0 }
+						{1.0   0.0 }
+					}	
+					age = age_preset_puberty  
+				}
+				setting = {
+					attribute = "bs_body_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   3.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					attribute = "bs_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   1.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_body_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   -3.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   -1.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_body_breast_size_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   2.4 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_breast_size_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   0.8 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "shrink_chest,breasts_clothed,dressed"
+					attribute = "bs_body_breast_size_3_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   -2.4 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					attribute = "bs_body_breast_shape_2" 
+					# value = {min = 0.5 max = 1.5 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{0.75   1.0 }
+					}
+					age = age_preset_aging_secondary_full  
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_body_breast_shape_2" 
+					# value = {min = 0.5 max = 1.5 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{0.75   -1.0 }
+					}
+					age = age_preset_aging_secondary_full  
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_max_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_min_normal.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  1.0 }
+						{0.25   0.0 }
+						{1.0   0.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+						# properties = 
+					}
+					priority = 1
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_max_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_max_normal.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.5  0.0 }
+						{1.0   1.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+						# properties = 
+					}
+					priority = 1
+				}
+			}
+			boy = male
+			girl = female
+		}
+		bust_shape_4_full = {
+			index = 10 
+			visible = yes
+	        male = { }
+			female = {
+				setting = {
+					attribute = "bs_body_breast_size_min" 
+					# value = {min = 1.0 max = -1.0 }
+					curve = {
+						{0.0   1.0 }
+						{0.25   0.0 }
+						{1.0   0.0 }
+					}	
+					age = age_preset_puberty  
+				}
+				setting = {
+					attribute = "bs_breast_size_min" 
+					# value = {min = 1.0 max = -1.0 }
+					curve = {
+						{0.0   1.0 }
+						{0.25   0.0 }
+						{1.0   0.0 }
+					}	
+					age = age_preset_puberty  
+				}
+				setting = {
+					attribute = "bs_body_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   3.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					attribute = "bs_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   1.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_body_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   -3.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_breast_size_2_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   -1.0 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_body_breast_size_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   2.4 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_breast_size_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   0.8 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					required_tags = "shrink_chest,breasts_clothed,dressed"
+					attribute = "bs_body_breast_size_3_max" 
+					# value = {min = -1.0 max = 1.0 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{1.0   -2.4 }
+					}
+					age = age_preset_puberty 
+				}
+				setting = {
+					attribute = "bs_body_breast_shape_2" 
+					# value = {min = 0.5 max = 1.5 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{0.75   1.0 }
+					}
+					age = age_preset_aging_secondary_full  
+				}
+				setting = {
+					required_tags = "breasts_clothed,dressed"
+					attribute = "bs_body_breast_shape_2" 
+					# value = {min = 0.5 max = 1.5 }
+					curve = {
+						{0.0   0.0 }
+						{0.25   0.0 }
+						{0.75   -1.0 }
+					}
+					age = age_preset_aging_secondary_full  
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_max_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_min_normal.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.0  1.0 }
+						{0.25   0.0 }
+						{1.0   0.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+						# properties = 
+					}
+					priority = 1
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_max_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_body/decal_female_body_breast_size_max_normal.dds"
+					}
+					alpha_curve = {		  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{0.5  0.0 }
+						{1.0   1.0 }
+					}
+					blend_modes = {		  #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+						# properties = 
+					}
+					priority = 1
+				}
+			}
+			boy = male
+			girl = female
+		}
+	}
+}

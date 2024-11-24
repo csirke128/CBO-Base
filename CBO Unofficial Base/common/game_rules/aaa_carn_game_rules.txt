@@ -1,0 +1,5 @@
+﻿carn_dt = {
+	default = carn_dt_enabled
+	carn_dt_disabled = {}
+	carn_dt_enabled = {}
+}

@@ -1,0 +1,149 @@
+﻿
+special_genes = {
+	accessory_genes = {
+		dressed = {
+			dressed = {
+				index = 0
+				male = {
+					1 = dressed
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			undressed = {
+				index = 1
+				male = {
+					1 = undressed
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+		breasts_clothed = {
+			breasts_free = {
+				index = 0
+				male = {
+					1 = breasts_free
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+
+			breasts_clothed = {
+				index = 1
+				male = {
+					1 = breasts_clothed
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+		butt_clothed = {
+			butt_free = {
+				index = 0
+				male = {
+					1 = butt_free
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+
+			butt_clothed = {
+				index = 1
+				male = {
+					1 = butt_clothed
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+		hips_clothed = {
+			hips_free = {
+				index = 0
+				male = {
+					1 = hips_free
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+
+			hips_clothed = {
+				index = 1
+				male = {
+					1 = hips_clothed
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+		shoulders_clothed = {
+			shoulders_free = {
+				index = 0
+				male = {
+					1 = shoulders_free
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+
+			shoulders_clothed = {
+				index = 1
+				male = {
+					1 = shoulders_clothed
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+		waist_clothed = {
+			waist_free = {
+				index = 0
+				male = {
+					1 = waist_free
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+
+			waist_clothed = {
+				index = 1
+				male = {
+					1 = waist_clothed
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+		penis_clothed = {
+			not_penis_clothed = {
+				index = 0
+				male = { }
+				female = male
+				boy = male
+				girl = male
+			}
+
+			penis_clothed = {
+				index = 1
+				male = {
+					1 = penis_clothed
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+	}
+}

@@ -1,0 +1,2156 @@
+﻿age_presets = {
+	age_preset_child_fat = {
+		mode = multiply
+		curve = {
+			{ 0.0 0.2 }
+			{ 0.10 0.5 }
+			{ 0.18 1.0 }
+			{ 0.7 1.0 }
+			{ 0.95 1.0 }
+		}
+	}
+	age_preset_aging_gauntness = {
+		mode = add
+		curve = {
+			{ 0.0 0.0 }
+			{ 0.7 0.0 }
+			{ 0.95 0.0 }
+		}
+	}
+	age_preset_neck_length = {
+		mode = add
+		curve = {
+			{ 0.5 0.0 }
+			{ 1.0 0.0 }
+		}
+	}
+}
+
+morph_genes = {
+
+	gene_bs_body_type = {
+		group = face
+		body_average = { 
+			index = 0 
+			visible = no
+			male = { 
+				decal = {   
+					body_part = head
+					textures = {
+						diffuse = "gfx/models/portraits/decals/male_head/decal_male_head_muscular_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/male_head/decal_male_head_muscular_01_normal.dds"
+						}
+					alpha_curve = {			  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0   1.0 }
+						}
+					blend_modes = {			  #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+							# properties = 
+						}
+					priority = 0
+				}
+				decal = {   
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/male_body/decal_male_body_muscular_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/male_body/decal_male_body_muscular_01_normal.dds"
+						}
+					alpha_curve = {			  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0   1.0 }
+						}
+					blend_modes = {			  #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+							# properties = 
+						}
+					priority = 0
+				}
+
+			}
+			female = { 
+				decal = {   
+					body_part = head
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_head/decal_female_head_fat_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_head/decal_female_head_fat_01_normal.dds"
+
+						}
+					alpha_curve = {			  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0   0.5 }
+						}
+					blend_modes = {			  #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+							# properties = 
+						}
+					priority = 0
+				}
+				decal = {   
+											 
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_fat_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_body/decal_female_body_fat_01_normal.dds"
+						}
+					alpha_curve = {			  #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+							{ 0.0  0.0 }
+							{ 1.0   0.5 }
+						}
+					blend_modes = {			  #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+							# properties = 
+						}
+					priority = 0
+				}
+			}
+
+
+		}   
+
+		body_fat_head_fat_low = {
+			index = 1
+			male = {
+				# Fat body from 0.5 to 1.0 gene value
+				setting = { # Head fat
+					attribute = "bs_fat_1" 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 0.35 }
+					}
+					age = age_preset_child_fat	
+				}
+				decal = {
+					body_part = head
+					textures = {
+						diffuse = "gfx/models/portraits/decals/male_head/decal_male_head_fat_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/male_head/decal_male_head_fat_01_normal.dds"
+					}
+					alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+							{ 0.0 0.0 }
+							{ 0.5 0.0 }
+							{ 1.0 0.5 }
+					}
+					blend_modes = {				 #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+							# properties = 
+					}
+					priority = 0
+					age = age_preset_child_fat_decal
+				}
+				# Gaunt body from 0.5 to 0.0 gene value
+				setting = { 
+					attribute = "bs_gaunt_head"	
+					# value = { min = 1.0 max = -1.5 }	
+					curve = {
+						{ 0.0 1.0 }
+						{ 0.4 0.0 }
+						{ 1.0 0.0 }
+					}	
+					age = age_preset_aging_gauntness 
+				}
+				decal = {
+					body_part = head
+					textures = {
+						diffuse = "gfx/models/portraits/decals/male_head/decal_male_head_gaunt_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/male_head/decal_male_head_gaunt_01_normal.dds"
+						}
+					alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+							{ 0.0 1.0 }
+							{ 0.4 0.0 }
+					}
+					blend_modes = {				 #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = overlay
+							# properties = 
+					}
+					priority = 0
+				}
+			}
+			female = {
+				# Fat body from 0.5 to 1.0 gene value
+				setting = { # Head fat
+					attribute = "bs_fat_1" 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 0.35 }
+					}
+					age = age_preset_child_fat	
+				}
+				decal = {
+					body_part = head
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_head/decal_female_head_fat_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_head/decal_female_head_fat_01_normal.dds"
+						}
+					alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+							{ 0.0 0.0 }
+							{ 0.5 0.0 }
+							{ 1.0 0.5 }
+						}
+					blend_modes = {				 #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+							# properties = 
+						}
+					priority = 0
+						age = age_preset_child_fat_decal
+				}
+				setting = { 
+					attribute = "bs_gaunt_head"	
+					# value = { min = 1.0 max = -1.5 }	
+					curve = {
+						{ 0.0 1.0 }
+						{ 0.4 0.0 }
+						{ 1.0 0.0 }
+					}	
+					age = age_preset_aging_gauntness 
+				}
+				decal = {
+					body_part = head
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_head/decal_female_head_gaunt_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_head/decal_female_head_gaunt_01_normal.dds"
+					}
+					alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+							{ 0.0 1.0 }
+							{ 0.4 0.0 }
+					}
+					blend_modes = {				 #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = overlay
+							# properties = 
+					}
+					priority = 0
+				}
+			}
+			boy = male
+			girl = female
+		}
+
+		body_fat_head_fat_medium = {
+			index = 2
+			male = {
+				# Fat body from 0.5 to 1.0 gene value
+				setting = { # Head fat
+					attribute = "bs_fat_1" 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 0.5 }
+					}
+					age = age_preset_child_fat	
+				}
+				decal = {
+					body_part = head
+					textures = {
+						diffuse = "gfx/models/portraits/decals/male_head/decal_male_head_fat_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/male_head/decal_male_head_fat_01_normal.dds"
+					}
+					alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+							{ 0.0 0.0 }
+							{ 0.5 0.0 }
+							{ 1.0 0.75 }
+					}
+					blend_modes = {				 #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+							# properties = 
+					}
+					priority = 0
+					age = age_preset_child_fat_decal
+				}
+				# Gaunt body from 0.5 to 0.0 gene value
+				setting = { 
+					attribute = "bs_gaunt_head"	
+					# value = { min = 1.0 max = -1.5 }	
+					curve = {
+						{ 0.0 1.0 }
+						{ 0.4 0.0 }
+						{ 1.0 0.0 }
+					}	
+					age = age_preset_aging_gauntness 
+				}
+				decal = {
+					body_part = head
+					textures = {
+						diffuse = "gfx/models/portraits/decals/male_head/decal_male_head_gaunt_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/male_head/decal_male_head_gaunt_01_normal.dds"
+						}
+					alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+							{ 0.0 1.0 }
+							{ 0.4 0.0 }
+					}
+					blend_modes = {				 #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = overlay
+							# properties = 
+					}
+					priority = 0
+				}
+			}
+			female = {
+				# Fat body from 0.5 to 1.0 gene value
+				setting = { # Head fat
+					attribute = "bs_fat_1" 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 0.5 }
+					}
+					age = age_preset_child_fat	
+				}
+				decal = {
+					body_part = head
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_head/decal_female_head_fat_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_head/decal_female_head_fat_01_normal.dds"
+						}
+					alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+							{ 0.0 0.0 }
+							{ 0.5 0.0 }
+							{ 1.0 0.75 }
+						}
+					blend_modes = {				 #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+							# properties = 
+						}
+					priority = 0
+						age = age_preset_child_fat_decal
+				}
+				setting = { 
+					attribute = "bs_gaunt_head"	
+					# value = { min = 1.0 max = -1.5 }	
+					curve = {
+						{ 0.0 1.0 }
+						{ 0.4 0.0 }
+						{ 1.0 0.0 }
+					}	
+					age = age_preset_aging_gauntness 
+				}
+				decal = {
+					body_part = head
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_head/decal_female_head_gaunt_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_head/decal_female_head_gaunt_01_normal.dds"
+					}
+					alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+							{ 0.0 1.0 }
+							{ 0.4 0.0 }
+					}
+					blend_modes = {				 #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = overlay
+							# properties = 
+					}
+					priority = 0
+				}
+			}
+			boy = male
+			girl = female
+		}
+
+		body_fat_head_fat_full = {
+			index = 3
+			male = {
+				# Fat body from 0.5 to 1.0 gene value
+				setting = { # Head fat
+					attribute = "bs_fat_1" 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 0.75 }
+					}
+					age = age_preset_child_fat	
+				}
+				decal = {
+					body_part = head
+					textures = {
+						diffuse = "gfx/models/portraits/decals/male_head/decal_male_head_fat_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/male_head/decal_male_head_fat_01_normal.dds"
+					}
+					alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+							{ 0.0 0.0 }
+							{ 0.5 0.0 }
+							{ 1.0 1.0 }
+					}
+					blend_modes = {				 #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+							# properties = 
+					}
+					priority = 0
+					age = age_preset_child_fat_decal
+				}
+				# Gaunt body from 0.5 to 0.0 gene value
+				setting = { 
+					attribute = "bs_gaunt_head"	
+					# value = { min = 1.0 max = -1.5 }	
+					curve = {
+						{ 0.0 1.0 }
+						{ 0.4 0.0 }
+						{ 1.0 0.0 }
+					}	
+					age = age_preset_aging_gauntness 
+				}
+				decal = {
+					body_part = head
+					textures = {
+						diffuse = "gfx/models/portraits/decals/male_head/decal_male_head_gaunt_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/male_head/decal_male_head_gaunt_01_normal.dds"
+						}
+					alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+							{ 0.0 1.0 }
+							{ 0.4 0.0 }
+					}
+					blend_modes = {				 #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = overlay
+							# properties = 
+					}
+					priority = 0
+				}
+			}
+			female = {
+				# Fat body from 0.5 to 1.0 gene value
+				setting = { # Head fat
+					attribute = "bs_fat_1" 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 0.75 }
+					}
+					age = age_preset_child_fat	
+				}
+				decal = {
+					body_part = head
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_head/decal_female_head_fat_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_head/decal_female_head_fat_01_normal.dds"
+						}
+					alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+							{ 0.0 0.0 }
+							{ 0.5 0.0 }
+							{ 1.0 1.0 }
+						}
+					blend_modes = {				 #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+							# properties = 
+						}
+					priority = 0
+						age = age_preset_child_fat_decal
+				}
+				setting = { 
+					attribute = "bs_gaunt_head"	
+					# value = { min = 1.0 max = -1.5 }	
+					curve = {
+						{ 0.0 1.0 }
+						{ 0.4 0.0 }
+						{ 1.0 0.0 }
+					}	
+					age = age_preset_aging_gauntness 
+				}
+				decal = {
+					body_part = head
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_head/decal_female_head_gaunt_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_head/decal_female_head_gaunt_01_normal.dds"
+					}
+					alpha_curve = {				 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+							{ 0.0 1.0 }
+							{ 0.4 0.0 }
+					}
+					blend_modes = {				 #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = overlay
+							# properties = 
+					}
+					priority = 0
+				}
+			}
+			boy = male
+			girl = female
+		}
+		no_portrait = {
+			index = 4
+			visible = no
+			male = {
+				setting = { attribute = "bs_no_portrait"	value = { min = 1.0 max = 1.0 }	} 
+				setting = { attribute = "bs_body_no_portrait"	value = { min = 1.0 max = 1.0 }	} 
+			}
+		}
+	}
+	gene_bs_body_fat_distribution = {
+		group = body
+		upper_body_high_full = {
+			index = 0
+			male = { 
+				# Fat body from 0.5 to 1.0 gene value
+				setting = {
+					attribute = "bs_fat_1_body" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 3.0 }
+					}	
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_body_fat_1" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 3.0 }
+					}	
+					age = age_preset_child_fat	
+				}
+				setting = {
+					required_tags = "waist_clothed,dressed"
+					attribute = "bs_fat_1_body" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 -0.3 }
+					}	
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					required_tags = "waist_clothed,dressed"
+					attribute = "bs_body_fat_1" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 -0.3 }
+					}	
+					age = age_preset_child_fat	
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/male_body/decal_male_body_fat_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/male_body/decal_male_body_fat_01_normal.dds"
+					}
+					alpha_curve = {			 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 1.0 }
+					}
+					blend_modes = {			 #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+							# properties = 
+					}
+					priority = 0
+					age = age_preset_child_fat_decal
+				}
+				# Gaunt body from 0.5 to 0.0 gene value
+				setting = { 
+					attribute = "bs_gaunt_body"	
+					# value = { min = 1.0 max = -1.5 }	
+					curve = {
+						{ 0.0 1.5 }
+						{ 0.4 0.3 }
+						{ 0.5 0.0 }
+						{ 1.0 0.0 }
+					}	
+					age = age_preset_aging_gauntness 
+				} 
+				setting = {
+					attribute = "bs_body_gaunt_1"
+					curve = {
+						{ 0.0 1.5 }
+						{ 0.4 0.3 }
+						{ 0.5 0.0 }
+						{ 1.0 0.0 }
+					}	
+					age = age_preset_aging_gauntness 
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/male_body/decal_male_body_gaunt_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/male_body/decal_male_body_gaunt_01_normal.dds"
+					}
+					alpha_curve = {			 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{ 0.1 1.0 }
+						{ 0.5 0.0 }
+					}
+					blend_modes = {			 #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = overlay
+						# properties = 
+					}
+					priority = 0
+				}
+			}
+			female = { 
+				# Fat body from 0.5 to 1.0 gene value
+				setting = { 
+					attribute = "bs_fat_1_body"	
+					# value = { min = -1.0 max = 1.0 } 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 3.0 }
+					}
+					age = age_preset_child_fat	
+				} 
+				setting = { 
+					attribute = "bs_body_fat_1"	
+					# value = { min = -1.0 max = 1.0 } 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 3.0 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = {
+					required_tags = "waist_clothed,dressed"
+					attribute = "bs_fat_1_body" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 -0.3 }
+					}	
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					required_tags = "waist_clothed,dressed"
+					attribute = "bs_body_fat_1" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 -0.3 }
+					}	
+					age = age_preset_child_fat	
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_fat_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_body/decal_female_body_fat_01_normal.dds"
+					}
+					alpha_curve = {			 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 1.0 }
+					}
+					blend_modes = {			 #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+							# properties = 
+					}
+					priority = 0
+					age = age_preset_child_fat_decal
+				}
+				setting = { 
+					attribute = "bs_gaunt_body"	
+					# value = { min = 1.0 max = -1.5 }	
+					curve = {
+						{ 0.0 1.5 }
+						{ 0.4 0.3 }
+						{ 0.5 0.0 }
+						{ 1.0 0.0 }
+					}	
+					age = age_preset_aging_gauntness 
+				} 
+				setting = {
+					attribute = "bs_body_gaunt_1"
+					curve = {
+						{ 0.0 1.5 }
+						{ 0.4 0.3 }
+						{ 0.5 0.0 }
+						{ 1.0 0.0 }
+					}	
+					age = age_preset_aging_gauntness 
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_gaunt_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_body/decal_female_body_gaunt_01_normal.dds"
+					}
+					alpha_curve = {			 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{ 0.1 1.0 }
+						{ 0.5 0.0 }
+					}
+					blend_modes = {			 #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = overlay
+						# properties = 
+					}
+					priority = 0
+				}
+			}
+			boy = male
+			girl = female
+		}
+		upper_body_high_half = {
+			index = 1
+			male = { 
+				# Fat body from 0.5 to 1.0 gene value
+				setting = {
+					attribute = "bs_fat_1_body" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 1.25 }
+						{ 1.0 2.75 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_body_fat_1" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 1.25 }
+						{ 1.0 2.75 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = {
+					required_tags = "waist_clothed,dressed"
+					attribute = "bs_fat_1_body" 
+					# value = { min = -1.0 max = 1.0}
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 -0.125 }
+						{ 1.0 -0.275 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					required_tags = "waist_clothed,dressed"
+					attribute = "bs_body_fat_1" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 -0.125 }
+						{ 1.0 -0.275 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = {
+					attribute = "bs_body_butt_size_max" 
+					# value = { min = -1.0 max = 1.0}
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.225 }
+						{ 1.0 0.225 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = {
+					attribute = "bs_body_butt_size_max_1" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.25 }
+						{ 1.0 0.25 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = {
+					required_tags = "butt_clothed,dressed"
+					attribute = "bs_body_butt_size_max_1" 
+					# value = { min = -1.0 max = 1.0}
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 -0.025 }
+						{ 1.0 -0.025 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_body_hips_max" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.25 }
+						{ 1.0 0.25 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = {
+					required_tags = "hips_clothed,dressed"
+					attribute = "bs_body_hips_max" 
+					# value = { min = -1.0 max = 1.0}
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 -0.025 }
+						{ 1.0 -0.025 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_butt_size_max" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.25 }
+						{ 1.0 0.25 }
+					}
+					age = age_preset_child_fat	
+				}
+				decal = { 
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/male_body/decal_male_body_fat_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/male_body/decal_male_body_fat_01_normal.dds"
+					}
+					alpha_curve = {			 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 1.0 }
+					}
+					blend_modes = {			 #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+							# properties = 
+					}
+					priority = 0
+					age = age_preset_child_fat_decal
+				}
+				# Gaunt body from 0.5 to 0.0 gene value
+				setting = { 
+					attribute = "bs_gaunt_body"	
+					# value = { min = 1.0 max = -1.5 }	
+					curve = {
+						{ 0.0 1.5 }
+						{ 0.4 0.3 }
+						{ 0.5 0.0 }
+						{ 1.0 0.0 }
+					}	
+					age = age_preset_aging_gauntness 
+				} 
+				setting = {
+					attribute = "bs_body_gaunt_1"
+					curve = {
+						{ 0.0 1.5 }
+						{ 0.4 0.3 }
+						{ 0.5 0.0 }
+						{ 1.0 0.0 }
+					}	
+					age = age_preset_aging_gauntness 
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/male_body/decal_male_body_gaunt_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/male_body/decal_male_body_gaunt_01_normal.dds"
+					}
+					alpha_curve = {			 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{ 0.1 1.0 }
+						{ 0.5 0.0 }
+					}
+					blend_modes = {			 #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = overlay
+						# properties = 
+					}
+					priority = 0
+				}
+			}
+			female = { 
+				# Fat body from 0.5 to 1.0 gene value
+				setting = {
+					attribute = "bs_fat_1_body" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 1.25 }
+						{ 1.0 2.75 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_body_fat_1" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 1.25 }
+						{ 1.0 2.75 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = {
+					required_tags = "waist_clothed,dressed"
+					attribute = "bs_fat_1_body" 
+					# value = { min = -1.0 max = 1.0}
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 -0.125 }
+						{ 1.0 -0.275 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					required_tags = "waist_clothed,dressed"
+					attribute = "bs_body_fat_1" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 -0.125 }
+						{ 1.0 -0.275 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_body_butt_size_max" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.225 }
+						{ 1.0 0.225 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_body_butt_size_max_1" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.25 }
+						{ 1.0 0.25 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = {
+					required_tags = "butt_clothed,dressed"
+					attribute = "bs_body_butt_size_max_1" 
+					# value = { min = -1.0 max = 1.0}
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 -0.025 }
+						{ 1.0 -0.025 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_body_hips_max" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.25 }
+						{ 1.0 0.25 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = {
+					required_tags = "hips_clothed,dressed"
+					attribute = "bs_body_hips_max" 
+					# value = { min = -1.0 max = 1.0}
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 -0.025 }
+						{ 1.0 -0.025 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_butt_size_max" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.25 }
+						{ 1.0 0.25 }
+					}
+					age = age_preset_child_fat	
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_fat_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_body/decal_female_body_fat_01_normal.dds"
+					}
+					alpha_curve = {			 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 1.0 }
+					}
+					blend_modes = {			 #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+							# properties = 
+					}
+					priority = 0
+					age = age_preset_child_fat_decal
+				}
+				setting = { 
+					attribute = "bs_gaunt_body"	
+					# value = { min = 1.0 max = -1.5 }	
+					curve = {
+						{ 0.0 1.5 }
+						{ 0.4 0.3 }
+						{ 0.5 0.0 }
+						{ 1.0 0.0 }
+					}	
+					age = age_preset_aging_gauntness 
+				} 
+				setting = {
+					attribute = "bs_body_gaunt_1"
+					curve = {
+						{ 0.0 1.5 }
+						{ 0.4 0.3 }
+						{ 0.5 0.0 }
+						{ 1.0 0.0 }
+					}	
+					age = age_preset_aging_gauntness 
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_gaunt_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_body/decal_female_body_gaunt_01_normal.dds"
+					}
+					alpha_curve = {			 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{ 0.1 1.0 }
+						{ 0.5 0.0 }
+					}
+					blend_modes = {			 #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = overlay
+						# properties = 
+					}
+					priority = 0
+				}
+			}
+			boy = male
+			girl = female
+		}
+		body_mid = {
+			index = 2
+			male = { 
+				# Fat body from 0.5 to 1.0 gene value
+				setting = {
+					attribute = "bs_fat_1_body" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 1.0 }
+						{ 1.0 2.5 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_body_fat_1" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 1.0 }
+						{ 1.0 2.5 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = {
+					required_tags = "waist_clothed,dressed"
+					attribute = "bs_fat_1_body" 
+					# value = { min = -1.0 max = 1.0}
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 -0.1 }
+						{ 1.0 -0.25 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					required_tags = "waist_clothed,dressed"
+					attribute = "bs_body_fat_1" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 -0.1 }
+						{ 1.0 -0.25 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_body_butt_size_max" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.45 }
+						{ 1.0 0.45 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = {
+					attribute = "bs_body_butt_size_max_1" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.5 }
+						{ 1.0 0.5 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = {
+					required_tags = "butt_clothed,dressed"
+					attribute = "bs_body_butt_size_max_1" 
+					# value = { min = -1.0 max = 1.0}
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 -0.05 }
+						{ 1.0 -0.05 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_body_hips_max" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.5 }
+						{ 1.0 0.5 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = {
+					required_tags = "hips_clothed,dressed"
+					attribute = "bs_body_hips_max" 
+					# value = { min = -1.0 max = 1.0}
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 -0.05 }
+						{ 1.0 -0.05 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_butt_size_max" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.5 }
+						{ 1.0 0.5 }
+					}
+					age = age_preset_child_fat	
+				}
+				decal = { 
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/male_body/decal_male_body_fat_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/male_body/decal_male_body_fat_01_normal.dds"
+					}
+					alpha_curve = {			 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 1.0 }
+					}
+					blend_modes = {			 #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+							# properties = 
+					}
+					priority = 0
+					age = age_preset_child_fat_decal
+				}
+				# Gaunt body from 0.5 to 0.0 gene value
+				setting = { 
+					attribute = "bs_gaunt_body"	
+					# value = { min = 1.0 max = -1.5 }	
+					curve = {
+						{ 0.0 1.5 }
+						{ 0.4 0.3 }
+						{ 0.5 0.0 }
+						{ 1.0 0.0 }
+					}	
+					age = age_preset_aging_gauntness 
+				} 
+				setting = {
+					attribute = "bs_body_gaunt_1"
+					curve = {
+						{ 0.0 1.5 }
+						{ 0.4 0.3 }
+						{ 0.5 0.0 }
+						{ 1.0 0.0 }
+					}	
+					age = age_preset_aging_gauntness 
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/male_body/decal_male_body_gaunt_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/male_body/decal_male_body_gaunt_01_normal.dds"
+					}
+					alpha_curve = {			 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{ 0.1 1.0 }
+						{ 0.5 0.0 }
+					}
+					blend_modes = {			 #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = overlay
+						# properties = 
+					}
+					priority = 0
+				}
+			}
+			female = { 
+				# Fat body from 0.5 to 1.0 gene value
+				setting = {
+					attribute = "bs_fat_1_body" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 1.0 }
+						{ 1.0 2.5 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_body_fat_1" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 1.0 }
+						{ 1.0 2.5 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = {
+					required_tags = "waist_clothed,dressed"
+					attribute = "bs_fat_1_body" 
+					# value = { min = -1.0 max = 1.0}
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 -0.1 }
+						{ 1.0 -0.25 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					required_tags = "waist_clothed,dressed"
+					attribute = "bs_body_fat_1" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 -0.1 }
+						{ 1.0 -0.25 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_body_butt_size_max" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.45 }
+						{ 1.0 0.45 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_body_butt_size_max_1" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.5 }
+						{ 1.0 0.5 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = {
+					required_tags = "butt_clothed,dressed"
+					attribute = "bs_body_butt_size_max_1" 
+					# value = { min = -1.0 max = 1.0}
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 -0.05 }
+						{ 1.0 -0.05 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_body_hips_max" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.5 }
+						{ 1.0 0.5 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = {
+					required_tags = "hips_clothed,dressed"
+					attribute = "bs_body_hips_max" 
+					# value = { min = -1.0 max = 1.0}
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 -0.05 }
+						{ 1.0 -0.05 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_butt_size_max" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.5 }
+						{ 1.0 0.5 }
+					}
+					age = age_preset_child_fat	
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_fat_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_body/decal_female_body_fat_01_normal.dds"
+					}
+					alpha_curve = {			 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 1.0 }
+					}
+					blend_modes = {			 #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+							# properties = 
+					}
+					priority = 0
+					age = age_preset_child_fat_decal
+				}
+				setting = { 
+					attribute = "bs_gaunt_body"	
+					# value = { min = 1.0 max = -1.5 }	
+					curve = {
+						{ 0.0 1.5 }
+						{ 0.4 0.3 }
+						{ 0.5 0.0 }
+						{ 1.0 0.0 }
+					}	
+					age = age_preset_aging_gauntness 
+				} 
+				setting = {
+					attribute = "bs_body_gaunt_1"
+					curve = {
+						{ 0.0 1.5 }
+						{ 0.4 0.3 }
+						{ 0.5 0.0 }
+						{ 1.0 0.0 }
+					}	
+					age = age_preset_aging_gauntness 
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_gaunt_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_body/decal_female_body_gaunt_01_normal.dds"
+					}
+					alpha_curve = {			 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{ 0.1 1.0 }
+						{ 0.5 0.0 }
+					}
+					blend_modes = {			 #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = overlay
+						# properties = 
+					}
+					priority = 0
+				}
+			}
+			boy = male
+			girl = female
+		}
+		lower_body_high_half = {
+			index = 3
+			male = { 
+				# Fat body from 0.5 to 1.0 gene value
+				setting = {
+					attribute = "bs_fat_1_body" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.75 }
+						{ 1.0 2.25 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_body_fat_1" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.75 }
+						{ 1.0 2.25 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = {
+					required_tags = "waist_clothed,dressed"
+					attribute = "bs_fat_1_body" 
+					# value = { min = -1.0 max = 1.0}
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 -0.075 }
+						{ 1.0 -0.225 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					required_tags = "waist_clothed,dressed"
+					attribute = "bs_body_fat_1" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 -0.075 }
+						{ 1.0 -0.225 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_body_butt_size_max" 
+					# value = { min = -1.0 max = 1.0}
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.675 }
+						{ 1.0 0.675 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_body_butt_size_max_1" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.75 }
+						{ 1.0 0.75 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = {
+					required_tags = "butt_clothed,dressed"
+					attribute = "bs_body_butt_size_max_1" 
+					# value = { min = -1.0 max = 1.0}
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 -0.075 }
+						{ 1.0 -0.075 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_body_hips_max" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.75 }
+						{ 1.0 0.75 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = {
+					required_tags = "hips_clothed,dressed"
+					attribute = "bs_body_hips_max" 
+					# value = { min = -1.0 max = 1.0}
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 -0.075 }
+						{ 1.0 -0.075 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_butt_size_max" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.75 }
+						{ 1.0 0.75 }
+					}
+					age = age_preset_child_fat	
+				}
+				decal = { 
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/male_body/decal_male_body_fat_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/male_body/decal_male_body_fat_01_normal.dds"
+					}
+					alpha_curve = {			 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 1.0 }
+					}
+					blend_modes = {			 #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+							# properties = 
+					}
+					priority = 0
+					age = age_preset_child_fat_decal
+				}
+				setting = { 
+					attribute = "bs_gaunt_body"	
+					# value = { min = 1.0 max = -1.5 }	
+					curve = {
+						{ 0.0 1.5 }
+						{ 0.4 0.3 }
+						{ 0.5 0.0 }
+						{ 1.0 0.0 }
+					}	
+					age = age_preset_aging_gauntness 
+				} 
+				setting = {
+					attribute = "bs_body_gaunt_1"
+					curve = {
+						{ 0.0 1.5 }
+						{ 0.4 0.3 }
+						{ 0.5 0.0 }
+						{ 1.0 0.0 }
+					}	
+					age = age_preset_aging_gauntness 
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/male_body/decal_male_body_gaunt_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/male_body/decal_male_body_gaunt_01_normal.dds"
+					}
+					alpha_curve = {			 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{ 0.1 1.0 }
+						{ 0.5 0.0 }
+					}
+					blend_modes = {			 #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = overlay
+						# properties = 
+					}
+					priority = 0
+				}
+			}
+			female = { 
+				# Fat body from 0.5 to 1.0 gene value
+				setting = {
+					attribute = "bs_fat_1_body" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.75 }
+						{ 1.0 2.25 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_body_fat_1" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.75 }
+						{ 1.0 2.25 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = {
+					required_tags = "waist_clothed,dressed"
+					attribute = "bs_fat_1_body" 
+					# value = { min = -1.0 max = 1.0}
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 -0.075 }
+						{ 1.0 -0.225 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					required_tags = "waist_clothed,dressed"
+					attribute = "bs_body_fat_1" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 -0.075 }
+						{ 1.0 -0.225 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_body_butt_size_max" 
+					# value = { min = -1.0 max = 1.0}
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.675 }
+						{ 1.0 0.675 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_body_butt_size_max_1" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.75 }
+						{ 1.0 0.75 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = {
+					required_tags = "butt_clothed,dressed"
+					attribute = "bs_body_butt_size_max_1" 
+					# value = { min = -1.0 max = 1.0}
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 -0.075 }
+						{ 1.0 -0.075 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_body_hips_max" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.75 }
+						{ 1.0 0.75 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = {
+					required_tags = "hips_clothed,dressed"
+					attribute = "bs_body_hips_max" 
+					# value = { min = -1.0 max = 1.0}
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 -0.075 }
+						{ 1.0 -0.075 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_butt_size_max" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.75 }
+						{ 1.0 0.75 }
+					}
+					age = age_preset_child_fat	
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_fat_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_body/decal_female_body_fat_01_normal.dds"
+					}
+					alpha_curve = {			 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 1.0 }
+					}
+					blend_modes = {			 #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+							# properties = 
+					}
+					priority = 0
+					age = age_preset_child_fat_decal
+				}
+				setting = { 
+					attribute = "bs_gaunt_body"	
+					# value = { min = 1.0 max = -1.5 }	
+					curve = {
+						{ 0.0 1.5 }
+						{ 0.4 0.3 }
+						{ 0.5 0.0 }
+						{ 1.0 0.0 }
+					}	
+					age = age_preset_aging_gauntness 
+				} 
+				setting = {
+					attribute = "bs_body_gaunt_1"
+					curve = {
+						{ 0.0 1.5 }
+						{ 0.4 0.3 }
+						{ 0.5 0.0 }
+						{ 1.0 0.0 }
+					}	
+					age = age_preset_aging_gauntness 
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_gaunt_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_body/decal_female_body_gaunt_01_normal.dds"
+					}
+					alpha_curve = {			 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{ 0.1 1.0 }
+						{ 0.5 0.0 }
+					}
+					blend_modes = {			 #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = overlay
+						# properties = 
+					}
+					priority = 0
+				}
+			}
+			boy = male
+			girl = female
+		}
+		lower_body_high_full = {
+			index = 4
+			male = { 
+				# Fat body from 0.5 to 1.0 gene value
+				setting = {
+					attribute = "bs_fat_1_body" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.5 }
+						{ 1.0 2.0 }
+					}	
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_body_fat_1" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.5 }
+						{ 1.0 2.0 }
+					}	
+					age = age_preset_child_fat	
+				}
+				setting = {
+					required_tags = "waist_clothed,dressed"
+					attribute = "bs_fat_1_body" 
+					# value = { min = -1.0 max = 1.0}
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 -0.05 }
+						{ 1.0 -0.2 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					required_tags = "waist_clothed,dressed"
+					attribute = "bs_body_fat_1" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 -0.05 }
+						{ 1.0 -0.2 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_body_butt_size_max" 
+					# value = { min = -1.0 max = 1.0}
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.9 }
+						{ 1.0 0.9 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_body_butt_size_max_1" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 1.0 }
+						{ 1.0 1.0 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = {
+					required_tags = "butt_clothed,dressed"
+					attribute = "bs_body_butt_size_max_1" 
+					# value = { min = -1.0 max = 1.0}
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 -0.1 }
+						{ 1.0 -0.1 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_body_hips_max" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 1.0 }
+						{ 1.0 1.0 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = {
+					required_tags = "hips_clothed,dressed"
+					attribute = "bs_body_hips_max" 
+					# value = { min = -1.0 max = 1.0}
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 -0.1 }
+						{ 1.0 -0.1 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_butt_size_max" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 1.0 }
+						{ 1.0 1.0 }
+					}
+					age = age_preset_child_fat	
+				}
+				decal = { 
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/male_body/decal_male_body_fat_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/male_body/decal_male_body_fat_01_normal.dds"
+					}
+					alpha_curve = {			 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 1.0 }
+					}
+					blend_modes = {			 #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+							# properties = 
+					}
+					priority = 0
+					age = age_preset_child_fat_decal
+				}
+				# Gaunt body from 0.5 to 0.0 gene value
+				setting = { 
+					attribute = "bs_gaunt_body"	
+					# value = { min = 1.0 max = -1.5 }	
+					curve = {
+						{ 0.0 1.5 }
+						{ 0.4 0.3 }
+						{ 0.5 0.0 }
+						{ 1.0 0.0 }
+					}	
+					age = age_preset_aging_gauntness 
+				} 
+				setting = {
+					attribute = "bs_body_gaunt_1"
+					curve = {
+						{ 0.0 1.5 }
+						{ 0.4 0.3 }
+						{ 0.5 0.0 }
+						{ 1.0 0.0 }
+					}	
+					age = age_preset_aging_gauntness 
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/male_body/decal_male_body_gaunt_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/male_body/decal_male_body_gaunt_01_normal.dds"
+					}
+					alpha_curve = {			 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{ 0.1 1.0 }
+						{ 0.5 0.0 }
+					}
+					blend_modes = {			 #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = overlay
+						# properties = 
+					}
+					priority = 0
+				}
+			}
+			female = { 
+				# Fat body from 0.5 to 1.0 gene value
+				setting = {
+					attribute = "bs_fat_1_body" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.5 }
+						{ 1.0 2.0 }
+					}	
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_body_fat_1" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.5 }
+						{ 1.0 2.0 }
+					}	
+					age = age_preset_child_fat	
+				}
+				setting = {
+					required_tags = "waist_clothed,dressed"
+					attribute = "bs_fat_1_body" 
+					# value = { min = -1.0 max = 1.0}
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 -0.05 }
+						{ 1.0 -0.2 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					required_tags = "waist_clothed,dressed"
+					attribute = "bs_body_fat_1" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 -0.05 }
+						{ 1.0 -0.2 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_body_butt_size_max" 
+					# value = { min = -1.0 max = 1.0}
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 0.9 }
+						{ 1.0 0.9 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_body_butt_size_max_1" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 1.0 }
+						{ 1.0 1.0 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = {
+					required_tags = "butt_clothed,dressed"
+					attribute = "bs_body_butt_size_max_1" 
+					# value = { min = -1.0 max = 1.0}
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 -0.1 }
+						{ 1.0 -0.1 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_body_hips_max" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 1.0 }
+						{ 1.0 1.0 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = {
+					required_tags = "hips_clothed,dressed"
+					attribute = "bs_body_hips_max" 
+					# value = { min = -1.0 max = 1.0}
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 -0.1 }
+						{ 1.0 -0.1 }
+					}
+					age = age_preset_child_fat	
+				}
+				setting = { 
+					attribute = "bs_butt_size_max" 
+					# value = { min = -1.0 max = 1.0} 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 0.75 1.0 }
+						{ 1.0 1.0 }
+					}
+					age = age_preset_child_fat	
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_fat_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_body/decal_female_body_fat_01_normal.dds"
+					}
+					alpha_curve = {			 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 1.0 }
+					}
+					blend_modes = {			 #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = replace
+							# properties = 
+					}
+					priority = 0
+					age = age_preset_child_fat_decal
+				}
+				setting = { 
+					attribute = "bs_gaunt_body"	
+					# value = { min = 1.0 max = -1.5 }	
+					curve = {
+						{ 0.0 1.5 }
+						{ 0.4 0.3 }
+						{ 0.5 0.0 }
+						{ 1.0 0.0 }
+					}	
+					age = age_preset_aging_gauntness 
+				} 
+				setting = {
+					attribute = "bs_body_gaunt_1"
+					curve = {
+						{ 0.0 1.5 }
+						{ 0.4 0.3 }
+						{ 0.5 0.0 }
+						{ 1.0 0.0 }
+					}	
+					age = age_preset_aging_gauntness 
+				}
+				decal = {
+					body_part = torso
+					textures = {
+						diffuse = "gfx/models/portraits/decals/female_body/decal_female_body_gaunt_01_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_body/decal_female_body_gaunt_01_normal.dds"
+					}
+					alpha_curve = {			 #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+						#character age%, decal alpha
+						{ 0.1 1.0 }
+						{ 0.5 0.0 }
+					}
+					blend_modes = {			 #overlay/replace/hard_light/multiply
+						diffuse = multiply 
+						normal = overlay
+						# properties = 
+					}
+					priority = 0
+				}
+			}
+			boy = male
+			girl = female
+		}
+	}
+}

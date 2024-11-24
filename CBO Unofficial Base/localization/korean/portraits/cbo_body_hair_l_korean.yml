@@ -1,0 +1,18 @@
+﻿l_korean:
+ PORTRAIT_MODIFIER_cbo_body_hair_custom:0 "체모"
+ 
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_no_body_hair_custom:0 "체모 없음"
+ 
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_sparse_half_custom:0 "드문 체모"
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_avg_half_custom:0 "보통 체모"
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_dense_half_custom:0 "빽빽한 체모"
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_sparse_low_stubble_half_custom:0 "드문 그루터기 체모"
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_avg_low_stubble_half_custom:0 "보통 그루터기 체모"
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_dense_low_stubble_half_custom:0 "빽빽한 그루터기 체모"
+ 
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_sparse_full_custom:0 "전신의 드문 체모"
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_avg_full_custom:0 "전신의 보통 체모"
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_dense_full_custom:0 "전신의 빽빽한 체모"
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_sparse_low_stubble_full_custom:0 "전신의 드문 그루터기 체모"
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_avg_low_stubble_full_custom:0 "전신의 보통 그루터기 체모"
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_dense_low_stubble_full_custom:0 "전신의 빽빽한 그루터기 체모"

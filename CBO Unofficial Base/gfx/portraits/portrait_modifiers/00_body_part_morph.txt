@@ -1,0 +1,194 @@
+﻿has_penis = {
+	usage = game
+	selection_behavior = max
+	has_penis = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = penis
+				template = has_penis
+				value = 1
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				trigger_if = {
+					limit = { is_male = yes }
+					NOT = { has_character_flag = full_genital_morph }
+				}
+				trigger_else = {
+                    OR = {
+                        has_character_flag = full_genital_morph
+                        has_character_flag = half_genital_morph
+                        trigger_if = {
+                            limit = { has_game_rule = carn_dt_enabled }
+                            OR = {
+                                has_trait = futa
+                                has_trait = futa_genetic
+                            }
+                        }
+                    }
+                }
+			}
+		}
+	}
+	no_penis = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = penis
+				template = no_penis
+				value = 1
+			}
+		}
+		weight = {
+			base = 100
+		}
+	}
+}
+
+has_erection = {
+	usage = game
+	selection_behavior = max
+	has_erection = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = penis_erection
+				template = penis_erection
+				value = 1
+			}
+		}
+		weight = {
+			base = 0
+		}
+	}
+	no_erection = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = penis_erection
+				template = not_penis_erection
+				value = 1
+			}
+		}
+		weight = {
+			base = 100
+		}
+	}
+}
+
+has_balls = {
+	usage = game
+	selection_behavior = max
+	has_balls = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = balls
+				template = has_balls
+				value = 1
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				trigger_if = {
+					limit = { is_male = yes }
+                    NOT = {
+                        has_character_flag = full_genital_morph
+                        has_character_flag = half_genital_morph
+                        has_character_flag = half_genital_morph
+                        has_trait = eunuch
+                    }
+                    trigger_if = {
+                        limit = { has_game_rule = carn_dt_enabled }
+                        NOT = {
+                            has_trait = futa
+                            has_trait = futa_genetic
+                        }
+                    }
+				}
+				trigger_else = {
+					has_character_flag = full_genital_morph
+				}
+			}
+		}
+	}
+	no_balls = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = balls
+				template = no_balls
+				value = 1
+			}
+		}
+		weight = {
+			base = 100
+		}
+	}
+}
+
+has_vagina = {
+	usage = game
+	selection_behavior = max
+	has_vagina = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = vagina
+				template = has_vagina
+				value = 1
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				trigger_if = {
+					limit = { is_male = yes }
+					OR = {
+						has_character_flag = full_genital_morph
+						has_character_flag = half_genital_morph
+                        has_character_flag = half_genital_morph
+                        trigger_if = {
+                            limit = { has_game_rule = carn_dt_enabled }
+                            OR = {
+                                has_trait = futa
+                                has_trait = futa_genetic
+                            }
+						}
+					}
+				}
+				trigger_else = {
+					NOT = { has_character_flag = full_genital_morph }
+				}
+			}
+		}
+	}
+	no_vagina = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = vagina
+				template = no_vagina
+				value = 1
+			}
+		}
+		weight = {
+			base = 100
+		}
+	}
+}

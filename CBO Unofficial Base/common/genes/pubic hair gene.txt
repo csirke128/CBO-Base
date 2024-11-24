@@ -1,0 +1,36 @@
+﻿
+special_genes = {
+
+
+	accessory_genes = {
+
+
+	#####################################
+	#									#
+	# 			PUBIC HAIR 			    #
+	#									#
+	#####################################
+
+
+		pubic_hair = {
+			no_pubic_hair = {
+				index = 0
+				male = { }
+				female = { }
+				boy = { }
+				girl = boy
+			}
+			pubic_hair = {
+				index = 1
+				male = {
+					1 = male_pubic_hair
+				}
+				female = {
+					1 = female_pubic_hair
+				}
+				boy = { }
+				girl = boy
+			}
+		}
+	}
+}

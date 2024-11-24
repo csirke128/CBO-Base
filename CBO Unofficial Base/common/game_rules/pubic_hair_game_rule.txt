@@ -1,0 +1,14 @@
+﻿cbo_pubic_hair = {
+	default = cbo_pubic_hair_inactive
+
+	cbo_pubic_hair_inactive = {
+		flag = cbo_pubic_hair_inactive
+		flag = GG_can_change_rule
+	}
+	
+	cbo_pubic_hair_active = {
+		flag = cbo_pubic_hair_active
+		flag = GG_can_change_rule
+	}
+}
+

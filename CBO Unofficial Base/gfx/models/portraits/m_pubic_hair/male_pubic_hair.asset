@@ -1,0 +1,66 @@
+pdxmesh = {
+	name = "male_pubic_hair_mesh"
+	file = "male_pubic_hair.mesh"
+	
+	blend_shape = { id = "male_pubic_hair_bs_dwarf"						type = "male_pubic_hair_bs_dwarf.mesh" }
+	blend_shape = { id = "male_pubic_hair_bs_fat"						type = "male_pubic_hair_bs_fat.mesh" }
+	blend_shape = { id = "male_pubic_hair_bs_gaunt"						type = "male_pubic_hair_bs_gaunt.mesh" }
+	blend_shape = { id = "male_pubic_hair_bs_muscular"					type = "male_pubic_hair_bs_muscular.mesh" }
+	blend_shape = { id = "male_pubic_hair_bs_old"						type = "male_pubic_hair_bs_old.mesh" }
+	blend_shape = { id = "male_pubic_hair_bs_butt_size_2_max"			type = "male_pubic_hair_bs_butt_size_2_max.mesh" }
+	blend_shape = { id = "male_pubic_hair_bs_butt_size_max"				type = "male_pubic_hair_bs_butt_size_max.mesh" }
+	blend_shape = { id = "male_pubic_hair_bs_penis_size_max"			type = "male_pubic_hair_bs_penis_size_max.mesh" }
+	blend_shape = { id = "male_pubic_hair_bs_penis_erection_min"		type = "male_pubic_hair_bs_penis_erection_min.mesh" }
+	blend_shape = { id = "male_pubic_hair_bs_penis_erection"			type = "male_pubic_hair_bs_penis_erection.mesh" }
+	blend_shape = { id = "male_pubic_hair_bs_penis_erection_3"			type = "male_pubic_hair_bs_penis_erection.mesh" }
+	blend_shape = { id = "male_pubic_hair_bs_penis_erection_2"			type = "male_pubic_hair_bs_penis_erection_2.mesh" }
+	blend_shape = { id = "male_pubic_hair_bs_penis_erection_4"			type = "male_pubic_hair_bs_penis_erection_2.mesh" }
+	blend_shape = { id = "male_pubic_hair_bs_penis_size_max_2"			type = "male_pubic_hair_bs_penis_size_max_2.mesh" }
+	blend_shape = { id = "male_pubic_hair_bs_g_string"					type = "male_pubic_hair_bs_g_string.mesh" }
+	blend_shape = { id = "male_pubic_hair_bs_thong"						type = "male_pubic_hair_bs_thong.mesh" }
+	blend_shape = { id = "male_pubic_hair_bs_panties"					type = "male_pubic_hair_bs_thong.mesh" }
+	blend_shape = { id = "male_pubic_hair_bs_briefs"					type = "male_pubic_hair_bs_thong.mesh" }
+
+	meshsettings = {
+		name = "male_pubic_hairShape"
+		index = 0
+		texture_diffuse = "male_pubic_hair_01_diffuse.dds"
+		texture_normal = "male_pubic_hair_01_normal.dds"
+		texture_specular = "male_pubic_hair_01_properties.dds"
+		texture = { file = "black_ssao_color.dds" index = 3 }
+		shader = "portrait_hair"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "male_pubic_hair_entity"
+	pdxmesh = "male_pubic_hair_mesh"
+	
+	attribute = { name = "bs_body_dwarf_1"							blend_shape = "male_pubic_hair_bs_dwarf" }
+	attribute = { name = "bs_body_fat_1"							blend_shape = "male_pubic_hair_bs_fat" }
+	attribute = { name = "bs_body_gaunt_1"							blend_shape = "male_pubic_hair_bs_gaunt" }
+	attribute = { name = "bs_body_muscular_1"						blend_shape = "male_pubic_hair_bs_muscular" }
+	attribute = { name = "bs_body_old_1"							blend_shape = "male_pubic_hair_bs_old" }
+	attribute = { name = "bs_body_butt_size_max_2"					blend_shape = "male_pubic_hair_bs_butt_size_2_max" }
+	attribute = { name = "bs_body_butt_size_max_1"					blend_shape = "male_pubic_hair_bs_butt_size_max" }
+	attribute = { name = "bs_body_penis_size_max"					blend_shape = "male_pubic_hair_bs_penis_size_max" }
+	attribute = { name = "bs_body_penis_erection_min"				blend_shape = "male_pubic_hair_bs_penis_erection_min" }
+	attribute = { name = "bs_body_penis_erection"					blend_shape = "male_pubic_hair_bs_penis_erection" }
+	attribute = { name = "bs_body_penis_erection_2"					blend_shape = "male_pubic_hair_bs_penis_erection_2" }
+	attribute = { name = "bs_body_penis_erection_3"					blend_shape = "male_pubic_hair_bs_penis_erection_3" }
+	attribute = { name = "bs_body_penis_erection_4"					blend_shape = "male_pubic_hair_bs_penis_erection_4" }
+	attribute = { name = "bs_body_penis_size_max_2"					blend_shape = "male_pubic_hair_bs_penis_size_max_2" }
+	attribute = { name = "bs_body_g_string"							blend_shape = "male_pubic_hair_bs_g_string" }
+	attribute = { name = "bs_body_thong"							blend_shape = "male_pubic_hair_bs_thong" }
+	attribute = { name = "bs_body_panties"							blend_shape = "male_pubic_hair_bs_panties" }
+	attribute = { name = "bs_body_briefs"							blend_shape = "male_pubic_hair_bs_briefs" }
+
+	game_data = {
+		portrait_entity_user_data = {
+			color_mask_remap_interval = {
+				interval = {0.0 1.0}
+			}
+		}
+	}
+}

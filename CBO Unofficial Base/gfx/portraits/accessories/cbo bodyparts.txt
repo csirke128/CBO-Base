@@ -1,0 +1,113 @@
+﻿female_eyelashes_mascara = {
+	entity = {	entity = "female_eyelashes_mascara_entity"		 shared_pose_entity = head }
+}
+
+male_eyelashes_mascara = {
+	entity = {	entity = "male_eyelashes_mascara_entity"		 shared_pose_entity = head }
+}
+
+male_teeth_normal = {
+	entity = { entity = "male_teeth_entity"		shared_pose_entity = head }
+}
+
+female_teeth_normal = {
+	entity = { entity = "female_teeth_entity"		shared_pose_entity = head }
+}
+
+boy_teeth_normal = {
+	entity = { entity = "male_teeth_entity"		shared_pose_entity = head }
+}
+
+girl_teeth_normal = {
+	entity = { entity = "female_teeth_entity"		shared_pose_entity = head }
+}
+
+has_penis = {
+	set_tags = "has_penis"
+	entity = {	shared_pose_entity = torso }
+}
+
+no_penis = {
+	set_tags = "no_penis"
+	entity = {	shared_pose_entity = torso }
+}
+
+has_breasts = {
+	set_tags = "has_breasts"
+	entity = {	shared_pose_entity = torso }
+}
+
+no_breasts = {
+	set_tags = "no_breasts"
+	entity = {	shared_pose_entity = torso }
+}
+
+gender_flip_muscles = {
+	set_tags = "gender_flip_muscles"
+	entity = {	shared_pose_entity = torso }
+}
+
+not_gender_flip_muscles = {
+	set_tags = "not_gender_flip_muscles"
+	entity = {	shared_pose_entity = torso }
+}
+
+gender_flip_butt = {
+	set_tags = "gender_flip_butt"
+	entity = {	shared_pose_entity = torso }
+}
+
+not_gender_flip_butt = {
+	set_tags = "not_gender_flip_butt"
+	entity = {	shared_pose_entity = torso }
+}
+
+gender_flip_fat = {
+	set_tags = "gender_flip_fat"
+	entity = {	shared_pose_entity = torso }
+}
+
+not_gender_flip_fat = {
+	set_tags = "not_gender_flip_fat"
+	entity = {	shared_pose_entity = torso }
+}
+
+has_balls = {
+	set_tags = "has_balls"
+	entity = {	shared_pose_entity = torso }
+}
+
+no_balls = {
+	set_tags = "no_balls"
+	entity = {	shared_pose_entity = torso }
+}
+
+has_vagina = {
+	set_tags = "has_vagina"
+	entity = {	shared_pose_entity = torso }
+}
+
+no_vagina = {
+	set_tags = "no_vagina"
+	entity = {	shared_pose_entity = torso }
+}
+
+penis_clothed = {
+	set_tags = "penis_clothed"
+	entity = {	shared_pose_entity = torso }
+}
+
+no_penis_erection = {
+	set_tags = "no_penis_erection"
+	entity = {	shared_pose_entity = torso }
+}
+
+penis_erection = {
+	set_tags = "penis_erection"
+	entity = {	shared_pose_entity = torso }
+}
+
+penis_erection_correction = {
+	set_tags = "penis_erection_correction"
+	entity = {	shared_pose_entity = torso }
+}

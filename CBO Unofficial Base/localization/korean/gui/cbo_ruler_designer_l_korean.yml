@@ -1,0 +1,52 @@
+﻿l_korean:
+ gene_bs_penis_size:0 "음경 크기"
+ gene_bs_butt_size:0 "엉덩이 크기"
+ 
+ gene_bs_ball_size:0 "음낭 크기"
+ gene_bs_penis_thickness:0 "음경 굵기"
+ 
+ gene_bs_hips:0 "골반"
+ 
+ gene_bs_waist:0 "허리"
+ 
+ gene_bs_shoulders:0 "어깨"
+ 
+ bust_default:0 "일반형"
+ bust_shape_1_half:0 "눈물방울형"
+ bust_shape_1_full:0 "종형"
+ bust_shape_2_half:0 "릴랙스드형"
+ bust_shape_2_full:0 "슬렌더형"
+ bust_shape_3_half:0 "라운드형"
+ bust_shape_3_full:0 "클로즈 셋형"
+ bust_shape_4_half:0 "사이드 셋형"
+ bust_shape_4_full:0 "이스트 웨스트형"
+
+ body_shape_average:0 "평균형"
+ body_shape_apple_half:0 "준사과형"
+ body_shape_apple_full:0 "사과형"
+ body_shape_hourglass_half:0 "준모래시계형"
+ body_shape_hourglass_full:0 "모래시계형"
+ body_shape_pear_half:0 "준배형"
+ body_shape_pear_full:0 "배형"
+ body_shape_rectangle_half:0 "준직사각형"
+ body_shape_rectangle_full:0 "직사각형"
+ body_shape_triangle_half:0 "준삼각형"
+ body_shape_triangle_full:0 "삼각형"
+ 
+ gene_bs_body_fat_distribution:0 "체지방 분포"
+ upper_body_high_full:0 "상체 비만"
+ upper_body_high_half:0 "상체 통통"
+ body_mid:0 "균형 잡힘"
+ lower_body_high_half:0 "하체 통통"
+ lower_body_high_full:0 "하체 비만"
+ 
+ gene_bs_nipples:0 "유두 크기"
+ nipples:0 "유두 크기"
+ 
+ gene_areolas:0 "유륜"
+ areolas_0:0 "작은 유륜"
+ areolas_1:0 "중간 유륜"
+ areolas_2:0 "약간 큰 유륜"
+ areolas_3:0 "큰 유륜"
+ areolas_4:0 "아주 큰 유륜"
+ areolas_5:0 "거대 유륜"

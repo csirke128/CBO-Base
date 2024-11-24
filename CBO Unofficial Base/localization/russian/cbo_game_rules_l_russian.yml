@@ -1,0 +1,13 @@
+﻿l_russian:
+
+ rule_muscularity_max: "Максимальная мускулатура"
+ setting_paradox_default: "Настройки от Параходов"
+ setting_paradox_default_desc: "Ты вообще занимаешся, братан?"
+ setting_more_muscular: "Более мускулистые"
+ setting_more_muscular_desc: "Увеличивается с той же скоростью, что и paradox, до 25 уровня мастерства, продолжает становиться более мускулистым до 50 уровня мастерства."
+ 
+ rule_cbo_pubic_hair: "Волосы на лобке"
+ setting_cbo_pubic_hair_active: "Волосы на лобке включены"
+ setting_cbo_pubic_hair_active_desc: "По умолчанию у персонажей есть сетка из лобковых волос."
+ setting_cbo_pubic_hair_inactive: "Волосы на лобке не включены"
+ setting_cbo_pubic_hair_inactive_desc: "Настройки от параходов"

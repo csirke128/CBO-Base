@@ -1,0 +1,12 @@
+﻿NRulerDesigner = {
+	PORTRAIT_MODIFIER_OVERRIDE_SET_KEY = { "clothes" "weight" "weight" "muscularity" }
+	PORTRAIT_MODIFIER_OVERRIDE_ITEM_KEY = { "ruler_designer_clothes" "ruler_designer_overweight" "ruler_designer_underweight" "muscular" }
+	
+	ACCESSORY_GENES = { "hairstyles" "beards" }
+	ACESSORY_GENES_PORTRAIT_SET = { "custom_hair" "custom_beards" }
+
+	DEFAULT_AGE = 25
+	FEMALE_ONLY_VISIBLE_GENES = { "gene_bs_bust" "gene_bs_nipples" "gene_areolas" }
+	HIDE_GENE_SLIDER = { "gene_bs_body_type" "gene_bs_body_fat_distribution" "gene_areolas" }
+	MIN_AGE_FOR_SEXUALITY = 10 # If your age is below this we hide the sexuality choice
+}

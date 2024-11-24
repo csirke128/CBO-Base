@@ -1,0 +1,259 @@
+﻿cbo_body_hair_custom = {
+	# interface_position = 1
+	usage = customization
+	interface_position = 17
+	no_body_hair_custom = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_body_hair
+				value = 0.0
+			}
+		}
+		is_valid_custom = {
+			is_adult = yes
+			is_male = yes
+		}
+	}
+	body_hair_sparse_half_custom = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_body_hair
+				value = 0.0
+			}
+			morph = {
+				mode = modify
+				gene = gene_body_hair
+				template = body_hair_sparse
+				value = 0.5
+			}
+		}
+		is_valid_custom = {
+			is_adult = yes
+			is_male = yes
+		}
+	}
+	body_hair_avg_half_custom = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_body_hair
+				value = 0.0
+			}
+			morph = {
+				mode = modify
+				gene = gene_body_hair
+				template = body_hair_avg
+				value = 0.5
+			}
+		}
+		is_valid_custom = {
+			is_adult = yes
+			is_male = yes
+		}
+	}
+	body_hair_dense_half_custom = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_body_hair
+				value = 0.0
+			}
+			morph = {
+				mode = modify
+				gene = gene_body_hair
+				template = body_hair_dense
+				value = 0.5
+			}
+		}
+		is_valid_custom = {
+			is_adult = yes
+			is_male = yes
+		}
+	}
+	body_hair_sparse_low_stubble_half_custom = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_body_hair
+				value = 0.0
+			}
+			morph = {
+				mode = modify
+				gene = gene_body_hair
+				template = body_hair_sparse_low_stubble
+				value = 0.5
+			}
+		}
+		is_valid_custom = {
+			is_adult = yes
+			is_male = yes
+		}
+	}
+	body_hair_avg_low_stubble_half_custom = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_body_hair
+				value = 0.0
+			}
+			morph = {
+				mode = modify
+				gene = gene_body_hair
+				template = body_hair_avg_low_stubble
+				value = 0.5
+			}
+		}
+		is_valid_custom = {
+			is_adult = yes
+			is_male = yes
+		}
+	}
+	body_hair_dense_low_stubble_half_custom = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_body_hair
+				value = 0.0
+			}
+			morph = {
+				mode = modify
+				gene = gene_body_hair
+				template = body_hair_dense_low_stubble
+				value = 0.5
+			}
+		}
+		is_valid_custom = {
+			is_adult = yes
+			is_male = yes
+		}
+	}
+	body_hair_sparse_full_custom = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_body_hair
+				value = 0.0
+			}
+			morph = {
+				mode = modify
+				gene = gene_body_hair
+				template = body_hair_sparse
+				value = 1.0
+			}
+		}
+		is_valid_custom = {
+			is_adult = yes
+			is_male = yes
+		}
+	}
+	body_hair_avg_full_custom = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_body_hair
+				value = 0.0
+			}
+			morph = {
+				mode = modify
+				gene = gene_body_hair
+				template = body_hair_avg
+				value = 1.0
+			}
+		}
+		is_valid_custom = {
+			is_adult = yes
+			is_male = yes
+		}
+	}
+	body_hair_dense_full_custom = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_body_hair
+				value = 0.0
+			}
+			morph = {
+				mode = modify
+				gene = gene_body_hair
+				template = body_hair_dense
+				value = 1.0
+			}
+		}
+		is_valid_custom = {
+			is_adult = yes
+			is_male = yes
+		}
+	}
+	body_hair_sparse_low_stubble_full_custom = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_body_hair
+				value = 0.0
+			}
+			morph = {
+				mode = modify
+				gene = gene_body_hair
+				template = body_hair_sparse_low_stubble
+				value = 1.0
+			}
+		}
+		is_valid_custom = {
+			is_adult = yes
+			is_male = yes
+		}
+	}
+	body_hair_avg_low_stubble_full_custom = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_body_hair
+				value = 0.0
+			}
+			morph = {
+				mode = modify
+				gene = gene_body_hair
+				template = body_hair_avg_low_stubble
+				value = 1.0
+			}
+		}
+		is_valid_custom = {
+			is_adult = yes
+			is_male = yes
+		}
+	}
+	body_hair_dense_low_stubble_full_custom = {
+		usage = customization
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_body_hair
+				value = 0.0
+			}
+			morph = {
+				mode = modify
+				gene = gene_body_hair
+				template = body_hair_dense_low_stubble
+				value = 1.0
+			}
+		}
+		is_valid_custom = {
+			is_adult = yes
+			is_male = yes
+		}
+	}
+}

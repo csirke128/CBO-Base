@@ -1,0 +1,203 @@
+﻿
+carn_tits = {
+	usage = game
+	selection_behavior = max
+	tits_default = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 1.0
+			}
+		}
+		weight = {
+			base = 1
+		}
+	}
+	small_tits_3 = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.10
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+                trigger_if = {
+                    limit = { has_game_rule = carn_dt_enabled }
+                    OR = {
+                        has_trait = tits_small_good_3
+                        has_trait = tits_small_bad_3
+                    }
+                }
+				add = 100
+			}
+		}
+	}
+	small_tits_2 = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.10
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_bust
+				value = 0.10
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+                trigger_if = {
+                    limit = { has_game_rule = carn_dt_enabled }
+                    OR = {
+                        has_trait = tits_small_good_2
+                        has_trait = tits_small_bad_2
+                    }
+                }
+				add = 100
+			}
+		}
+	}
+	small_tits_1 = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.10
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_bust
+				value = 0.20
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+                trigger_if = {
+                    limit = { has_game_rule = carn_dt_enabled }
+                    OR = {
+                        has_trait = tits_small_good_1
+                        has_trait = tits_small_bad_1
+                    }
+                }
+				add = 100
+			}
+		}
+	}
+	average_tits = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.10
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_bust
+				value = 0.30
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				has_game_rule = carn_dt_enabled
+				add = 50
+			}
+		}
+	}
+	large_tits_1 = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.20
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_bust
+				value = 0.40
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+                trigger_if = {
+                    limit = { has_game_rule = carn_dt_enabled }
+                    OR = {
+                        has_trait = tits_big_good_1
+                        has_trait = tits_big_bad_1
+                    }
+                }
+				add = 100
+			}
+		}
+	}
+	large_tits_2 = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.20
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_bust
+				value = 0.60
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+                trigger_if = {
+                    limit = { has_game_rule = carn_dt_enabled }
+                    OR = {
+                        has_trait = tits_big_good_2
+                        has_trait = tits_big_bad_2
+                    }
+                }
+				add = 100
+			}
+		}
+	}
+	large_tits_3 = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.20
+			}
+			morph = {
+				mode = modify
+				gene = gene_bs_bust
+				value = 0.80
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+                trigger_if = {
+                    limit = { has_game_rule = carn_dt_enabled }
+                    OR = {
+                        has_trait = tits_big_good_3
+                        has_trait = tits_big_bad_3
+                    }
+                }
+				add = 100
+			}
+		}
+	}
+}

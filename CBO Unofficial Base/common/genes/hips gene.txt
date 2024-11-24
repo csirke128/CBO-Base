@@ -1,0 +1,119 @@
+﻿morph_genes = {
+	gene_bs_hips = {
+		group = body
+		hips = {
+		index = 0
+			male = {
+				setting = { 
+					attribute = "bs_body_hips_max" 
+					curve = {
+						{ 0.0   0.0 }
+						{ 0.33   0.0 }
+						{ 1.0   0.75 }
+					}   
+					age = age_preset_puberty 
+				}
+				setting = { 
+					required_tags = "hips_clothed,dressed"
+					attribute = "bs_body_hips_max" 
+					curve = {
+						{ 0.0   0.0 }
+						{ 0.33   0.0 }
+						{ 1.0   -0.15 }
+					}   
+					age = age_preset_puberty 
+				}
+				setting = { 
+					attribute = "bs_body_hips_min" 
+					curve = {
+						{ 0.0   0.25 }
+						{ 0.33   0.0 }
+						{ 1.0   0.0 }
+					}   
+					age = age_preset_puberty 
+				}
+			}
+			female = male
+			boy = male
+			girl = male
+		}
+	}
+	gene_bs_waist = {
+		group = body
+		waist = {
+		index = 0
+			male = {
+				setting = { 
+					attribute = "bs_body_waist_max" 
+					curve = {
+						{ 0.0   0.0 }
+						{ 0.5   0.0 }
+						{ 1.0   1.0 }
+					}   
+						age = age_preset_puberty 
+				}
+				setting = { 
+					required_tags = "waist_clothed,dressed"
+					attribute = "bs_body_waist_max" 
+					curve = {
+						{ 0.0   0.0 }
+						{ 0.5   0.0 }
+						{ 1.0   -0.2 }
+					}   
+						age = age_preset_puberty 
+				}
+				setting = { 
+					attribute = "bs_body_waist_min" 
+					curve = {
+						{ 0.0   0.5 }
+						{ 0.5   0.0 }
+						{ 1.0   0.0 }
+					}   
+						age = age_preset_puberty 
+				}
+			}
+			female = male
+			boy = male
+			girl = male
+		}
+	}
+	gene_bs_shoulders = {
+		group = body
+		shoulders = {
+		index = 0
+			male = {
+				setting = { 
+					attribute = "bs_body_shoulders_max" 
+					curve = {
+						{ 0.0   0.0 }
+						{ 0.5   0.0 }
+						{ 1.0   0.5 }
+					}   
+						age = age_preset_puberty 
+				}
+				setting = { 
+					required_tags = "shoulders_clothed,dressed"
+					attribute = "bs_body_shoulders_max" 
+					curve = {
+						{ 0.0   0.0 }
+						{ 0.5   0.0 }
+						{ 1.0   -0.1 }
+					}   
+						age = age_preset_puberty 
+				}
+				setting = { 
+					attribute = "bs_body_shoulders_min" 
+					curve = {
+						{ 0.0   0.5 }
+						{ 0.5   0.0 }
+						{ 1.0   0.0 }
+					}   
+						age = age_preset_puberty 
+				}
+			}
+			female = male
+			boy = male
+			girl = male
+		}
+	}
+}

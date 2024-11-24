@@ -1,0 +1,392 @@
+﻿# Each size trait has a non-overlapping range of sizes that it can take, with
+# 0.00 being the smalles size, and 1.00 being the largest. The specific size
+# within that range is determines by the underlying gene of the character
+
+# trait             lower       upper       range_size
+#
+# dick_small_3      0.00        0.10        0.10
+# dick_small_2      0.10        0.25        0.15
+# dick_small_1      0.25        0.40        0.15
+# NONE              0.40        0.60        0.20
+# dick_big_1        0.60        0.75        0.15
+# dick_big_2        0.75        0.90        0.15
+# dick_big_3        0.90        1.00        0.10
+
+penis_size_ruler = {
+    small_penis_3 = {
+        ignore_outfit_tags = yes
+        trigger = {
+            OR = {
+                exists = scope:ruler_designer
+                trigger_if = {
+                    limit = {
+                        AND = {
+                            NOT = { exists = scope:ruler_designer }
+                            exists = root
+                        }
+                    }
+                    is_alive = no
+                }
+            }
+            trigger_if = {
+                limit = { exists = root }
+                OR = {
+                    is_male = yes
+                    has_trait = futa
+                    has_trait = futa_genetic
+                }
+            }
+        }
+        traits = {
+            dick_small_good_3
+            dick_small_bad_3
+        }
+        dna_modifiers = {
+            human = {
+                morph = {
+                    mode = modify_multiply
+                    gene = gene_bs_penis_size
+                    template = penis_size_ruler_designer
+                    value = 0.10
+                }
+                morph = {
+                    mode = modify
+                    gene = gene_bs_penis_thickness
+                    template = penis_thickness_ruler_designer
+                    value = 0.0
+                }
+            }
+        }
+    }
+    small_penis_2 = {
+        ignore_outfit_tags = yes
+        trigger = {
+            OR = {
+                exists = scope:ruler_designer
+                trigger_if = {
+                    limit = {
+                        AND = {
+                            NOT = { exists = scope:ruler_designer }
+                            exists = root
+                        }
+                    }
+                    is_alive = no
+                }
+            }
+            trigger_if = {
+                limit = { exists = root }
+                OR = {
+                    is_male = yes
+                    has_trait = futa
+                    has_trait = futa_genetic
+                }
+            }
+        }
+        traits = {
+            dick_small_good_2
+            dick_small_bad_2
+        }
+        dna_modifiers = {
+            human = {
+                morph = {
+                    mode = modify_multiply
+                    gene = gene_bs_penis_size
+                    template = penis_size_ruler_designer
+                    value = 0.10
+                }
+                morph = {
+                    mode = modify
+                    gene = gene_bs_penis_size
+                    template = penis_size_ruler_designer
+                    value = 0.10
+                }
+                morph = {
+                    mode = modify
+                    gene = gene_bs_penis_thickness
+                    template = penis_thickness_ruler_designer
+                    value = 0.0
+                }
+            }
+        }
+    }
+    small_penis_1 = {
+        ignore_outfit_tags = yes
+        trigger = {
+            OR = {
+                exists = scope:ruler_designer
+                trigger_if = {
+                    limit = {
+                        AND = {
+                            NOT = { exists = scope:ruler_designer }
+                            exists = root
+                        }
+                    }
+                    is_alive = no
+                }
+            }
+            trigger_if = {
+                limit = { exists = root }
+                OR = {
+                    is_male = yes
+                    has_trait = futa
+                    has_trait = futa_genetic
+                }
+            }
+        }
+        traits = {
+            dick_small_good_1
+            dick_small_bad_1
+        }
+        dna_modifiers = {
+            human = {
+                morph = {
+                    mode = modify_multiply
+                    gene = gene_bs_penis_size
+                    template = penis_size_ruler_designer
+                    value = 0.10
+                }
+                morph = {
+                    mode = modify
+                    gene = gene_bs_penis_size
+                    template = penis_size_ruler_designer
+                    value = 0.20
+                }
+                morph = {
+                    mode = modify
+                    gene = gene_bs_penis_thickness
+                    template = penis_thickness_ruler_designer
+                    value = 0.0
+                }
+            }
+        }
+    }
+    large_penis_1 = {
+        ignore_outfit_tags = yes
+        trigger = {
+            OR = {
+                exists = scope:ruler_designer
+                trigger_if = {
+                    limit = {
+                        AND = {
+                            NOT = { exists = scope:ruler_designer }
+                            exists = root
+                        }
+                    }
+                    is_alive = no
+                }
+            }
+            trigger_if = {
+                limit = { exists = root }
+                OR = {
+                    is_male = yes
+                    has_trait = futa
+                    has_trait = futa_genetic
+                }
+            }
+        }
+        traits = {
+            dick_big_good_1
+            dick_big_bad_1
+        }
+        dna_modifiers = {
+            human = {
+                morph = {
+                    mode = modify_multiply
+                    gene = gene_bs_penis_size
+                    template = penis_size_ruler_designer
+                    value = 0.20
+                }
+                morph = {
+                    mode = modify
+                    gene = gene_bs_penis_size
+                    template = penis_size_ruler_designer
+                    value = 0.50
+                }
+                morph = {
+                    mode = modify
+                    gene = gene_bs_penis_thickness
+                    template = penis_thickness_ruler_designer
+                    value = 0.0
+                }
+            }
+        }
+    }
+    large_penis_2 = {
+        ignore_outfit_tags = yes
+        trigger = {
+            OR = {
+                exists = scope:ruler_designer
+                trigger_if = {
+                    limit = {
+                        AND = {
+                            NOT = { exists = scope:ruler_designer }
+                            exists = root
+                        }
+                    }
+                    is_alive = no
+                }
+            }
+            trigger_if = {
+                limit = { exists = root }
+                OR = {
+                    is_male = yes
+                    has_trait = futa
+                    has_trait = futa_genetic
+                }
+            }
+        }
+        traits = {
+            dick_big_good_2
+            dick_big_bad_2
+        }
+        dna_modifiers = {
+            human = {
+                morph = {
+                    mode = modify_multiply
+                    gene = gene_bs_penis_size
+                    template = penis_size_ruler_designer
+                    value = 0.20
+                }
+                morph = {
+                    mode = modify
+                    gene = gene_bs_penis_size
+                    template = penis_size_ruler_designer
+                    value = 0.70
+                }
+                morph = {
+                    mode = modify
+                    gene = gene_bs_penis_thickness
+                    template = penis_thickness_ruler_designer
+                    value = 0.0
+                }
+            }
+        }
+    }
+    large_penis_3 = {
+        ignore_outfit_tags = yes
+        trigger = {
+            OR = {
+                exists = scope:ruler_designer
+                trigger_if = {
+                    limit = {
+                        AND = {
+                            NOT = { exists = scope:ruler_designer }
+                            exists = root
+                        }
+                    }
+                    is_alive = no
+                }
+            }
+            trigger_if = {
+                limit = { exists = root }
+                OR = {
+                    is_male = yes
+                    has_trait = futa
+                    has_trait = futa_genetic
+                }
+            }
+        }
+        traits = {
+            dick_big_good_3
+            dick_big_bad_3
+        }
+        dna_modifiers = {
+            human = {
+                morph = {
+                    mode = modify_multiply
+                    gene = gene_bs_penis_size
+                    template = penis_size_ruler_designer
+                    value = 0.10
+                }
+                morph = {
+                    mode = modify
+                    gene = gene_bs_penis_size
+                    template = penis_size_ruler_designer
+                    value = 0.90
+                }
+                morph = {
+                    mode = modify
+                    gene = gene_bs_penis_thickness
+                    template = penis_thickness_ruler_designer
+                    value = 0.0
+                }
+            }
+        }
+    }
+    futa_penis = {
+        trigger = {
+            OR = {
+                exists = scope:ruler_designer
+                trigger_if = {
+                    limit = {
+                        AND = {
+                            NOT = { exists = scope:ruler_designer }
+                            exists = root
+                        }
+                    }
+                    is_alive = no
+                }
+            }
+        }
+        traits = {
+            futa
+            futa_genetic
+        }
+        dna_modifiers = {
+            human = {
+                morph = {
+                    mode = modify_multiply
+                    gene = gene_bs_penis_size
+                    template = penis_size_ruler_designer
+                    value = 0.20
+                }
+                morph = {
+                    mode = modify
+                    gene = gene_bs_penis_size
+                    template = penis_size_ruler_designer
+                    value = 0.30
+                }
+                morph = {
+                    mode = modify
+                    gene = gene_bs_penis_thickness
+                    template = penis_thickness_ruler_designer
+                    value = 0.0
+                }
+            }
+        }
+    }
+    average_penis = {
+        trigger = {
+            OR = {
+                exists = scope:ruler_designer
+                trigger_if = {
+                    limit = {
+                        AND = {
+                            NOT = { exists = scope:ruler_designer }
+                            exists = root
+                        }
+                    }
+                    is_alive = no
+                }
+            }
+            trigger_if = {
+                limit = { exists = root }
+                is_male = yes
+            }
+        }
+        dna_modifiers = {
+            human = {
+                morph = {
+                    mode = modify_multiply
+                    gene = gene_bs_penis_size
+                    value = 0.20
+                }
+                morph = {
+                    mode = modify
+                    gene = gene_bs_penis_size
+                    value = 0.30
+                }
+            }
+        }
+    }
+}

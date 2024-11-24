@@ -1,0 +1,68 @@
+﻿
+
+
+special_genes = {
+    accessory_genes = {
+
+
+#####################################
+#									#
+# 		 EYELASHES ACCESSORY 	    #
+#									#
+#####################################
+
+        cbo_eyelashes_accessory = {
+            inheritable = no
+            
+            # inheritable = no
+            no_eyelashes = {
+                index = 0
+                male = {
+                    1 = empty
+                }
+                female = {
+                    1 = empty
+                }
+                boy = male
+                girl = female
+            }
+
+            normal_eyelashes = {
+                index = 1
+                male = {
+                    1 = "male_eyelashes_normal"
+                }
+                female = {
+                    1 = "female_eyelashes_normal"
+                }
+                boy = male
+                girl = female
+            }
+
+            asian_eyelashes = {
+                index = 2
+                male = {
+                    1 = "male_eyelashes_normal"
+                }
+                female = {
+                    1 = "female_eyelashes_normal"
+                }
+                boy = male
+                girl = female
+            }
+            
+            mascara_eyelashes = {
+                index = 3
+                male = {
+                    1 = "male_eyelashes_mascara"
+                }
+                female = {
+                    1 = "female_eyelashes_mascara"
+                }
+                boy = male
+                girl = female
+            }
+
+        }
+    }
+}

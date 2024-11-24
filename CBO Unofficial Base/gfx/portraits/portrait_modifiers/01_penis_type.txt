@@ -1,0 +1,42 @@
+﻿penis_type = {
+	usage = customization
+	interface_position = 15
+	flaccid = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = penis
+				template = has_penis
+				value = 1
+			}
+		}
+		is_valid_custom = {
+			age >= 18
+		}
+	}
+	erect = {
+		# The game needs at least two options for the drop-down to appear, and "default" doesn't count
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = penis_erection
+				template = penis_erection
+				value = 1
+			}
+			accessory = {
+				mode = add
+				gene = penis
+				template = has_penis
+				value = 1
+			}
+		}
+		is_valid_custom = {
+			age >= 18
+			is_male = yes
+			Not = { has_character_flag = half_genital_morph }
+			Not = { has_character_flag = full_genital_morph }
+		}
+	}
+}
