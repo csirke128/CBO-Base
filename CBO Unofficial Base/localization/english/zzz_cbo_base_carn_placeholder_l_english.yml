@@ -1,4 +1,5 @@
 ﻿l_english:
+ trait_futa: ""
  trait_futa_genetic: ""
  trait_dick_small_good_1: ""
  trait_dick_small_good_2: ""
@@ -24,6 +25,7 @@
  trait_tits_big_bad_1: ""
  trait_tits_big_bad_2: ""
  trait_tits_big_bad_3: ""
+ trait_futa_desc: ""
  trait_futa_genetic_desc: ""
  trait_dick_small_good_1_desc: ""
  trait_dick_small_good_2_desc: ""
@@ -49,3 +51,9 @@
  trait_tits_big_bad_1_desc: ""
  trait_tits_big_bad_2_desc: ""
  trait_tits_big_bad_3_desc: ""
+
+ rule_carn_dt: "#X Carnalitas:#! Body Part Traits"
+ setting_carn_dt_disabled: "Disabled"
+ setting_carn_dt_disabled_desc: "Characters will not spawn with congenital breast and penis size traits."
+ setting_carn_dt_enabled: "#high Enabled#!"
+ setting_carn_dt_enabled_desc: "Characters may spawn with congenital breast and penis size traits."
