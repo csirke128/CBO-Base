@@ -1,4 +1,4 @@
-on_game_start_after_lobby = {
+﻿on_game_start_after_lobby = {
 	on_actions = {
 		cbo_base_enabled_on_action 		
 	}

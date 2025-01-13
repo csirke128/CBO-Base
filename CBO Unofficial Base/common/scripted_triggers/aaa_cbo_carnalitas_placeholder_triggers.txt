@@ -9,3 +9,25 @@ carn_relationship_allows_free_sex_trigger = {
 carn_is_working_as_prostitute_trigger = {
 	always = no
 }
+
+carn_can_have_sex_trigger = {
+	always = yes
+}
+
+carn_relationship_allows_free_sex_trigger = {
+	always = yes
+}
+
+carn_sex_scene_character_is_giving_player_trigger = {always = yes}
+carn_sex_scene_character_is_receiving_player_trigger = {always = no}
+carn_sex_scene_character_is_dom_player_trigger = {always = no}
+carn_sex_scene_character_is_sub_player_trigger = {always = no}
+carn_sex_scene_is_vaginal_trigger = {always = yes}
+carn_sex_scene_is_anal_trigger = {always = no}
+carn_sex_scene_is_oral_trigger = {always = no}
+carn_sex_scene_is_handjob_trigger = {always = no}
+carn_sex_scene_is_cum_inside_trigger = {always = yes}
+carn_sex_scene_is_cum_outside_trigger = {always = no}
+carn_sex_scene_is_consensual_trigger = {always = yes}
+carn_sex_scene_is_noncon_trigger = {always = no}
+carn_sex_scene_is_dubcon_trigger = {always = no}

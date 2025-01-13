@@ -1,0 +1,18 @@
+﻿carn_dummy_doctrine = {
+	group = "special"
+	
+	is_available_on_create = {
+		always = no
+	}
+
+	carn_we_need_this_to_define_parameters_otherwise_error_log_complains = {
+		parameters = {
+			naked_males_active = no
+			naked_females_active = no
+			naked_malepriest_active = no
+			naked_malepriests_active = no
+			naked_femalepriest_active = no
+			naked_femalepriests_active = no
+		}
+	}
+}
