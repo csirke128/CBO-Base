@@ -2,10 +2,6 @@
 	always = no
 }
 
-carn_relationship_allows_free_sex_trigger = {
-    always = no    
-}
-
 carn_is_working_as_prostitute_trigger = {
 	always = no
 }
@@ -15,6 +11,7 @@ carn_can_have_sex_trigger = {
 }
 
 carn_relationship_allows_free_sex_trigger = {
+	$PARTNER$ = {save_temporary_scope_as = carn_free_sex_partner}
 	always = yes
 }
 
