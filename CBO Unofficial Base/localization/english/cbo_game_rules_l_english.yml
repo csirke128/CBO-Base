@@ -11,3 +11,9 @@
  setting_cbo_pubic_hair_active_desc: "Characters have a pubic hair mesh by default."
  setting_cbo_pubic_hair_inactive: "Pubic Hair Inactive"
  setting_cbo_pubic_hair_inactive_desc: "The paradox default."
+ 
+ rule_cbo_futa_balls: "Futa Balls"
+ setting_cbo_futa_with_balls: "With Balls"
+ setting_cbo_futa_with_balls_desc: "Futa characters will have balls"
+ setting_cbo_futa_without_balls: "Without Balls"
+ setting_cbo_futa_without_balls_desc: "Futa characters won't have balls"

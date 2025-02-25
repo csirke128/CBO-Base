@@ -1,0 +1,14 @@
+﻿cbo_futa_balls = {
+	default = cbo_futa_without_balls
+
+	cbo_futa_with_balls = {
+		flag = cbo_futa_with_balls
+		flag = GG_can_change_rule
+	}
+	
+	cbo_futa_without_balls = {
+		flag = cbo_futa_without_balls
+		flag = GG_can_change_rule
+	}
+}
+

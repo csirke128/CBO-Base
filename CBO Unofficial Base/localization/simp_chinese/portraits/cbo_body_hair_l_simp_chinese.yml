@@ -1,15 +1,12 @@
 ﻿l_simp_chinese:
  PORTRAIT_MODIFIER_cbo_body_hair_custom:0 "体毛"
- 
  PORTRAIT_MODIFIER_cbo_body_hair_custom_no_body_hair_custom:0 "无体毛"
- 
  PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_sparse_half_custom:0 "半稀疏"
  PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_avg_half_custom:0 "半普通"
  PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_dense_half_custom:0 "半浓密"
  PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_sparse_low_stubble_half_custom:0 "半茬稀疏"
  PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_avg_low_stubble_half_custom:0 "半茬普通"
  PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_dense_low_stubble_half_custom:0 "半茬浓密"
- 
  PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_sparse_full_custom:0 "全稀疏"
  PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_avg_full_custom:0 "全普通"
  PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_dense_full_custom:0 "全浓密"

@@ -1,13 +1,16 @@
 ﻿l_simp_chinese:
- 
-rule_muscularity_max: "最大肌肉量"
+ rule_muscularity_max: "【CBO】最大肌肉量"
  setting_paradox_default: "P社默认"
  setting_paradox_default_desc: "你撸过铁吗，兄弟？"
  setting_more_muscular: "更多肌肉量"
- setting_more_muscular_desc: "以与P社相同比率缩放直到 25 武力，不断增加肌肉直到 50 武力" 
- 
-rule_cbo_pubic_hair: "阴部毛发"
+ setting_more_muscular_desc: "以与P社相同比率缩放直到 25 武力，不断增加肌肉直到 50 武力"
+ rule_cbo_pubic_hair: "【CBO】阴部毛发"
  setting_cbo_pubic_hair_active: "阴部毛发开启"
  setting_cbo_pubic_hair_active_desc: "角色默认拥有阴部毛发"
  setting_cbo_pubic_hair_inactive: "阴部毛发关闭"
  setting_cbo_pubic_hair_inactive_desc: "P社默认"
+ rule_cbo_sex_event: "【CBO】性爱事件"
+ setting_cbo_sex_event_animation_pack: "CBO动画包"
+ setting_cbo_sex_event_animation_pack_desc: "添加额外动画和切换动画的事件"
+ setting_cbo_sex_event_carnalitas: "Carnalitas + 动画"
+ setting_cbo_sex_event_carnalitas_desc: "遵循 Carnalitas 事件结构的事件，动画数量有限"

@@ -1,0 +1,29 @@
+﻿futa_with_balls = {
+	usage = game
+	selection_behavior = max
+    priority = 99
+	futa_with_balls = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = balls
+				template = has_balls
+				value = 1
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+                AND = {
+                    has_game_rule = cbo_futa_with_balls
+                    OR = {
+                        has_trait = futa
+                        has_trait = futa_genetic
+                    }
+                }
+			}
+		}
+	}
+}

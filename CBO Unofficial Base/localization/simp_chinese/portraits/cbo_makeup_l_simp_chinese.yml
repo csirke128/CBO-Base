@@ -1,25 +1,18 @@
-﻿l_english:
+﻿l_simp_chinese:
  PORTRAIT_MODIFIER_makeup_base_customization:0 "打底"
- 
  PORTRAIT_MODIFIER_makeup_base_customization_no_makeup_base:0 "无打底"
  PORTRAIT_MODIFIER_makeup_base_customization_makeup_base_full:0 "全打底"
  PORTRAIT_MODIFIER_makeup_base_customization_makeup_base_half:0 "淡打底"
- 
  PORTRAIT_MODIFIER_mascara_customization:0 "睫毛膏"
- 
  PORTRAIT_MODIFIER_mascara_customization_no_mascara:0 "无睫毛膏"
  PORTRAIT_MODIFIER_mascara_customization_mascara:0 "睫毛膏"
- 
  PORTRAIT_MODIFIER_eyelash_extensions_customization:0 "睫毛增长"
- 
  PORTRAIT_MODIFIER_eyelash_extensions_customization_no_extensions:0 "无睫毛增长"
  PORTRAIT_MODIFIER_eyelash_extensions_customization_small_eyelash_extensions:0 "轻度睫毛增长"
  PORTRAIT_MODIFIER_eyelash_extensions_customization_normal_eyelash_extensions:0 "中度睫毛增长"
  PORTRAIT_MODIFIER_eyelash_extensions_customization_large_eyelash_extensions:0 "重度睫毛增长"
  PORTRAIT_MODIFIER_eyelash_extensions_customization_huge_eyelash_extensions:0 "超重度睫毛增长"
-
  PORTRAIT_MODIFIER_eyeliner_customization:0 "眼线"
- 
  PORTRAIT_MODIFIER_eyeliner_customization_no_eyeliner:0 "无眼线"
  PORTRAIT_MODIFIER_eyeliner_customization_black_eyeliner_full:0 "黑色全眼线"
  PORTRAIT_MODIFIER_eyeliner_customization_black_eyeliner_half:0 "黑色淡眼线"
@@ -33,9 +26,7 @@
  PORTRAIT_MODIFIER_eyeliner_customization_red_eyeliner_half:0 "红色淡眼线"
  PORTRAIT_MODIFIER_eyeliner_customization_green_eyeliner_full:0 "绿色全眼线"
  PORTRAIT_MODIFIER_eyeliner_customization_green_eyeliner_half:0 "绿色淡眼线"
-
  PORTRAIT_MODIFIER_eye_shadow_customization:0 "眼影"
- 
  PORTRAIT_MODIFIER_eye_shadow_customization_no_eye_shadow:0 "无眼影"
  PORTRAIT_MODIFIER_eye_shadow_customization_eye_shadow_full:0 "全眼影"
  PORTRAIT_MODIFIER_eye_shadow_customization_eye_shadow_half:0 "淡眼影"
@@ -55,17 +46,13 @@
  PORTRAIT_MODIFIER_eye_shadow_customization_yellow_eye_shadow_half:0 "黄色淡眼影"
  PORTRAIT_MODIFIER_eye_shadow_customization_orange_eye_shadow_full:0 "橘色全眼影"
  PORTRAIT_MODIFIER_eye_shadow_customization_orange_eye_shadow_half:0 "橘色淡眼影"
- 
  PORTRAIT_MODIFIER_blush_customization:0 "腮红"
- 
  PORTRAIT_MODIFIER_blush_customization_no_blush:0 "无腮红"
  PORTRAIT_MODIFIER_blush_customization_blush_full:0 "全腮红"
  PORTRAIT_MODIFIER_blush_customization_blush_half:0 "淡腮红"
  PORTRAIT_MODIFIER_blush_customization_pink_blush_full:0 "全腮红"
  PORTRAIT_MODIFIER_blush_customization_pink_blush_half:0 "淡腮红"
- 
  PORTRAIT_MODIFIER_lipstick_customization:0 "口红"
- 
  PORTRAIT_MODIFIER_lipstick_customization_no_lipstick:0 "无口红"
  PORTRAIT_MODIFIER_lipstick_customization_matte_full:0 "全哑光"
  PORTRAIT_MODIFIER_lipstick_customization_matte_half:0 "淡哑光"

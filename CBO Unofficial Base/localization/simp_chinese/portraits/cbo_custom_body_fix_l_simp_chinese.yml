@@ -1,19 +1,14 @@
-﻿l_english:
- PORTRAIT_MODIFIER_cbo_custom_body_fix:0 "按CBO服装修改身体"
- 
- PORTRAIT_MODIFIER_cbo_custom_body_fix_no_fix:0 "按印度服装修改"
- PORTRAIT_MODIFIER_cbo_custom_body_fix_fix:0 "按CBO服装修改"
-
+﻿l_simp_chinese:
+ PORTRAIT_MODIFIER_cbo_custom_body_fix:0 "为CBO服装修改身体"
+ PORTRAIT_MODIFIER_cbo_custom_body_fix_no_fix:0 "为印度服装修改"
+ PORTRAIT_MODIFIER_cbo_custom_body_fix_fix:0 "为CBO服装修改"
  PORTRAIT_MODIFIER_cbo_demon_customization:0 "人性"
- 
  PORTRAIT_MODIFIER_cbo_demon_customization_not_demon_custom:0 "人类"
  PORTRAIT_MODIFIER_cbo_demon_customization_demon_tiny_custom:0 "无角恶魔"
- PORTRAIT_MODIFIER_cbo_demon_customization_demon_small_custom:0 "小角恶魔"
- PORTRAIT_MODIFIER_cbo_demon_customization_demon_medium_custom:0 "中角恶魔"
- PORTRAIT_MODIFIER_cbo_demon_customization_demon_large_custom:0 "大角恶魔"
- PORTRAIT_MODIFIER_cbo_demon_customization_demon_huge_custom:0 "巨角恶魔"
-
+ PORTRAIT_MODIFIER_cbo_demon_customization_demon_small_custom:0 "小型恶魔之角"
+ PORTRAIT_MODIFIER_cbo_demon_customization_demon_medium_custom:0 "中型恶魔之角"
+ PORTRAIT_MODIFIER_cbo_demon_customization_demon_large_custom:0 "大型恶魔之角"
+ PORTRAIT_MODIFIER_cbo_demon_customization_demon_huge_custom:0 "巨型恶魔之角"
  PORTRAIT_MODIFIER_eye_color_type_customization:0 "瞳色种类"
- 
  PORTRAIT_MODIFIER_eye_color_type_customization_not_custom:0 "默认瞳色"
- PORTRAIT_MODIFIER_eye_color_type_customization_bright_eyes_custom:0 "亮色"
+ PORTRAIT_MODIFIER_eye_color_type_customization_bright_eyes_custom:0 "眼里有光"
