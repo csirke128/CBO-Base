@@ -8,6 +8,18 @@
  
  rule_cbo_pubic_hair: "음모"
  setting_cbo_pubic_hair_active: "음모 활성화"
- setting_cbo_pubic_hair_active_desc: "캐릭터들은 기본적으로 음모가 있습니다."
+ setting_cbo_pubic_hair_active_desc: "캐릭터들이 음모를 가집니다."
  setting_cbo_pubic_hair_inactive: "음모 비활성화"
  setting_cbo_pubic_hair_inactive_desc: "파라독스 기본값을 따릅니다."
+ 
+ rule_cbo_sex_event: "섹스 이벤트"
+ setting_cbo_sex_event_animation_pack: "CBO 애니메이션 팩"
+ setting_cbo_sex_event_animation_pack_desc: "애니메이션을 일부 추가하고 교체하는 이벤트들"
+ setting_cbo_sex_event_carnalitas: "카날리타스 + 애니메이션"
+ setting_cbo_sex_event_carnalitas_desc: "카날리타스 구조를 따르며 제한된 애니메이션을 사용하는 이벤트들"
+ 
+ rule_cbo_futa_balls: "Futa Balls"
+ setting_cbo_futa_with_balls: "With Balls"
+ setting_cbo_futa_with_balls_desc: "Futa characters will have balls"
+ setting_cbo_futa_without_balls: "Without Balls"
+ setting_cbo_futa_without_balls_desc: "Futa characters won't have balls"

@@ -1,0 +1,18 @@
+﻿l_english:
+ PORTRAIT_MODIFIER_cbo_body_hair_custom:0 "Body Hair"
+ 
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_no_body_hair_custom:0 "No Body Hair"
+ 
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_sparse_half_custom:0 "Sparse Half"
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_avg_half_custom:0 "Average Half"
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_dense_half_custom:0 "Dense Half"
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_sparse_low_stubble_half_custom:0 "Sparse Stubble Half"
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_avg_low_stubble_half_custom:0 "Average Stubble Half"
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_dense_low_stubble_half_custom:0 "Dense Stubble Half"
+ 
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_sparse_full_custom:0 "Sparse Full"
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_avg_full_custom:0 "Average Full"
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_dense_full_custom:0 "Dense Full"
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_sparse_low_stubble_full_custom:0 "Sparse Stubble Full"
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_avg_low_stubble_full_custom:0 "Average Stubble Full"
+ PORTRAIT_MODIFIER_cbo_body_hair_custom_body_hair_dense_low_stubble_full_custom:0 "Dense Stubble Full"
