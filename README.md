@@ -2,7 +2,9 @@
 Character Body Overhaul Unofficial continuation, Base submod
 
 Base: https://github.com/csirke128/CBO-Base
+
 Animation: https://github.com/csirke128/CBO-Animation
+
 Mesh: https://github.com/csirke128/CBO-Mesh
 
 Mod page:
