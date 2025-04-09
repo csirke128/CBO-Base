@@ -12,7 +12,10 @@ penis_size = {
 			}
 		}
 		weight = {
-			base = 1
+			base = 0
+			modifier = {
+				add = 1
+			}
 		}
 	}
 	small_penis_3 = {
@@ -27,13 +30,11 @@ penis_size = {
 		weight = {
 			base = 0
 			modifier = {
-                trigger_if = {
-					limit = { has_game_rule = carn_dt_enabled }
-                    OR = {
-                        has_trait = dick_small_good_3
-                        has_trait = dick_small_bad_3
-                    }
+				Or = {
+					has_trait = dick_small_good_3
+					has_trait = dick_small_bad_3
 				}
+				has_game_rule = carn_dt_enabled
 				add = 100
 			}
 		}
@@ -55,13 +56,11 @@ penis_size = {
 		weight = {
 			base = 0
 			modifier = {
-                trigger_if = {
-                    limit = { has_game_rule = carn_dt_enabled }
-                    OR = {
-                        has_trait = dick_small_good_2
-                        has_trait = dick_small_bad_2
-                    }
-                }
+				Or = {
+					has_trait = dick_small_good_2
+					has_trait = dick_small_bad_2
+				}
+				has_game_rule = carn_dt_enabled
 				add = 100
 			}
 		}
@@ -83,13 +82,11 @@ penis_size = {
 		weight = {
 			base = 0
 			modifier = {
-                trigger_if = {
-                    limit = { has_game_rule = carn_dt_enabled }
-                    OR = {
-                        has_trait = dick_small_good_1
-                        has_trait = dick_small_bad_1
-                    }
-                }
+				Or = {
+					has_trait = dick_small_good_1
+					has_trait = dick_small_bad_1
+				}
+				has_game_rule = carn_dt_enabled
 				add = 100
 			}
 		}
@@ -133,13 +130,11 @@ penis_size = {
 		weight = {
 			base = 0
 			modifier = {
-                trigger_if = {
-                    limit = { has_game_rule = carn_dt_enabled }
-                    OR = {
-                        has_trait = dick_big_good_1
-                        has_trait = dick_big_bad_1
-                    }
-                }
+				Or = {
+					has_trait = dick_big_good_1
+					has_trait = dick_big_bad_1
+				}
+				has_game_rule = carn_dt_enabled
 				add = 100
 			}
 		}
@@ -161,13 +156,11 @@ penis_size = {
 		weight = {
 			base = 0
 			modifier = {
-                trigger_if = {
-                    limit = { has_game_rule = carn_dt_enabled }
-                    OR = {
-                        has_trait = dick_big_good_2
-                        has_trait = dick_big_bad_2
-                    }
-                }
+				Or = {
+					has_trait = dick_big_good_2
+					has_trait = dick_big_bad_2
+				}
+				has_game_rule = carn_dt_enabled
 				add = 100
 			}
 		}
@@ -189,13 +182,11 @@ penis_size = {
 		weight = {
 			base = 0
 			modifier = {
-                trigger_if = {
-                    limit = { has_game_rule = carn_dt_enabled }
-                    OR = {
-                        has_trait = dick_big_good_3
-                        has_trait = dick_big_bad_3
-                    }
-                }
+				Or = {
+					has_trait = dick_big_good_3
+					has_trait = dick_big_bad_3
+				}
+				has_game_rule = carn_dt_enabled
 				add = 100
 			}
 		}

@@ -1,4 +1,5 @@
-﻿has_penis = {
+﻿
+has_penis = {
 	usage = game
 	selection_behavior = max
 	has_penis = {
@@ -17,21 +18,16 @@
 				add = 200
 				trigger_if = {
 					limit = { is_male = yes }
-					NOT = { has_character_flag = full_genital_morph }
+					Not = { has_character_flag = full_genital_morph }
 				}
 				trigger_else = {
-                    OR = {
-                        has_character_flag = full_genital_morph
-                        has_character_flag = half_genital_morph
-                        trigger_if = {
-                            limit = { has_game_rule = carn_dt_enabled }
-                            OR = {
-                                has_trait = futa
-                                has_trait = futa_genetic
-                            }
-                        }
-                    }
-                }
+					Or = {
+						has_trait = futa
+						has_trait = futa_genetic
+						has_character_flag = full_genital_morph
+						has_character_flag = half_genital_morph
+					}
+				}
 			}
 		}
 	}
@@ -103,19 +99,14 @@ has_balls = {
 				add = 200
 				trigger_if = {
 					limit = { is_male = yes }
-                    NOT = {
-                        has_character_flag = full_genital_morph
-                        has_character_flag = half_genital_morph
-                        has_character_flag = half_genital_morph
-                        has_trait = eunuch
-                    }
-                    trigger_if = {
-                        limit = { has_game_rule = carn_dt_enabled }
-                        NOT = {
-                            has_trait = futa
-                            has_trait = futa_genetic
-                        }
-                    }
+					Nor = {
+						has_character_flag = full_genital_morph
+						has_character_flag = half_genital_morph
+						has_trait = futa
+						has_trait = futa_genetic
+						has_character_flag = half_genital_morph
+						has_trait = eunuch
+					}
 				}
 				trigger_else = {
 					has_character_flag = full_genital_morph
@@ -158,21 +149,16 @@ has_vagina = {
 				add = 200
 				trigger_if = {
 					limit = { is_male = yes }
-					OR = {
+					Or = {
 						has_character_flag = full_genital_morph
 						has_character_flag = half_genital_morph
-                        has_character_flag = half_genital_morph
-                        trigger_if = {
-                            limit = { has_game_rule = carn_dt_enabled }
-                            OR = {
-                                has_trait = futa
-                                has_trait = futa_genetic
-                            }
-						}
+						has_trait = futa
+						has_trait = futa_genetic
+						has_character_flag = half_genital_morph
 					}
 				}
 				trigger_else = {
-					NOT = { has_character_flag = full_genital_morph }
+					Not = { has_character_flag = full_genital_morph }
 				}
 			}
 		}
