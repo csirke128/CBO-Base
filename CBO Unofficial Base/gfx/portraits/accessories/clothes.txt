@@ -3178,6 +3178,42 @@ m_clothes_sec_ep3_byzantine_era1_imp_01 = {
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ep3_byzantine_era1_imp_01_entity }
 }
 
+m_clothes_sec_mpo_mongol_com_01 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_armpit_default,shrink_belly,shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_mpo_mongol_com_01_entity }
+}
+
+m_clothes_sec_mpo_mongol_nob_01_lo = {
+	set_tags = "shrink_arms,shrink_chest,shrink_armpit_default,shrink_belly,shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_mpo_mongol_nob_01_lo_entity }
+}
+
+m_clothes_sec_mpo_mongol_nob_01_hi = {
+	set_tags = "shrink_arms,shrink_chest,shrink_armpit_default,shrink_belly,shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_mpo_mongol_nob_01_hi_entity }
+}
+
+m_clothes_sec_mpo_mongol_roy_01 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_armpit_default,shrink_belly,shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_mpo_mongol_roy_01_entity }
+}
+
+m_clothes_sec_mpo_mongol_imp_01 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_armpit_default,shrink_belly,shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_mpo_mongol_imp_01_entity }
+}
+
+m_clothes_sec_mpo_mongol_war_01 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_armpit_default,shrink_belly,shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_mpo_mongol_war_01_entity }
+}
+
 ## FEMALE ##
 
 ## Nobility Era 1 ## 
@@ -3307,4 +3343,40 @@ f_clothes_sec_ep3_byzantine_era1_war_nob_01 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_armpit_default,shrink_belly,shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed"
 	entity = { required_tags = "undressed"		shared_pose_entity = torso }
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_ep3_byzantine_era1_war_nob_01_entity }
+}
+
+f_clothes_sec_mpo_mongol_com_01 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_armpit_default,shrink_belly,shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_mpo_mongol_com_01_entity }
+}
+
+f_clothes_sec_mpo_mongol_nob_01_lo = {
+	set_tags = "shrink_arms,shrink_chest,shrink_armpit_default,shrink_belly,shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_mpo_mongol_nob_01_lo_entity }
+}
+
+f_clothes_sec_mpo_mongol_nob_01_hi = {
+	set_tags = "shrink_arms,shrink_chest,shrink_armpit_default,shrink_belly,shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_mpo_mongol_nob_01_hi_entity }
+}
+
+f_clothes_sec_mpo_mongol_roy_01 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_armpit_default,shrink_belly,shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_mpo_mongol_roy_01_entity }
+}
+
+f_clothes_sec_mpo_mongol_imp_01 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_armpit_default,shrink_belly,shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_mpo_mongol_imp_01_entity }
+}
+
+f_clothes_sec_mpo_mongol_war_01 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_armpit_default,shrink_belly,shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_mpo_mongol_war_01_entity }
 }

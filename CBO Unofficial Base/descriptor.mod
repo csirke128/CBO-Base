@@ -1,8 +1,8 @@
-version="1.7.2"
+version="1.8"
 tags={
 	"Portraits"
 	"Graphics"
 	"Events"
 }
 name="CBO Unofficial Base"
-supported_version="1.15.*"
+supported_version="1.16.*"

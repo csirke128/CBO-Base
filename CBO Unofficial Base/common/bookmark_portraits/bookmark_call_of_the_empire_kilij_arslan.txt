@@ -2,7 +2,8 @@
 # History database id:225000
 bookmark_call_of_the_empire_kilij_arslan={
 	type=male
-	id=2151962883
+	id=28431
+	random_seed=2151962883
 	age=0.460000
 	genes={ 		hair_color={ 51 242 64 246 }
  		skin_color={ 214 98 214 94 }
@@ -14,7 +15,7 @@ bookmark_call_of_the_empire_kilij_arslan={
  		gene_eye_depth={ "eye_depth_neg" 116 "eye_depth_pos" 148 }
  		gene_eye_height={ "eye_height_neg" 116 "eye_height_neg" 106 }
  		gene_eye_distance={ "eye_distance_pos" 129 "eye_distance_pos" 131 }
- 		gene_eye_shut={ "eye_shut_pos" 128 "eye_shut_pos" 132 }
+ 		gene_eye_shut={ "eye_shut_pos" 64 "eye_shut_pos" 132 }
  		gene_forehead_angle={ "forehead_angle_neg" 108 "forehead_angle_pos" 137 }
  		gene_forehead_brow_height={ "forehead_brow_height_pos" 139 "forehead_brow_height_pos" 129 }
  		gene_forehead_roundness={ "forehead_roundness_pos" 134 "forehead_roundness_pos" 176 }
@@ -53,7 +54,7 @@ bookmark_call_of_the_empire_kilij_arslan={
  		gene_bs_eye_upper_lid_size={ "eye_upper_lid_size_neg" 165 "eye_upper_lid_size_neg" 245 }
  		gene_bs_forehead_brow_curve={ "forehead_brow_curve_neg" 44 "forehead_brow_curve_neg" 87 }
  		gene_bs_forehead_brow_forward={ "forehead_brow_forward_neg" 82 "forehead_brow_forward_neg" 48 }
- 		gene_bs_forehead_brow_inner_height={ "forehead_brow_inner_height_pos" 0 "forehead_brow_inner_height_neg" 110 }
+ 		gene_bs_forehead_brow_inner_height={ "forehead_brow_inner_height_pos" 127 "forehead_brow_inner_height_neg" 110 }
  		gene_bs_forehead_brow_outer_height={ "forehead_brow_outer_height_pos" 5 "forehead_brow_outer_height_pos" 47 }
  		gene_bs_forehead_brow_width={ "forehead_brow_width_pos" 114 "forehead_brow_width_pos" 25 }
  		gene_bs_jaw_def={ "jaw_def_neg" 255 "jaw_def_neg" 20 }
@@ -91,26 +92,26 @@ bookmark_call_of_the_empire_kilij_arslan={
  		face_detail_nose_tip_def={ "nose_tip_def" 1 "nose_tip_def" 9 }
  		face_detail_temple_def={ "temple_def" 0 "temple_def" 0 }
  		expression_brow_wrinkles={ "brow_wrinkles_01" 151 "brow_wrinkles_03" 255 }
- 		expression_eye_wrinkles={ "eye_wrinkles_01" 202 "eye_wrinkles_01" 249 }
- 		expression_forehead_wrinkles={ "forehead_wrinkles_01" 7 "forehead_wrinkles_01" 30 }
- 		expression_other={ "cheek_wrinkles_both_01" 0 "cheek_wrinkles_both_01" 0 }
+ 		expression_eye_wrinkles={ "eye_wrinkles_01" 255 "eye_wrinkles_01" 249 }
+ 		expression_forehead_wrinkles={ "forehead_wrinkles_01" 149 "forehead_wrinkles_01" 30 }
+ 		expression_other={ "cheek_wrinkles_both_01" 37 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_4" 230 "complexion_2" 197 }
  		gene_height={ "normal_height" 119 "normal_height" 114 }
- 		gene_bs_body_type={ "body_fat_head_fat_medium" 157 "body_fat_head_fat_full" 139 }
-	 		gene_bs_penis_size={ "penis_size" 95 "penis_size" 95 }
-	 		gene_bs_penis_thickness={ "penis_thickness" 54 "penis_thickness" 54 }
-	 		gene_bs_ball_size={ "ball_size" 145 "ball_size" 145 }
-	 		gene_bs_butt_size={ "butt_size" 94 "butt_size" 94 }
-	 		gene_bs_nipples={ "nipples" 107 "nipples" 107 }
-	 		gene_bs_hips={ "hips" 97 "hips" 97 }
-	 		gene_bs_shoulders={ "shoulders" 134 "shoulders" 134 }
-	 		gene_bs_waist={ "waist" 169 "waist" 169 }
+ 		gene_bs_body_type={ "body_fat_head_fat_medium" 139 "body_fat_head_fat_full" 139 }
+	 		gene_bs_penis_size={ "penis_size" 105 "penis_size" 105 }
+	 		gene_bs_penis_thickness={ "penis_thickness" 146 "penis_thickness" 146 }
+	 		gene_bs_ball_size={ "ball_size" 185 "ball_size" 185 }
+	 		gene_bs_butt_size={ "butt_size" 72 "butt_size" 72 }
+	 		gene_bs_nipples={ "nipples" 158 "nipples" 158 }
+	 		gene_bs_hips={ "hips" 29 "hips" 29 }
+	 		gene_bs_shoulders={ "shoulders" 94 "shoulders" 94 }
+	 		gene_bs_waist={ "waist" 32 "waist" 32 }
 	 		gene_areolas={ "areolas_0" 0 "areolas_0" 0 }
-			gene_bs_body_fat_distribution={ "body_mid" 157 "body_mid" 157 }
+			gene_bs_body_fat_distribution={ "body_mid" 139 "body_mid" 139 }
 			gene_bs_upper_body_muscle={ "upper_body_muscle" 0 "upper_body_muscle" 0 }
 			gene_bs_lower_body_muscle={ "lower_body_muscle" 0 "lower_body_muscle" 0 }
 			gene_muscle_definition={ "body_muscle_definition" 0 "body_muscle_definition" 0 }
- 		gene_bs_body_shape={ "body_shape_average" 40 "body_shape_rectangle_full" 51 }
+ 		gene_bs_body_shape={ "body_shape_average" 91 "body_shape_rectangle_full" 51 }
  		gene_bs_bust={ "bust_clothes" 64 "bust_shape_2_full" 38 }
  		gene_age={ "old_2" 115 "old_2" 160 }
  		gene_eyebrows_shape={ "avg_spacing_avg_thickness" 191 "far_spacing_high_thickness" 239 }
@@ -123,16 +124,16 @@ bookmark_call_of_the_empire_kilij_arslan={
  		eyelashes_accessory={ "normal_eyelashes" 92 "normal_eyelashes" 92 }
  		beards={ "fp3_turkic_beards_straight" 255 "no_beard" 0 }
  		hairstyles={ "steppe_hairstyles_wavy" 126 "all_hairstyles" 0 }
- 		legwear={ "mena_nobility_legwear" 189 "all_legwear" 0 }
+ 		legwear={ "mena_war_legwear" 104 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
  		gene_bs_additive_headgears={ "additive_headgears" 255 "" 0 }
  		gene_bs_cloak_offset={ "cloak_offset" 255 "" 0 }
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
- 		clothes={ "steppe_high_nobility_clothes" 204 "most_clothes" 0 }
- 		headgear={ "ep1_steppe_royalty" 74 "no_headgear" 0 }
+ 		clothes={ "fp3_iranian_high_nobility_clothes" 42 "most_clothes" 0 }
+ 		headgear={ "mpo_mongol_royalty" 82 "no_headgear" 0 }
  		gene_balding_hair_effect={ "shaved_baldness" 255 "no_baldness" 0 }
  }
-	entity={ 3267808479 3267808479 }
+	entity={ 1903276529 1903276529 }
 	tags={ {
 			hash=2125534279
 			invert=no
@@ -146,7 +147,7 @@ bookmark_call_of_the_empire_kilij_arslan={
 			invert=no
 		}
  {
-			hash=3672171019
+			hash=75156179
 			invert=no
 		}
  {
@@ -163,6 +164,10 @@ bookmark_call_of_the_empire_kilij_arslan={
 		}
  {
 			hash=1563190100
+			invert=no
+		}
+ {
+			hash=1945936758
 			invert=no
 		}
  }

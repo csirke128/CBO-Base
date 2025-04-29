@@ -517,7 +517,7 @@ morph_genes = {
 					curve = {
 						{ 0.0 0.0 }
 						{ 0.5 0.0 }
-						{ 1.0 3.0 }
+						{ 1.0 1.0 }
 					}	
 					age = age_preset_child_fat	
 				}
@@ -527,29 +527,29 @@ morph_genes = {
 					curve = {
 						{ 0.0 0.0 }
 						{ 0.5 0.0 }
-						{ 1.0 3.0 }
+						{ 1.0 1.0 }
 					}	
 					age = age_preset_child_fat	
 				}
 				setting = {
-					required_tags = "waist_clothed,dressed"
+					required_tags = "waist_clothed,dressed,default_clothing"
 					attribute = "bs_fat_1_body" 
 					# value = { min = -1.0 max = 1.0} 
 					curve = {
 						{ 0.0 0.0 }
 						{ 0.5 0.0 }
-						{ 1.0 -0.3 }
+						{ 1.0 -0.1 }
 					}	
 					age = age_preset_child_fat	
 				}
 				setting = { 
-					required_tags = "waist_clothed,dressed"
+					required_tags = "waist_clothed,dressed,default_clothing"
 					attribute = "bs_body_fat_1" 
 					# value = { min = -1.0 max = 1.0} 
 					curve = {
 						{ 0.0 0.0 }
 						{ 0.5 0.0 }
-						{ 1.0 -0.3 }
+						{ 1.0 -0.1 }
 					}	
 					age = age_preset_child_fat	
 				}
@@ -578,8 +578,7 @@ morph_genes = {
 					attribute = "bs_gaunt_body"	
 					# value = { min = 1.0 max = -1.5 }	
 					curve = {
-						{ 0.0 1.5 }
-						{ 0.4 0.3 }
+						{ 0.0 1.0 }
 						{ 0.5 0.0 }
 						{ 1.0 0.0 }
 					}	
@@ -588,8 +587,7 @@ morph_genes = {
 				setting = {
 					attribute = "bs_body_gaunt_1"
 					curve = {
-						{ 0.0 1.5 }
-						{ 0.4 0.3 }
+						{ 0.0 1.0 }
 						{ 0.5 0.0 }
 						{ 1.0 0.0 }
 					}	
@@ -622,7 +620,7 @@ morph_genes = {
 					curve = {
 						{ 0.0 0.0 }
 						{ 0.5 0.0 }
-						{ 1.0 3.0 }
+						{ 1.0 1.0 }
 					}
 					age = age_preset_child_fat	
 				} 
@@ -632,29 +630,29 @@ morph_genes = {
 					curve = {
 						{ 0.0 0.0 }
 						{ 0.5 0.0 }
-						{ 1.0 3.0 }
+						{ 1.0 1.0 }
 					}
 					age = age_preset_child_fat	
 				}
 				setting = {
-					required_tags = "waist_clothed,dressed"
+					required_tags = "waist_clothed,dressed,default_clothing"
 					attribute = "bs_fat_1_body" 
 					# value = { min = -1.0 max = 1.0} 
 					curve = {
 						{ 0.0 0.0 }
 						{ 0.5 0.0 }
-						{ 1.0 -0.3 }
+						{ 1.0 -0.1 }
 					}	
 					age = age_preset_child_fat	
 				}
 				setting = { 
-					required_tags = "waist_clothed,dressed"
+					required_tags = "waist_clothed,dressed,default_clothing"
 					attribute = "bs_body_fat_1" 
 					# value = { min = -1.0 max = 1.0} 
 					curve = {
 						{ 0.0 0.0 }
 						{ 0.5 0.0 }
-						{ 1.0 -0.3 }
+						{ 1.0 -0.1 }
 					}	
 					age = age_preset_child_fat	
 				}
@@ -682,8 +680,7 @@ morph_genes = {
 					attribute = "bs_gaunt_body"	
 					# value = { min = 1.0 max = -1.5 }	
 					curve = {
-						{ 0.0 1.5 }
-						{ 0.4 0.3 }
+						{ 0.0 1.0 }
 						{ 0.5 0.0 }
 						{ 1.0 0.0 }
 					}	
@@ -692,8 +689,7 @@ morph_genes = {
 				setting = {
 					attribute = "bs_body_gaunt_1"
 					curve = {
-						{ 0.0 1.5 }
-						{ 0.4 0.3 }
+						{ 0.0 1.0 }
 						{ 0.5 0.0 }
 						{ 1.0 0.0 }
 					}	
@@ -731,9 +727,8 @@ morph_genes = {
 					curve = {
 						{ 0.0 0.0 }
 						{ 0.5 0.0 }
-						{ 0.75 1.25 }
-						{ 1.0 2.75 }
-					}
+						{ 1.0 1.0 }
+					}	
 					age = age_preset_child_fat	
 				}
 				setting = { 
@@ -742,104 +737,33 @@ morph_genes = {
 					curve = {
 						{ 0.0 0.0 }
 						{ 0.5 0.0 }
-						{ 0.75 1.25 }
-						{ 1.0 2.75 }
-					}
+						{ 1.0 1.0 }
+					}	
 					age = age_preset_child_fat	
 				}
 				setting = {
-					required_tags = "waist_clothed,dressed"
+					required_tags = "waist_clothed,dressed,default_clothing"
 					attribute = "bs_fat_1_body" 
-					# value = { min = -1.0 max = 1.0}
+					# value = { min = -1.0 max = 1.0} 
 					curve = {
 						{ 0.0 0.0 }
 						{ 0.5 0.0 }
-						{ 0.75 -0.125 }
-						{ 1.0 -0.275 }
-					}
+						{ 1.0 -0.1 }
+					}	
 					age = age_preset_child_fat	
 				}
 				setting = { 
-					required_tags = "waist_clothed,dressed"
+					required_tags = "waist_clothed,dressed,default_clothing"
 					attribute = "bs_body_fat_1" 
 					# value = { min = -1.0 max = 1.0} 
 					curve = {
 						{ 0.0 0.0 }
 						{ 0.5 0.0 }
-						{ 0.75 -0.125 }
-						{ 1.0 -0.275 }
-					}
+						{ 1.0 -0.1 }
+					}	
 					age = age_preset_child_fat	
 				}
-				setting = {
-					attribute = "bs_body_butt_size_max" 
-					# value = { min = -1.0 max = 1.0}
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 0.225 }
-						{ 1.0 0.225 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = {
-					attribute = "bs_body_butt_size_max_1" 
-					# value = { min = -1.0 max = 1.0} 
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 0.25 }
-						{ 1.0 0.25 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = {
-					required_tags = "butt_clothed,dressed"
-					attribute = "bs_body_butt_size_max_1" 
-					# value = { min = -1.0 max = 1.0}
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 -0.025 }
-						{ 1.0 -0.025 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = { 
-					attribute = "bs_body_hips_max" 
-					# value = { min = -1.0 max = 1.0} 
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 0.25 }
-						{ 1.0 0.25 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = {
-					required_tags = "hips_clothed,dressed"
-					attribute = "bs_body_hips_max" 
-					# value = { min = -1.0 max = 1.0}
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 -0.025 }
-						{ 1.0 -0.025 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = { 
-					attribute = "bs_butt_size_max" 
-					# value = { min = -1.0 max = 1.0} 
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 0.25 }
-						{ 1.0 0.25 }
-					}
-					age = age_preset_child_fat	
-				}
-				decal = { 
+				decal = {
 					body_part = torso
 					textures = {
 						diffuse = "gfx/models/portraits/decals/male_body/decal_male_body_fat_01_diffuse.dds"
@@ -864,8 +788,7 @@ morph_genes = {
 					attribute = "bs_gaunt_body"	
 					# value = { min = 1.0 max = -1.5 }	
 					curve = {
-						{ 0.0 1.5 }
-						{ 0.4 0.3 }
+						{ 0.0 1.0 }
 						{ 0.5 0.0 }
 						{ 1.0 0.0 }
 					}	
@@ -874,8 +797,7 @@ morph_genes = {
 				setting = {
 					attribute = "bs_body_gaunt_1"
 					curve = {
-						{ 0.0 1.5 }
-						{ 0.4 0.3 }
+						{ 0.0 1.0 }
 						{ 0.5 0.0 }
 						{ 1.0 0.0 }
 					}	
@@ -902,118 +824,46 @@ morph_genes = {
 			}
 			female = { 
 				# Fat body from 0.5 to 1.0 gene value
+				setting = { 
+					attribute = "bs_fat_1_body"	
+					# value = { min = -1.0 max = 1.0 } 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 1.0 }
+					}
+					age = age_preset_child_fat	
+				} 
+				setting = { 
+					attribute = "bs_body_fat_1"	
+					# value = { min = -1.0 max = 1.0 } 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 1.0 }
+					}
+					age = age_preset_child_fat	
+				}
 				setting = {
+					required_tags = "waist_clothed,dressed,default_clothing"
 					attribute = "bs_fat_1_body" 
 					# value = { min = -1.0 max = 1.0} 
 					curve = {
 						{ 0.0 0.0 }
 						{ 0.5 0.0 }
-						{ 0.75 1.25 }
-						{ 1.0 2.75 }
-					}
+						{ 1.0 -0.1 }
+					}	
 					age = age_preset_child_fat	
 				}
 				setting = { 
+					required_tags = "waist_clothed,dressed,default_clothing"
 					attribute = "bs_body_fat_1" 
 					# value = { min = -1.0 max = 1.0} 
 					curve = {
 						{ 0.0 0.0 }
 						{ 0.5 0.0 }
-						{ 0.75 1.25 }
-						{ 1.0 2.75 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = {
-					required_tags = "waist_clothed,dressed"
-					attribute = "bs_fat_1_body" 
-					# value = { min = -1.0 max = 1.0}
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 -0.125 }
-						{ 1.0 -0.275 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = { 
-					required_tags = "waist_clothed,dressed"
-					attribute = "bs_body_fat_1" 
-					# value = { min = -1.0 max = 1.0} 
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 -0.125 }
-						{ 1.0 -0.275 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = { 
-					attribute = "bs_body_butt_size_max" 
-					# value = { min = -1.0 max = 1.0} 
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 0.225 }
-						{ 1.0 0.225 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = { 
-					attribute = "bs_body_butt_size_max_1" 
-					# value = { min = -1.0 max = 1.0} 
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 0.25 }
-						{ 1.0 0.25 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = {
-					required_tags = "butt_clothed,dressed"
-					attribute = "bs_body_butt_size_max_1" 
-					# value = { min = -1.0 max = 1.0}
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 -0.025 }
-						{ 1.0 -0.025 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = { 
-					attribute = "bs_body_hips_max" 
-					# value = { min = -1.0 max = 1.0} 
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 0.25 }
-						{ 1.0 0.25 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = {
-					required_tags = "hips_clothed,dressed"
-					attribute = "bs_body_hips_max" 
-					# value = { min = -1.0 max = 1.0}
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 -0.025 }
-						{ 1.0 -0.025 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = { 
-					attribute = "bs_butt_size_max" 
-					# value = { min = -1.0 max = 1.0} 
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 0.25 }
-						{ 1.0 0.25 }
-					}
+						{ 1.0 -0.1 }
+					}	
 					age = age_preset_child_fat	
 				}
 				decal = {
@@ -1040,8 +890,7 @@ morph_genes = {
 					attribute = "bs_gaunt_body"	
 					# value = { min = 1.0 max = -1.5 }	
 					curve = {
-						{ 0.0 1.5 }
-						{ 0.4 0.3 }
+						{ 0.0 1.0 }
 						{ 0.5 0.0 }
 						{ 1.0 0.0 }
 					}	
@@ -1050,8 +899,7 @@ morph_genes = {
 				setting = {
 					attribute = "bs_body_gaunt_1"
 					curve = {
-						{ 0.0 1.5 }
-						{ 0.4 0.3 }
+						{ 0.0 1.0 }
 						{ 0.5 0.0 }
 						{ 1.0 0.0 }
 					}	
@@ -1089,9 +937,8 @@ morph_genes = {
 					curve = {
 						{ 0.0 0.0 }
 						{ 0.5 0.0 }
-						{ 0.75 1.0 }
-						{ 1.0 2.5 }
-					}
+						{ 1.0 1.0 }
+					}	
 					age = age_preset_child_fat	
 				}
 				setting = { 
@@ -1100,104 +947,33 @@ morph_genes = {
 					curve = {
 						{ 0.0 0.0 }
 						{ 0.5 0.0 }
-						{ 0.75 1.0 }
-						{ 1.0 2.5 }
-					}
+						{ 1.0 1.0 }
+					}	
 					age = age_preset_child_fat	
 				}
 				setting = {
-					required_tags = "waist_clothed,dressed"
+					required_tags = "waist_clothed,dressed,default_clothing"
 					attribute = "bs_fat_1_body" 
-					# value = { min = -1.0 max = 1.0}
+					# value = { min = -1.0 max = 1.0} 
 					curve = {
 						{ 0.0 0.0 }
 						{ 0.5 0.0 }
-						{ 0.75 -0.1 }
-						{ 1.0 -0.25 }
-					}
+						{ 1.0 -0.1 }
+					}	
 					age = age_preset_child_fat	
 				}
 				setting = { 
-					required_tags = "waist_clothed,dressed"
+					required_tags = "waist_clothed,dressed,default_clothing"
 					attribute = "bs_body_fat_1" 
 					# value = { min = -1.0 max = 1.0} 
 					curve = {
 						{ 0.0 0.0 }
 						{ 0.5 0.0 }
-						{ 0.75 -0.1 }
-						{ 1.0 -0.25 }
-					}
+						{ 1.0 -0.1 }
+					}	
 					age = age_preset_child_fat	
 				}
-				setting = { 
-					attribute = "bs_body_butt_size_max" 
-					# value = { min = -1.0 max = 1.0} 
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 0.45 }
-						{ 1.0 0.45 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = {
-					attribute = "bs_body_butt_size_max_1" 
-					# value = { min = -1.0 max = 1.0} 
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 0.5 }
-						{ 1.0 0.5 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = {
-					required_tags = "butt_clothed,dressed"
-					attribute = "bs_body_butt_size_max_1" 
-					# value = { min = -1.0 max = 1.0}
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 -0.05 }
-						{ 1.0 -0.05 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = { 
-					attribute = "bs_body_hips_max" 
-					# value = { min = -1.0 max = 1.0} 
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 0.5 }
-						{ 1.0 0.5 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = {
-					required_tags = "hips_clothed,dressed"
-					attribute = "bs_body_hips_max" 
-					# value = { min = -1.0 max = 1.0}
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 -0.05 }
-						{ 1.0 -0.05 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = { 
-					attribute = "bs_butt_size_max" 
-					# value = { min = -1.0 max = 1.0} 
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 0.5 }
-						{ 1.0 0.5 }
-					}
-					age = age_preset_child_fat	
-				}
-				decal = { 
+				decal = {
 					body_part = torso
 					textures = {
 						diffuse = "gfx/models/portraits/decals/male_body/decal_male_body_fat_01_diffuse.dds"
@@ -1222,8 +998,7 @@ morph_genes = {
 					attribute = "bs_gaunt_body"	
 					# value = { min = 1.0 max = -1.5 }	
 					curve = {
-						{ 0.0 1.5 }
-						{ 0.4 0.3 }
+						{ 0.0 1.0 }
 						{ 0.5 0.0 }
 						{ 1.0 0.0 }
 					}	
@@ -1232,8 +1007,7 @@ morph_genes = {
 				setting = {
 					attribute = "bs_body_gaunt_1"
 					curve = {
-						{ 0.0 1.5 }
-						{ 0.4 0.3 }
+						{ 0.0 1.0 }
 						{ 0.5 0.0 }
 						{ 1.0 0.0 }
 					}	
@@ -1260,118 +1034,46 @@ morph_genes = {
 			}
 			female = { 
 				# Fat body from 0.5 to 1.0 gene value
+				setting = { 
+					attribute = "bs_fat_1_body"	
+					# value = { min = -1.0 max = 1.0 } 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 1.0 }
+					}
+					age = age_preset_child_fat	
+				} 
+				setting = { 
+					attribute = "bs_body_fat_1"	
+					# value = { min = -1.0 max = 1.0 } 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 1.0 }
+					}
+					age = age_preset_child_fat	
+				}
 				setting = {
+					required_tags = "waist_clothed,dressed,default_clothing"
 					attribute = "bs_fat_1_body" 
 					# value = { min = -1.0 max = 1.0} 
 					curve = {
 						{ 0.0 0.0 }
 						{ 0.5 0.0 }
-						{ 0.75 1.0 }
-						{ 1.0 2.5 }
-					}
+						{ 1.0 -0.1 }
+					}	
 					age = age_preset_child_fat	
 				}
 				setting = { 
+					required_tags = "waist_clothed,dressed,default_clothing"
 					attribute = "bs_body_fat_1" 
 					# value = { min = -1.0 max = 1.0} 
 					curve = {
 						{ 0.0 0.0 }
 						{ 0.5 0.0 }
-						{ 0.75 1.0 }
-						{ 1.0 2.5 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = {
-					required_tags = "waist_clothed,dressed"
-					attribute = "bs_fat_1_body" 
-					# value = { min = -1.0 max = 1.0}
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 -0.1 }
-						{ 1.0 -0.25 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = { 
-					required_tags = "waist_clothed,dressed"
-					attribute = "bs_body_fat_1" 
-					# value = { min = -1.0 max = 1.0} 
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 -0.1 }
-						{ 1.0 -0.25 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = { 
-					attribute = "bs_body_butt_size_max" 
-					# value = { min = -1.0 max = 1.0} 
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 0.45 }
-						{ 1.0 0.45 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = { 
-					attribute = "bs_body_butt_size_max_1" 
-					# value = { min = -1.0 max = 1.0} 
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 0.5 }
-						{ 1.0 0.5 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = {
-					required_tags = "butt_clothed,dressed"
-					attribute = "bs_body_butt_size_max_1" 
-					# value = { min = -1.0 max = 1.0}
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 -0.05 }
-						{ 1.0 -0.05 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = { 
-					attribute = "bs_body_hips_max" 
-					# value = { min = -1.0 max = 1.0} 
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 0.5 }
-						{ 1.0 0.5 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = {
-					required_tags = "hips_clothed,dressed"
-					attribute = "bs_body_hips_max" 
-					# value = { min = -1.0 max = 1.0}
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 -0.05 }
-						{ 1.0 -0.05 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = { 
-					attribute = "bs_butt_size_max" 
-					# value = { min = -1.0 max = 1.0} 
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 0.5 }
-						{ 1.0 0.5 }
-					}
+						{ 1.0 -0.1 }
+					}	
 					age = age_preset_child_fat	
 				}
 				decal = {
@@ -1398,8 +1100,7 @@ morph_genes = {
 					attribute = "bs_gaunt_body"	
 					# value = { min = 1.0 max = -1.5 }	
 					curve = {
-						{ 0.0 1.5 }
-						{ 0.4 0.3 }
+						{ 0.0 1.0 }
 						{ 0.5 0.0 }
 						{ 1.0 0.0 }
 					}	
@@ -1408,8 +1109,7 @@ morph_genes = {
 				setting = {
 					attribute = "bs_body_gaunt_1"
 					curve = {
-						{ 0.0 1.5 }
-						{ 0.4 0.3 }
+						{ 0.0 1.0 }
 						{ 0.5 0.0 }
 						{ 1.0 0.0 }
 					}	
@@ -1447,9 +1147,8 @@ morph_genes = {
 					curve = {
 						{ 0.0 0.0 }
 						{ 0.5 0.0 }
-						{ 0.75 0.75 }
-						{ 1.0 2.25 }
-					}
+						{ 1.0 1.0 }
+					}	
 					age = age_preset_child_fat	
 				}
 				setting = { 
@@ -1458,104 +1157,33 @@ morph_genes = {
 					curve = {
 						{ 0.0 0.0 }
 						{ 0.5 0.0 }
-						{ 0.75 0.75 }
-						{ 1.0 2.25 }
-					}
+						{ 1.0 1.0 }
+					}	
 					age = age_preset_child_fat	
 				}
 				setting = {
-					required_tags = "waist_clothed,dressed"
+					required_tags = "waist_clothed,dressed,default_clothing"
 					attribute = "bs_fat_1_body" 
-					# value = { min = -1.0 max = 1.0}
+					# value = { min = -1.0 max = 1.0} 
 					curve = {
 						{ 0.0 0.0 }
 						{ 0.5 0.0 }
-						{ 0.75 -0.075 }
-						{ 1.0 -0.225 }
-					}
+						{ 1.0 -0.1 }
+					}	
 					age = age_preset_child_fat	
 				}
 				setting = { 
-					required_tags = "waist_clothed,dressed"
+					required_tags = "waist_clothed,dressed,default_clothing"
 					attribute = "bs_body_fat_1" 
 					# value = { min = -1.0 max = 1.0} 
 					curve = {
 						{ 0.0 0.0 }
 						{ 0.5 0.0 }
-						{ 0.75 -0.075 }
-						{ 1.0 -0.225 }
-					}
+						{ 1.0 -0.1 }
+					}	
 					age = age_preset_child_fat	
 				}
-				setting = { 
-					attribute = "bs_body_butt_size_max" 
-					# value = { min = -1.0 max = 1.0}
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 0.675 }
-						{ 1.0 0.675 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = { 
-					attribute = "bs_body_butt_size_max_1" 
-					# value = { min = -1.0 max = 1.0} 
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 0.75 }
-						{ 1.0 0.75 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = {
-					required_tags = "butt_clothed,dressed"
-					attribute = "bs_body_butt_size_max_1" 
-					# value = { min = -1.0 max = 1.0}
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 -0.075 }
-						{ 1.0 -0.075 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = { 
-					attribute = "bs_body_hips_max" 
-					# value = { min = -1.0 max = 1.0} 
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 0.75 }
-						{ 1.0 0.75 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = {
-					required_tags = "hips_clothed,dressed"
-					attribute = "bs_body_hips_max" 
-					# value = { min = -1.0 max = 1.0}
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 -0.075 }
-						{ 1.0 -0.075 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = { 
-					attribute = "bs_butt_size_max" 
-					# value = { min = -1.0 max = 1.0} 
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 0.75 }
-						{ 1.0 0.75 }
-					}
-					age = age_preset_child_fat	
-				}
-				decal = { 
+				decal = {
 					body_part = torso
 					textures = {
 						diffuse = "gfx/models/portraits/decals/male_body/decal_male_body_fat_01_diffuse.dds"
@@ -1575,12 +1203,12 @@ morph_genes = {
 					priority = 0
 					age = age_preset_child_fat_decal
 				}
+				# Gaunt body from 0.5 to 0.0 gene value
 				setting = { 
 					attribute = "bs_gaunt_body"	
 					# value = { min = 1.0 max = -1.5 }	
 					curve = {
-						{ 0.0 1.5 }
-						{ 0.4 0.3 }
+						{ 0.0 1.0 }
 						{ 0.5 0.0 }
 						{ 1.0 0.0 }
 					}	
@@ -1589,8 +1217,7 @@ morph_genes = {
 				setting = {
 					attribute = "bs_body_gaunt_1"
 					curve = {
-						{ 0.0 1.5 }
-						{ 0.4 0.3 }
+						{ 0.0 1.0 }
 						{ 0.5 0.0 }
 						{ 1.0 0.0 }
 					}	
@@ -1617,118 +1244,46 @@ morph_genes = {
 			}
 			female = { 
 				# Fat body from 0.5 to 1.0 gene value
+				setting = { 
+					attribute = "bs_fat_1_body"	
+					# value = { min = -1.0 max = 1.0 } 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 1.0 }
+					}
+					age = age_preset_child_fat	
+				} 
+				setting = { 
+					attribute = "bs_body_fat_1"	
+					# value = { min = -1.0 max = 1.0 } 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 1.0 }
+					}
+					age = age_preset_child_fat	
+				}
 				setting = {
+					required_tags = "waist_clothed,dressed,default_clothing"
 					attribute = "bs_fat_1_body" 
 					# value = { min = -1.0 max = 1.0} 
 					curve = {
 						{ 0.0 0.0 }
 						{ 0.5 0.0 }
-						{ 0.75 0.75 }
-						{ 1.0 2.25 }
-					}
+						{ 1.0 -0.1 }
+					}	
 					age = age_preset_child_fat	
 				}
 				setting = { 
+					required_tags = "waist_clothed,dressed,default_clothing"
 					attribute = "bs_body_fat_1" 
 					# value = { min = -1.0 max = 1.0} 
 					curve = {
 						{ 0.0 0.0 }
 						{ 0.5 0.0 }
-						{ 0.75 0.75 }
-						{ 1.0 2.25 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = {
-					required_tags = "waist_clothed,dressed"
-					attribute = "bs_fat_1_body" 
-					# value = { min = -1.0 max = 1.0}
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 -0.075 }
-						{ 1.0 -0.225 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = { 
-					required_tags = "waist_clothed,dressed"
-					attribute = "bs_body_fat_1" 
-					# value = { min = -1.0 max = 1.0} 
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 -0.075 }
-						{ 1.0 -0.225 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = { 
-					attribute = "bs_body_butt_size_max" 
-					# value = { min = -1.0 max = 1.0}
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 0.675 }
-						{ 1.0 0.675 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = { 
-					attribute = "bs_body_butt_size_max_1" 
-					# value = { min = -1.0 max = 1.0} 
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 0.75 }
-						{ 1.0 0.75 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = {
-					required_tags = "butt_clothed,dressed"
-					attribute = "bs_body_butt_size_max_1" 
-					# value = { min = -1.0 max = 1.0}
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 -0.075 }
-						{ 1.0 -0.075 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = { 
-					attribute = "bs_body_hips_max" 
-					# value = { min = -1.0 max = 1.0} 
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 0.75 }
-						{ 1.0 0.75 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = {
-					required_tags = "hips_clothed,dressed"
-					attribute = "bs_body_hips_max" 
-					# value = { min = -1.0 max = 1.0}
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 -0.075 }
-						{ 1.0 -0.075 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = { 
-					attribute = "bs_butt_size_max" 
-					# value = { min = -1.0 max = 1.0} 
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 0.75 }
-						{ 1.0 0.75 }
-					}
+						{ 1.0 -0.1 }
+					}	
 					age = age_preset_child_fat	
 				}
 				decal = {
@@ -1755,8 +1310,7 @@ morph_genes = {
 					attribute = "bs_gaunt_body"	
 					# value = { min = 1.0 max = -1.5 }	
 					curve = {
-						{ 0.0 1.5 }
-						{ 0.4 0.3 }
+						{ 0.0 1.0 }
 						{ 0.5 0.0 }
 						{ 1.0 0.0 }
 					}	
@@ -1765,8 +1319,7 @@ morph_genes = {
 				setting = {
 					attribute = "bs_body_gaunt_1"
 					curve = {
-						{ 0.0 1.5 }
-						{ 0.4 0.3 }
+						{ 0.0 1.0 }
 						{ 0.5 0.0 }
 						{ 1.0 0.0 }
 					}	
@@ -1804,8 +1357,7 @@ morph_genes = {
 					curve = {
 						{ 0.0 0.0 }
 						{ 0.5 0.0 }
-						{ 0.75 0.5 }
-						{ 1.0 2.0 }
+						{ 1.0 1.0 }
 					}	
 					age = age_preset_child_fat	
 				}
@@ -1815,104 +1367,33 @@ morph_genes = {
 					curve = {
 						{ 0.0 0.0 }
 						{ 0.5 0.0 }
-						{ 0.75 0.5 }
-						{ 1.0 2.0 }
+						{ 1.0 1.0 }
 					}	
 					age = age_preset_child_fat	
 				}
 				setting = {
-					required_tags = "waist_clothed,dressed"
+					required_tags = "waist_clothed,dressed,default_clothing"
 					attribute = "bs_fat_1_body" 
-					# value = { min = -1.0 max = 1.0}
+					# value = { min = -1.0 max = 1.0} 
 					curve = {
 						{ 0.0 0.0 }
 						{ 0.5 0.0 }
-						{ 0.75 -0.05 }
-						{ 1.0 -0.2 }
-					}
+						{ 1.0 -0.1 }
+					}	
 					age = age_preset_child_fat	
 				}
 				setting = { 
-					required_tags = "waist_clothed,dressed"
+					required_tags = "waist_clothed,dressed,default_clothing"
 					attribute = "bs_body_fat_1" 
 					# value = { min = -1.0 max = 1.0} 
 					curve = {
 						{ 0.0 0.0 }
 						{ 0.5 0.0 }
-						{ 0.75 -0.05 }
-						{ 1.0 -0.2 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = { 
-					attribute = "bs_body_butt_size_max" 
-					# value = { min = -1.0 max = 1.0}
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 0.9 }
-						{ 1.0 0.9 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = { 
-					attribute = "bs_body_butt_size_max_1" 
-					# value = { min = -1.0 max = 1.0} 
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 1.0 }
-						{ 1.0 1.0 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = {
-					required_tags = "butt_clothed,dressed"
-					attribute = "bs_body_butt_size_max_1" 
-					# value = { min = -1.0 max = 1.0}
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 -0.1 }
 						{ 1.0 -0.1 }
-					}
+					}	
 					age = age_preset_child_fat	
 				}
-				setting = { 
-					attribute = "bs_body_hips_max" 
-					# value = { min = -1.0 max = 1.0} 
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 1.0 }
-						{ 1.0 1.0 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = {
-					required_tags = "hips_clothed,dressed"
-					attribute = "bs_body_hips_max" 
-					# value = { min = -1.0 max = 1.0}
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 -0.1 }
-						{ 1.0 -0.1 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = { 
-					attribute = "bs_butt_size_max" 
-					# value = { min = -1.0 max = 1.0} 
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 1.0 }
-						{ 1.0 1.0 }
-					}
-					age = age_preset_child_fat	
-				}
-				decal = { 
+				decal = {
 					body_part = torso
 					textures = {
 						diffuse = "gfx/models/portraits/decals/male_body/decal_male_body_fat_01_diffuse.dds"
@@ -1937,8 +1418,7 @@ morph_genes = {
 					attribute = "bs_gaunt_body"	
 					# value = { min = 1.0 max = -1.5 }	
 					curve = {
-						{ 0.0 1.5 }
-						{ 0.4 0.3 }
+						{ 0.0 1.0 }
 						{ 0.5 0.0 }
 						{ 1.0 0.0 }
 					}	
@@ -1947,8 +1427,7 @@ morph_genes = {
 				setting = {
 					attribute = "bs_body_gaunt_1"
 					curve = {
-						{ 0.0 1.5 }
-						{ 0.4 0.3 }
+						{ 0.0 1.0 }
 						{ 0.5 0.0 }
 						{ 1.0 0.0 }
 					}	
@@ -1975,118 +1454,46 @@ morph_genes = {
 			}
 			female = { 
 				# Fat body from 0.5 to 1.0 gene value
+				setting = { 
+					attribute = "bs_fat_1_body"	
+					# value = { min = -1.0 max = 1.0 } 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 1.0 }
+					}
+					age = age_preset_child_fat	
+				} 
+				setting = { 
+					attribute = "bs_body_fat_1"	
+					# value = { min = -1.0 max = 1.0 } 
+					curve = {
+						{ 0.0 0.0 }
+						{ 0.5 0.0 }
+						{ 1.0 1.0 }
+					}
+					age = age_preset_child_fat	
+				}
 				setting = {
+					required_tags = "waist_clothed,dressed,default_clothing"
 					attribute = "bs_fat_1_body" 
 					# value = { min = -1.0 max = 1.0} 
 					curve = {
 						{ 0.0 0.0 }
 						{ 0.5 0.0 }
-						{ 0.75 0.5 }
-						{ 1.0 2.0 }
+						{ 1.0 -0.1 }
 					}	
 					age = age_preset_child_fat	
 				}
 				setting = { 
+					required_tags = "waist_clothed,dressed,default_clothing"
 					attribute = "bs_body_fat_1" 
 					# value = { min = -1.0 max = 1.0} 
 					curve = {
 						{ 0.0 0.0 }
 						{ 0.5 0.0 }
-						{ 0.75 0.5 }
-						{ 1.0 2.0 }
+						{ 1.0 -0.1 }
 					}	
-					age = age_preset_child_fat	
-				}
-				setting = {
-					required_tags = "waist_clothed,dressed"
-					attribute = "bs_fat_1_body" 
-					# value = { min = -1.0 max = 1.0}
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 -0.05 }
-						{ 1.0 -0.2 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = { 
-					required_tags = "waist_clothed,dressed"
-					attribute = "bs_body_fat_1" 
-					# value = { min = -1.0 max = 1.0} 
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 -0.05 }
-						{ 1.0 -0.2 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = { 
-					attribute = "bs_body_butt_size_max" 
-					# value = { min = -1.0 max = 1.0}
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 0.9 }
-						{ 1.0 0.9 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = { 
-					attribute = "bs_body_butt_size_max_1" 
-					# value = { min = -1.0 max = 1.0} 
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 1.0 }
-						{ 1.0 1.0 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = {
-					required_tags = "butt_clothed,dressed"
-					attribute = "bs_body_butt_size_max_1" 
-					# value = { min = -1.0 max = 1.0}
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 -0.1 }
-						{ 1.0 -0.1 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = { 
-					attribute = "bs_body_hips_max" 
-					# value = { min = -1.0 max = 1.0} 
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 1.0 }
-						{ 1.0 1.0 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = {
-					required_tags = "hips_clothed,dressed"
-					attribute = "bs_body_hips_max" 
-					# value = { min = -1.0 max = 1.0}
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 -0.1 }
-						{ 1.0 -0.1 }
-					}
-					age = age_preset_child_fat	
-				}
-				setting = { 
-					attribute = "bs_butt_size_max" 
-					# value = { min = -1.0 max = 1.0} 
-					curve = {
-						{ 0.0 0.0 }
-						{ 0.5 0.0 }
-						{ 0.75 1.0 }
-						{ 1.0 1.0 }
-					}
 					age = age_preset_child_fat	
 				}
 				decal = {
@@ -2113,8 +1520,7 @@ morph_genes = {
 					attribute = "bs_gaunt_body"	
 					# value = { min = 1.0 max = -1.5 }	
 					curve = {
-						{ 0.0 1.5 }
-						{ 0.4 0.3 }
+						{ 0.0 1.0 }
 						{ 0.5 0.0 }
 						{ 1.0 0.0 }
 					}	
@@ -2123,8 +1529,7 @@ morph_genes = {
 				setting = {
 					attribute = "bs_body_gaunt_1"
 					curve = {
-						{ 0.0 1.5 }
-						{ 0.4 0.3 }
+						{ 0.0 1.0 }
 						{ 0.5 0.0 }
 						{ 1.0 0.0 }
 					}	

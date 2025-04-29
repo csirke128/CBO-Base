@@ -2,7 +2,8 @@
 # History database id:225004
 bookmark_call_of_the_empire_kilij_arslan_suleyman={
 	type=male
-	id=4276919217
+	id=31601
+	random_seed=4276919217
 	age=0.180000
 	genes={ 		hair_color={ 51 242 3 247 }
  		skin_color={ 212 93 213 95 }
@@ -96,21 +97,21 @@ bookmark_call_of_the_empire_kilij_arslan_suleyman={
  		expression_other={ "cheek_wrinkles_both_01" 0 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_3" 171 "complexion_1" 230 }
  		gene_height={ "normal_height" 135 "normal_height" 119 }
- 		gene_bs_body_type={ "body_fat_head_fat_medium" 123 "body_fat_head_fat_low" 131 }
-	 		gene_bs_penis_size={ "penis_size" 180 "penis_size" 180 }
-	 		gene_bs_penis_thickness={ "penis_thickness" 175 "penis_thickness" 175 }
-	 		gene_bs_ball_size={ "ball_size" 136 "ball_size" 136 }
-	 		gene_bs_butt_size={ "butt_size" 84 "butt_size" 84 }
-	 		gene_bs_nipples={ "nipples" 153 "nipples" 153 }
-	 		gene_bs_hips={ "hips" 25 "hips" 25 }
-	 		gene_bs_shoulders={ "shoulders" 174 "shoulders" 174 }
-	 		gene_bs_waist={ "waist" 162 "waist" 162 }
-	 		gene_areolas={ "areolas_0" 0 "areolas_0" 0 }
-			gene_bs_body_fat_distribution={ "body_mid" 123 "body_mid" 123 }
+ 		gene_bs_body_type={ "body_fat_head_fat_medium" 119 "body_fat_head_fat_low" 131 }
+	 		gene_bs_penis_size={ "penis_size" 59 "penis_size" 59 }
+	 		gene_bs_penis_thickness={ "penis_thickness" 78 "penis_thickness" 78 }
+	 		gene_bs_ball_size={ "ball_size" 97 "ball_size" 97 }
+	 		gene_bs_butt_size={ "butt_size" 95 "butt_size" 95 }
+	 		gene_bs_nipples={ "nipples" 220 "nipples" 220 }
+	 		gene_bs_hips={ "hips" 120 "hips" 120 }
+	 		gene_bs_shoulders={ "shoulders" 216 "shoulders" 216 }
+	 		gene_bs_waist={ "waist" 199 "waist" 199 }
+	 		gene_areolas={ "areolas_1" 0 "areolas_1" 0 }
+			gene_bs_body_fat_distribution={ "body_mid" 119 "body_mid" 119 }
 			gene_bs_upper_body_muscle={ "upper_body_muscle" 0 "upper_body_muscle" 0 }
 			gene_bs_lower_body_muscle={ "lower_body_muscle" 0 "lower_body_muscle" 0 }
 			gene_muscle_definition={ "body_muscle_definition" 0 "body_muscle_definition" 0 }
- 		gene_bs_body_shape={ "body_shape_triangle_half" 203 "body_shape_rectangle_full" 51 }
+ 		gene_bs_body_shape={ "body_shape_triangle_half" 218 "body_shape_rectangle_full" 51 }
  		gene_bs_bust={ "bust_clothes" 27 "bust_clothes" 81 }
  		gene_age={ "old_2" 115 "old_4" 100 }
  		gene_eyebrows_shape={ "avg_spacing_low_thickness" 227 "avg_spacing_avg_thickness" 191 }
@@ -123,12 +124,12 @@ bookmark_call_of_the_empire_kilij_arslan_suleyman={
  		eyelashes_accessory={ "normal_eyelashes" 43 "normal_eyelashes" 43 }
  		beards={ "ep3_beards_straight" 126 "no_beard" 0 }
  		hairstyles={ "steppe_hairstyles_wavy" 126 "all_hairstyles" 0 }
- 		legwear={ "mena_common_legwear" 116 "all_legwear" 0 }
+ 		legwear={ "mena_war_legwear" 149 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
  		gene_bs_additive_headgears={ "additive_headgears" 255 "" 0 }
  		gene_bs_cloak_offset={ "cloak_offset" 255 "" 0 }
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
- 		clothes={ "steppe_high_nobility_clothes" 226 "most_clothes" 0 }
+ 		clothes={ "fp3_iranian_high_nobility_clothes" 179 "most_clothes" 0 }
  		headgear={ "steppe_high_nobility" 184 "no_headgear" 0 }
  		gene_balding_hair_effect={ "shaved_baldness" 255 "no_baldness" 0 }
  }
@@ -139,6 +140,10 @@ bookmark_call_of_the_empire_kilij_arslan_suleyman={
 		}
  {
 			hash=681013727
+			invert=no
+		}
+ {
+			hash=75156179
 			invert=no
 		}
  {
@@ -159,6 +164,10 @@ bookmark_call_of_the_empire_kilij_arslan_suleyman={
 		}
  {
 			hash=1485265044
+			invert=no
+		}
+ {
+			hash=1945936758
 			invert=no
 		}
  }

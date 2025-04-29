@@ -2,7 +2,8 @@
 # History database id:159136
 bookmark_adventurers_almos_arpad_alt_son_arpad={
 	type=male
-	id=1971972249
+	id=8575
+	random_seed=1971972249
 	age=0.220000
 	genes={ 		hair_color={ 32 235 99 248 }
  		skin_color={ 204 98 193 98 }
@@ -91,22 +92,22 @@ bookmark_adventurers_almos_arpad_alt_son_arpad={
  		face_detail_nose_tip_def={ "nose_tip_def" 23 "nose_tip_def" 18 }
  		face_detail_temple_def={ "temple_def" 75 "temple_def" 11 }
  		expression_brow_wrinkles={ "brow_wrinkles_01" 108 "brow_wrinkles_01" 23 }
- 		expression_eye_wrinkles={ "eye_wrinkles_02" 255 "eye_wrinkles_01" 33 }
+ 		expression_eye_wrinkles={ "eye_wrinkles_02" 173 "eye_wrinkles_01" 33 }
  		expression_forehead_wrinkles={ "forehead_wrinkles_01" 129 "forehead_wrinkles_01" 188 }
  		expression_other={ "cheek_wrinkles_left_01" 0 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_2" 161 "complexion_1" 206 }
  		gene_height={ "normal_height" 119 "normal_height" 108 }
- 		gene_bs_body_type={ "body_fat_head_fat_full" 126 "body_fat_head_fat_medium" 114 }
-	 		gene_bs_penis_size={ "penis_size" 183 "penis_size" 183 }
-	 		gene_bs_penis_thickness={ "penis_thickness" 130 "penis_thickness" 130 }
-	 		gene_bs_ball_size={ "ball_size" 65 "ball_size" 65 }
-	 		gene_bs_butt_size={ "butt_size" 215 "butt_size" 215 }
-	 		gene_bs_nipples={ "nipples" 117 "nipples" 117 }
-	 		gene_bs_hips={ "hips" 110 "hips" 110 }
-	 		gene_bs_shoulders={ "shoulders" 182 "shoulders" 182 }
-	 		gene_bs_waist={ "waist" 97 "waist" 97 }
-	 		gene_areolas={ "areolas_0" 0 "areolas_0" 0 }
-			gene_bs_body_fat_distribution={ "body_mid" 126 "body_mid" 126 }
+ 		gene_bs_body_type={ "body_fat_head_fat_full" 114 "body_fat_head_fat_medium" 114 }
+	 		gene_bs_penis_size={ "penis_size" 161 "penis_size" 161 }
+	 		gene_bs_penis_thickness={ "penis_thickness" 84 "penis_thickness" 84 }
+	 		gene_bs_ball_size={ "ball_size" 142 "ball_size" 142 }
+	 		gene_bs_butt_size={ "butt_size" 95 "butt_size" 95 }
+	 		gene_bs_nipples={ "nipples" 135 "nipples" 135 }
+	 		gene_bs_hips={ "hips" 52 "hips" 52 }
+	 		gene_bs_shoulders={ "shoulders" 155 "shoulders" 155 }
+	 		gene_bs_waist={ "waist" 168 "waist" 168 }
+	 		gene_areolas={ "areolas_1" 0 "areolas_1" 0 }
+			gene_bs_body_fat_distribution={ "body_mid" 114 "body_mid" 114 }
 			gene_bs_upper_body_muscle={ "upper_body_muscle" 0 "upper_body_muscle" 0 }
 			gene_bs_lower_body_muscle={ "lower_body_muscle" 0 "lower_body_muscle" 0 }
 			gene_muscle_definition={ "body_muscle_definition" 0 "body_muscle_definition" 0 }
@@ -121,19 +122,23 @@ bookmark_adventurers_almos_arpad_alt_son_arpad={
  		eye_accessory={ "normal_eyes" 94 "normal_eyes" 94 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "asian_eyelashes" 53 "asian_eyelashes" 53 }
- 		beards={ "steppe_beards_straight" 27 "no_beard" 0 }
- 		hairstyles={ "steppe_hairstyles_straight" 65 "all_hairstyles" 0 }
+ 		beards={ "sp4_rus_beards" 199 "no_beard" 0 }
+ 		hairstyles={ "fp3_hairstyles_turkic_straight_common" 207 "all_hairstyles" 0 }
  		legwear={ "mena_war_legwear" 120 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
  		gene_bs_additive_headgears={ "additive_headgears" 255 "" 0 }
  		gene_bs_cloak_offset={ "cloak_offset" 255 "" 0 }
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
- 		clothes={ "ep2_steppe_war_nobility_clothes" 255 "most_clothes" 0 }
- 		headgear={ "ep2_steppe_war_nobility" 167 "no_headgear" 0 }
+ 		clothes={ "fp3_iranian_high_nobility_clothes" 55 "most_clothes" 0 }
+ 		headgear={ "fp3_turkic_nobility" 27 "no_headgear" 0 }
  		gene_balding_hair_effect={ "shaved_baldness" 255 "no_baldness" 0 }
  }
-	entity={ 979141817 979141817 }
+	entity={ 3942081117 3942081117 }
 	tags={ {
+			hash=1989892411
+			invert=no
+		}
+ {
 			hash=2125534279
 			invert=no
 		}
@@ -142,19 +147,11 @@ bookmark_adventurers_almos_arpad_alt_son_arpad={
 			invert=no
 		}
  {
-			hash=2793867254
+			hash=75156179
 			invert=no
 		}
  {
-			hash=2495432340
-			invert=no
-		}
- {
-			hash=876021575
-			invert=no
-		}
- {
-			hash=1921638387
+			hash=3672171019
 			invert=no
 		}
  {
@@ -162,15 +159,7 @@ bookmark_adventurers_almos_arpad_alt_son_arpad={
 			invert=no
 		}
  {
-			hash=1219709797
-			invert=no
-		}
- {
 			hash=1563190100
-			invert=no
-		}
- {
-			hash=2842715111
 			invert=no
 		}
  {
