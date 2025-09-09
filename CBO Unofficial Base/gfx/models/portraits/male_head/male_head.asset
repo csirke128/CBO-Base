@@ -555,6 +555,13 @@ skeletal_animation_set = {
 	animation = { id = "head_herder"																type = "male_head_herder.anim" }
 	animation = { id = "head_standing_horse"														type = "male_head_standing_horse.anim" }
 	animation = { id = "head_standing_horse_loop"													type = "male_head_standing_horse_loop.anim" }
+
+	#########################
+	#			ACH			#
+	#########################
+
+	animation = { id = "head_crowning_loop"															type = "male_head_crowning_loop.anim" }
+	animation = { id = "head_crowning_action"														type = "male_head_crowning_action.anim" }
 }		
 
 #################################################################
@@ -822,9 +829,7 @@ pdxmesh = {
 		animation = { id = "head_AI_compassionate"											type = "male_head_AI_compassionate_1.anim" }
 		animation = { id = "head_AI_compassionate_1"										type = "male_head_AI_compassionate_2.anim" }
 
-		animation = { id = "head_testCase1_1"												type = "male_head_testCase1_1.anim" }
-		animation = { id = "head_testCase1_2"												type = "male_head_testCase1_2.anim" }
-		animation = { id = "head_testCase1_3"												type = "male_head_testCase1_3.anim" }
+
 		
 		#CBO
 		blend_shape = { id = "male_bs_muscular"												type = "blendshapes/male_bs_neutral.mesh" }
@@ -1768,7 +1773,6 @@ entity = {
 	state = {	name = "wailing"														animation = "head_wailing" looping = no next_state = "wailing_loop" }
 	state = {	name = "wailing_loop"													animation = "head_wailing_loop" looping = no next_state = "wailing_loop" }
 
-
 	#################################################################################################################################################################
 	#																				EP3																				#
 	#################################################################################################################################################################
@@ -1845,6 +1849,8 @@ entity = {
 	state = {	name = "herder"															animation = "head_herder" looping = no next_state = "herder" }
 	state = {	name = "standing_horse"													animation = "head_standing_horse" looping = no next_state = "standing_horse_loop" }
 	state = {	name = "standing_horse_loop"											animation = "head_standing_horse_loop" looping = no next_state = "standing_horse_loop" }
+	state = {	name = "crowning_loop"													animation = "head_crowning_loop" looping = no next_state = "crowning_loop" }
+	state = {	name = "crowning_action"												animation = "head_crowning_action" looping = no next_state = "crowning_loop" }
 
 	#CBO
 	attribute = { name = "bs_muscular_type_1"												blend_shape = "male_bs_muscular_1" }
