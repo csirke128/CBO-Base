@@ -2,7 +2,8 @@
 # History database id:begteginid_1
 bookmark_swords_of_faith_gokbori={
 	type=male
-	id=2945521954
+	id=40252
+	random_seed=2945521954
 	age=0.240000
 	genes={ 		hair_color={ 98 246 25 249 }
  		skin_color={ 212 99 204 100 }
@@ -96,21 +97,22 @@ bookmark_swords_of_faith_gokbori={
  		expression_other={ "cheek_wrinkles_both_01" 0 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_2" 201 "complexion_2" 227 }
  		gene_height={ "normal_height" 127 "normal_height" 121 }
- 		gene_bs_body_type={ "body_fat_head_fat_medium" 161 "body_fat_head_fat_medium" 140 }
-	 		gene_bs_penis_size={ "penis_size" 113 "penis_size" 113 }
-	 		gene_bs_penis_thickness={ "penis_thickness" 81 "penis_thickness" 81 }
-	 		gene_bs_ball_size={ "ball_size" 99 "ball_size" 99 }
-	 		gene_bs_butt_size={ "butt_size" 186 "butt_size" 186 }
-	 		gene_bs_nipples={ "nipples" 125 "nipples" 125 }
-	 		gene_bs_hips={ "hips" 131 "hips" 131 }
-	 		gene_bs_shoulders={ "shoulders" 152 "shoulders" 152 }
-	 		gene_bs_waist={ "waist" 151 "waist" 151 }
-	 		gene_areolas={ "areolas_2" 0 "areolas_2" 0 }
-			gene_bs_body_fat_distribution={ "body_mid" 161 "body_mid" 161 }
+ 		gene_bs_body_type={ "body_fat_head_fat_medium" 157 "body_fat_head_fat_medium" 140 }
+	 		gene_bs_penis_size={ "penis_size" 34 "penis_size" 34 }
+	 		gene_bs_penis_thickness={ "penis_thickness" 73 "penis_thickness" 73 }
+	 		gene_bs_ball_size={ "ball_size" 203 "ball_size" 203 }
+	 		gene_bs_butt_size={ "butt_size" 100 "butt_size" 100 }
+	 		gene_bs_nipples={ "nipples" 133 "nipples" 133 }
+	 		gene_bs_hips={ "hips" 88 "hips" 88 }
+	 		gene_bs_shoulders={ "shoulders" 117 "shoulders" 117 }
+	 		gene_bs_waist={ "waist" 113 "waist" 113 }
+	 		gene_areolas={ "areolas_0" 0 "areolas_0" 0 }
+			gene_bs_body_fat_distribution={ "body_mid" 157 "body_mid" 157 }
 			gene_bs_upper_body_muscle={ "upper_body_muscle" 0 "upper_body_muscle" 0 }
 			gene_bs_lower_body_muscle={ "lower_body_muscle" 0 "lower_body_muscle" 0 }
 			gene_muscle_definition={ "body_muscle_definition" 0 "body_muscle_definition" 0 }
- 		gene_bs_body_shape={ "body_shape_rectangle_full" 241 "body_shape_rectangle_full" 47 }
+			gene_bs_shrink_bookmark={ "shrink_bookmark" 255 "shrink_bookmark" 255 }
+ 		gene_bs_body_shape={ "body_shape_rectangle_full" 236 "body_shape_rectangle_full" 47 }
  		gene_bs_bust={ "bust_clothes" 61 "bust_shape_4_full" 41 }
  		gene_age={ "old_4" 107 "old_4" 71 }
  		gene_eyebrows_shape={ "avg_spacing_high_thickness" 205 "far_spacing_low_thickness" 183 }
@@ -131,10 +133,15 @@ bookmark_swords_of_faith_gokbori={
  		clothes={ "ep2_steppe_war_nobility_clothes" 126 "most_clothes" 0 }
  		headgear={ "ep2_steppe_war_nobility" 43 "no_headgear" 0 }
  		gene_balding_hair_effect={ "shaved_baldness" 255 "no_baldness" 0 }
+ 		gene_cloak={ "cloak_additive" 255 "cloak_additive" 0 }
  }
 	entity={ 979141817 979141817 }
 	tags={ {
 			hash=2125534279
+			invert=no
+		}
+ {
+			hash=4280794887
 			invert=no
 		}
  {

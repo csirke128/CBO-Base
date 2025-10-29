@@ -2,42 +2,43 @@
 # History database id:144041
 bookmark_swords_of_faith_gokbori_ghazi={
 	type=male
-	id=631425395
+	id=39689
+	random_seed=631425395
 	age=0.280000
 	genes={ 		hair_color={ 91 250 43 247 }
  		skin_color={ 212 64 214 119 }
  		eye_color={ 29 249 50 245 }
- 		gene_chin_forward={ "chin_forward_pos" 128 "chin_forward_pos" 146 }
- 		gene_chin_height={ "chin_height_pos" 141 "chin_height_pos" 128 }
- 		gene_chin_width={ "chin_width_neg" 117 "chin_width_pos" 128 }
- 		gene_eye_angle={ "eye_angle_pos" 171 "eye_angle_pos" 169 }
- 		gene_eye_depth={ "eye_depth_pos" 138 "eye_depth_neg" 117 }
- 		gene_eye_height={ "eye_height_neg" 89 "eye_height_neg" 117 }
- 		gene_eye_distance={ "eye_distance_neg" 114 "eye_distance_pos" 131 }
- 		gene_eye_shut={ "eye_shut_neg" 102 "eye_shut_pos" 140 }
- 		gene_forehead_angle={ "forehead_angle_pos" 137 "forehead_angle_pos" 152 }
- 		gene_forehead_brow_height={ "forehead_brow_height_pos" 127 "forehead_brow_height_pos" 177 }
+ 		gene_chin_forward={ "chin_forward_pos" 128 "chin_forward_pos" 128 }
+ 		gene_chin_height={ "chin_height_pos" 141 "chin_height_pos" 141 }
+ 		gene_chin_width={ "chin_width_neg" 117 "chin_width_pos" 117 }
+ 		gene_eye_angle={ "eye_angle_pos" 165 "eye_angle_pos" 165 }
+ 		gene_eye_depth={ "eye_depth_pos" 138 "eye_depth_neg" 138 }
+ 		gene_eye_height={ "eye_height_neg" 89 "eye_height_neg" 89 }
+ 		gene_eye_distance={ "eye_distance_neg" 114 "eye_distance_pos" 114 }
+ 		gene_eye_shut={ "eye_shut_neg" 102 "eye_shut_pos" 102 }
+ 		gene_forehead_angle={ "forehead_angle_pos" 137 "forehead_angle_pos" 137 }
+ 		gene_forehead_brow_height={ "forehead_brow_height_pos" 127 "forehead_brow_height_pos" 127 }
  		gene_forehead_roundness={ "forehead_roundness_pos" 135 "forehead_roundness_neg" 118 }
- 		gene_forehead_width={ "forehead_width_pos" 146 "forehead_width_pos" 132 }
- 		gene_forehead_height={ "forehead_height_neg" 114 "forehead_height_neg" 118 }
- 		gene_head_height={ "head_height_neg" 126 "head_height_neg" 92 }
+ 		gene_forehead_width={ "forehead_width_pos" 146 "forehead_width_pos" 146 }
+ 		gene_forehead_height={ "forehead_height_neg" 114 "forehead_height_neg" 114 }
+ 		gene_head_height={ "head_height_neg" 126 "head_height_neg" 126 }
  		gene_head_width={ "head_width_pos" 164 "head_width_pos" 164 }
- 		gene_head_profile={ "head_profile_neg" 63 "head_profile_neg" 98 }
- 		gene_head_top_height={ "head_top_height_pos" 146 "head_top_height_pos" 132 }
- 		gene_head_top_width={ "head_top_width_neg" 103 "head_top_width_pos" 130 }
- 		gene_jaw_angle={ "jaw_angle_neg" 124 "jaw_angle_neg" 88 }
- 		gene_jaw_forward={ "jaw_forward_pos" 138 "jaw_forward_pos" 139 }
- 		gene_jaw_height={ "jaw_height_pos" 135 "jaw_height_pos" 133 }
- 		gene_jaw_width={ "jaw_width_neg" 122 "jaw_width_pos" 133 }
- 		gene_mouth_corner_depth={ "mouth_corner_depth_neg" 114 "mouth_corner_depth_pos" 135 }
- 		gene_mouth_corner_height={ "mouth_corner_height_pos" 130 "mouth_corner_height_pos" 151 }
- 		gene_mouth_forward={ "mouth_forward_neg" 112 "mouth_forward_neg" 121 }
- 		gene_mouth_height={ "mouth_height_pos" 127 "mouth_height_pos" 139 }
- 		gene_mouth_width={ "mouth_width_neg" 118 "mouth_width_neg" 57 }
- 		gene_mouth_upper_lip_size={ "mouth_upper_lip_size_neg" 104 "mouth_upper_lip_size_pos" 174 }
- 		gene_mouth_lower_lip_size={ "mouth_lower_lip_size_neg" 86 "mouth_lower_lip_size_neg" 81 }
- 		gene_mouth_open={ "mouth_open_pos" 166 "mouth_open_pos" 140 }
- 		gene_neck_length={ "neck_length_pos" 138 "neck_length_neg" 103 }
+ 		gene_head_profile={ "head_profile_neg" 89 "head_profile_neg" 89 }
+ 		gene_head_top_height={ "head_top_height_pos" 146 "head_top_height_pos" 146 }
+ 		gene_head_top_width={ "head_top_width_neg" 103 "head_top_width_pos" 103 }
+ 		gene_jaw_angle={ "jaw_angle_neg" 124 "jaw_angle_neg" 124 }
+ 		gene_jaw_forward={ "jaw_forward_pos" 138 "jaw_forward_pos" 138 }
+ 		gene_jaw_height={ "jaw_height_pos" 135 "jaw_height_pos" 135 }
+ 		gene_jaw_width={ "jaw_width_neg" 122 "jaw_width_pos" 122 }
+ 		gene_mouth_corner_depth={ "mouth_corner_depth_neg" 114 "mouth_corner_depth_pos" 114 }
+ 		gene_mouth_corner_height={ "mouth_corner_height_pos" 130 "mouth_corner_height_pos" 130 }
+ 		gene_mouth_forward={ "mouth_forward_neg" 112 "mouth_forward_neg" 112 }
+ 		gene_mouth_height={ "mouth_height_pos" 127 "mouth_height_pos" 127 }
+ 		gene_mouth_width={ "mouth_width_neg" 118 "mouth_width_neg" 118 }
+ 		gene_mouth_upper_lip_size={ "mouth_upper_lip_size_neg" 104 "mouth_upper_lip_size_pos" 104 }
+ 		gene_mouth_lower_lip_size={ "mouth_lower_lip_size_neg" 89 "mouth_lower_lip_size_neg" 89 }
+ 		gene_mouth_open={ "mouth_open_pos" 165 "mouth_open_pos" 165 }
+ 		gene_neck_length={ "neck_length_pos" 138 "neck_length_neg" 138 }
  		gene_neck_width={ "neck_width_pos" 131 "neck_width_pos" 147 }
  		gene_bs_cheek_forward={ "cheek_forward_neg" 126 "cheek_forward_neg" 110 }
  		gene_bs_cheek_height={ "cheek_height_neg" 119 "cheek_height_pos" 46 }
@@ -96,20 +97,21 @@ bookmark_swords_of_faith_gokbori_ghazi={
  		expression_other={ "cheek_wrinkles_both_01" 0 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_beauty_1" 255 "complexion_2" 128 }
  		gene_height={ "normal_height" 127 "normal_height" 112 }
- 		gene_bs_body_type={ "body_fat_head_fat_full" 115 "body_fat_head_fat_low" 148 }
-	 		gene_bs_penis_size={ "penis_size" 234 "penis_size" 234 }
-	 		gene_bs_penis_thickness={ "penis_thickness" 43 "penis_thickness" 43 }
-	 		gene_bs_ball_size={ "ball_size" 38 "ball_size" 38 }
-	 		gene_bs_butt_size={ "butt_size" 19 "butt_size" 19 }
-	 		gene_bs_nipples={ "nipples" 207 "nipples" 207 }
-	 		gene_bs_hips={ "hips" 42 "hips" 42 }
-	 		gene_bs_shoulders={ "shoulders" 167 "shoulders" 167 }
-	 		gene_bs_waist={ "waist" 144 "waist" 144 }
-	 		gene_areolas={ "areolas_4" 0 "areolas_4" 0 }
+ 		gene_bs_body_type={ "body_fat_head_fat_full" 115 "body_fat_head_fat_low" 114 }
+	 		gene_bs_penis_size={ "penis_size" 78 "penis_size" 78 }
+	 		gene_bs_penis_thickness={ "penis_thickness" 79 "penis_thickness" 79 }
+	 		gene_bs_ball_size={ "ball_size" 135 "ball_size" 135 }
+	 		gene_bs_butt_size={ "butt_size" 166 "butt_size" 166 }
+	 		gene_bs_nipples={ "nipples" 128 "nipples" 128 }
+	 		gene_bs_hips={ "hips" 204 "hips" 204 }
+	 		gene_bs_shoulders={ "shoulders" 88 "shoulders" 88 }
+	 		gene_bs_waist={ "waist" 127 "waist" 127 }
+	 		gene_areolas={ "areolas_1" 0 "areolas_1" 0 }
 			gene_bs_body_fat_distribution={ "body_mid" 115 "body_mid" 115 }
 			gene_bs_upper_body_muscle={ "upper_body_muscle" 0 "upper_body_muscle" 0 }
 			gene_bs_lower_body_muscle={ "lower_body_muscle" 0 "lower_body_muscle" 0 }
 			gene_muscle_definition={ "body_muscle_definition" 0 "body_muscle_definition" 0 }
+			gene_bs_shrink_bookmark={ "shrink_bookmark" 255 "shrink_bookmark" 255 }
  		gene_bs_body_shape={ "body_shape_rectangle_half" 32 "body_shape_apple_half" 0 }
  		gene_bs_bust={ "bust_clothes" 76 "bust_shape_3_full" 206 }
  		gene_age={ "old_3" 50 "old_4" 52 }
@@ -123,15 +125,15 @@ bookmark_swords_of_faith_gokbori_ghazi={
  		eyelashes_accessory={ "normal_eyelashes" 114 "normal_eyelashes" 114 }
  		gene_tuberculosis={ "tuberculosis" 255 "tuberculosis" 0 }
  		gene_hair_disease={ "hair_disease" 255 "hair_disease" 0 }
- 		beards={ "all_beards" 99 "no_beard" 0 }
+ 		beards={ "all_beards" 79 "no_beard" 0 }
  		hairstyles={ "steppe_hairstyles_straight" 255 "all_hairstyles" 0 }
- 		legwear={ "mena_nobility_legwear" 221 "all_legwear" 0 }
+ 		legwear={ "mena_war_legwear" 13 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
  		gene_bs_additive_headgears={ "additive_headgears" 255 "" 0 }
  		gene_bs_cloak_offset={ "cloak_offset" 255 "" 0 }
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
- 		clothes={ "steppe_high_nobility_clothes" 159 "most_clothes" 0 }
- 		headgear={ "fp3_turkic_nobility" 141 "no_headgear" 0 }
+ 		clothes={ "fp3_iranian_high_nobility_clothes" 105 "most_clothes" 0 }
+ 		headgear={ "fp3_turkic_nobility" 91 "no_headgear" 0 }
  		gene_balding_hair_effect={ "shaved_baldness" 255 "no_baldness" 0 }
  }
 	entity={ 2584865562 2584865562 }
@@ -156,6 +158,10 @@ bookmark_swords_of_faith_gokbori_ghazi={
 			invert=no
 		}
  {
+			hash=75156179
+			invert=no
+		}
+ {
 			hash=3672171019
 			invert=no
 		}
@@ -169,6 +175,10 @@ bookmark_swords_of_faith_gokbori_ghazi={
 		}
  {
 			hash=1563190100
+			invert=no
+		}
+ {
+			hash=1945936758
 			invert=no
 		}
  }

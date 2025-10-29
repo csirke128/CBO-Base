@@ -2,7 +2,8 @@
 # History database id:232758
 challenge_character_sargis_greater_armenia={
 	type=male
-	id=1966925148
+	id=37479
+	random_seed=1966925148
 	age=0.410000
 	genes={ 		hair_color={ 25 240 99 234 }
  		skin_color={ 0 89 177 119 }
@@ -53,7 +54,7 @@ challenge_character_sargis_greater_armenia={
  		gene_bs_eye_upper_lid_size={ "eye_upper_lid_size_neg" 137 "eye_upper_lid_size_pos" 10 }
  		gene_bs_forehead_brow_curve={ "forehead_brow_curve_neg" 44 "forehead_brow_curve_neg" 196 }
  		gene_bs_forehead_brow_forward={ "forehead_brow_forward_neg" 36 "forehead_brow_forward_neg" 9 }
- 		gene_bs_forehead_brow_inner_height={ "forehead_brow_inner_height_neg" 107 "forehead_brow_inner_height_pos" 44 }
+ 		gene_bs_forehead_brow_inner_height={ "forehead_brow_inner_height_pos" 102 "forehead_brow_inner_height_pos" 44 }
  		gene_bs_forehead_brow_outer_height={ "forehead_brow_outer_height_pos" 46 "forehead_brow_outer_height_neg" 103 }
  		gene_bs_forehead_brow_width={ "forehead_brow_width_pos" 72 "forehead_brow_width_pos" 10 }
  		gene_bs_jaw_def={ "jaw_def_pos" 70 "jaw_def_pos" 39 }
@@ -90,27 +91,28 @@ challenge_character_sargis_greater_armenia={
  		face_detail_nose_ridge_def={ "nose_ridge_def_pos" 74 "nose_ridge_def_pos" 2 }
  		face_detail_nose_tip_def={ "nose_tip_def" 219 "nose_tip_def" 77 }
  		face_detail_temple_def={ "temple_def" 110 "temple_def" 80 }
- 		expression_brow_wrinkles={ "brow_wrinkles_03" 0 "brow_wrinkles_04" 9 }
- 		expression_eye_wrinkles={ "eye_wrinkles_01" 237 "eye_wrinkles_03" 215 }
+ 		expression_brow_wrinkles={ "brow_wrinkles_03" 124 "brow_wrinkles_04" 9 }
+ 		expression_eye_wrinkles={ "eye_wrinkles_01" 201 "eye_wrinkles_03" 215 }
  		expression_forehead_wrinkles={ "forehead_wrinkles_02" 225 "forehead_wrinkles_02" 165 }
- 		expression_other={ "cheek_wrinkles_both_01" 0 "cheek_wrinkles_both_01" 0 }
+ 		expression_other={ "cheek_wrinkles_both_01" 28 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_4" 179 "complexion_4" 101 }
  		gene_height={ "normal_height" 121 "normal_height" 128 }
- 		gene_bs_body_type={ "body_fat_head_fat_full" 173 "body_fat_head_fat_low" 140 }
-	 		gene_bs_penis_size={ "penis_size" 166 "penis_size" 166 }
-	 		gene_bs_penis_thickness={ "penis_thickness" 199 "penis_thickness" 199 }
-	 		gene_bs_ball_size={ "ball_size" 120 "ball_size" 120 }
-	 		gene_bs_butt_size={ "butt_size" 31 "butt_size" 31 }
-	 		gene_bs_nipples={ "nipples" 108 "nipples" 108 }
-	 		gene_bs_hips={ "hips" 95 "hips" 95 }
-	 		gene_bs_shoulders={ "shoulders" 112 "shoulders" 112 }
-	 		gene_bs_waist={ "waist" 93 "waist" 93 }
+ 		gene_bs_body_type={ "body_fat_head_fat_full" 215 "body_fat_head_fat_low" 140 }
+	 		gene_bs_penis_size={ "penis_size" 71 "penis_size" 71 }
+	 		gene_bs_penis_thickness={ "penis_thickness" 102 "penis_thickness" 102 }
+	 		gene_bs_ball_size={ "ball_size" 12 "ball_size" 12 }
+	 		gene_bs_butt_size={ "butt_size" 87 "butt_size" 87 }
+	 		gene_bs_nipples={ "nipples" 90 "nipples" 90 }
+	 		gene_bs_hips={ "hips" 14 "hips" 14 }
+	 		gene_bs_shoulders={ "shoulders" 94 "shoulders" 94 }
+	 		gene_bs_waist={ "waist" 90 "waist" 90 }
 	 		gene_areolas={ "areolas_0" 0 "areolas_0" 0 }
-			gene_bs_body_fat_distribution={ "body_mid" 173 "body_mid" 173 }
+			gene_bs_body_fat_distribution={ "body_mid" 215 "body_mid" 215 }
 			gene_bs_upper_body_muscle={ "upper_body_muscle" 0 "upper_body_muscle" 0 }
 			gene_bs_lower_body_muscle={ "lower_body_muscle" 0 "lower_body_muscle" 0 }
 			gene_muscle_definition={ "body_muscle_definition" 0 "body_muscle_definition" 0 }
- 		gene_bs_body_shape={ "body_shape_apple_half" 161 "body_shape_pear_full" 0 }
+			gene_bs_shrink_bookmark={ "shrink_bookmark" 255 "shrink_bookmark" 255 }
+ 		gene_bs_body_shape={ "body_shape_apple_half" 141 "body_shape_pear_full" 0 }
  		gene_bs_bust={ "bust_clothes" 117 "bust_shape_3_half" 114 }
  		gene_age={ "old_2" 232 "old_2" 85 }
  		gene_eyebrows_shape={ "avg_spacing_avg_thickness" 226 "far_spacing_avg_thickness" 158 }
@@ -122,24 +124,28 @@ challenge_character_sargis_greater_armenia={
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 219 "normal_eyelashes" 219 }
  		beards={ "ep3_beards_straight" 255 "no_beard" 0 }
- 		cloaks={ "no_cloak" 89 "no_cloak" 0 }
+ 		cloaks={ "ep3_byzantine_era2_nob" 189 "no_cloak" 0 }
  		hairstyles={ "ep3_byzantine_hairstyle" 255 "all_hairstyles" 0 }
  		legwear={ "ep3_byzantine_nobility_legwear" 237 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
  		gene_bs_additive_headgears={ "additive_headgears" 255 "" 0 }
  		gene_bs_cloak_offset={ "cloak_offset" 255 "" 0 }
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
- 		clothes={ "byzantine_war_nobility_clothes" 169 "most_clothes" 0 }
+ 		clothes={ "ep3_byzantine_era2_high_nobility_clothes" 193 "most_clothes" 0 }
  		headgear={ "byzantine_high_nobility" 141 "no_headgear" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
  }
-	entity={ 979141817 979141817 }
+	entity={ 2268070609 2268070609 }
 	tags={ {
 			hash=2125534279
 			invert=no
 		}
  {
 			hash=681013727
+			invert=no
+		}
+ {
+			hash=75156179
 			invert=no
 		}
  {
@@ -156,10 +162,6 @@ challenge_character_sargis_greater_armenia={
 		}
  {
 			hash=1563190100
-			invert=no
-		}
- {
-			hash=2842715111
 			invert=no
 		}
  {

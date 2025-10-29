@@ -2,7 +2,8 @@
 # History database id:205570
 challenge_character_rogier_albi={
 	type=male
-	id=1975182627
+	id=39159
+	random_seed=1975182627
 	age=0.290000
 	genes={ 		hair_color={ 67 249 104 119 }
  		skin_color={ 65 76 72 78 }
@@ -96,21 +97,22 @@ challenge_character_rogier_albi={
  		expression_other={ "cheek_wrinkles_both_01" 0 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_2" 129 "complexion_1" 134 }
  		gene_height={ "normal_height" 130 "normal_height" 115 }
- 		gene_bs_body_type={ "body_fat_head_fat_medium" 122 "body_fat_head_fat_low" 118 }
-	 		gene_bs_penis_size={ "penis_size" 118 "penis_size" 118 }
-	 		gene_bs_penis_thickness={ "penis_thickness" 142 "penis_thickness" 142 }
-	 		gene_bs_ball_size={ "ball_size" 129 "ball_size" 129 }
-	 		gene_bs_butt_size={ "butt_size" 104 "butt_size" 104 }
-	 		gene_bs_nipples={ "nipples" 133 "nipples" 133 }
-	 		gene_bs_hips={ "hips" 156 "hips" 156 }
-	 		gene_bs_shoulders={ "shoulders" 155 "shoulders" 155 }
-	 		gene_bs_waist={ "waist" 173 "waist" 173 }
+ 		gene_bs_body_type={ "body_fat_head_fat_medium" 114 "body_fat_head_fat_low" 118 }
+	 		gene_bs_penis_size={ "penis_size" 141 "penis_size" 141 }
+	 		gene_bs_penis_thickness={ "penis_thickness" 124 "penis_thickness" 124 }
+	 		gene_bs_ball_size={ "ball_size" 147 "ball_size" 147 }
+	 		gene_bs_butt_size={ "butt_size" 60 "butt_size" 60 }
+	 		gene_bs_nipples={ "nipples" 121 "nipples" 121 }
+	 		gene_bs_hips={ "hips" 145 "hips" 145 }
+	 		gene_bs_shoulders={ "shoulders" 129 "shoulders" 129 }
+	 		gene_bs_waist={ "waist" 141 "waist" 141 }
 	 		gene_areolas={ "areolas_0" 0 "areolas_0" 0 }
-			gene_bs_body_fat_distribution={ "body_mid" 122 "body_mid" 122 }
+			gene_bs_body_fat_distribution={ "body_mid" 114 "body_mid" 114 }
 			gene_bs_upper_body_muscle={ "upper_body_muscle" 0 "upper_body_muscle" 0 }
 			gene_bs_lower_body_muscle={ "lower_body_muscle" 0 "lower_body_muscle" 0 }
 			gene_muscle_definition={ "body_muscle_definition" 0 "body_muscle_definition" 0 }
- 		gene_bs_body_shape={ "body_shape_apple_half" 82 "body_shape_rectangle_half" 17 }
+			gene_bs_shrink_bookmark={ "shrink_bookmark" 255 "shrink_bookmark" 255 }
+ 		gene_bs_body_shape={ "body_shape_apple_half" 67 "body_shape_rectangle_half" 17 }
  		gene_bs_bust={ "bust_clothes" 149 "bust_shape_3_half" 7 }
  		gene_age={ "old_2" 163 "old_4" 240 }
  		gene_eyebrows_shape={ "far_spacing_low_thickness" 152 "avg_spacing_lower_thickness" 131 }
@@ -121,16 +123,16 @@ challenge_character_rogier_albi={
  		eye_accessory={ "normal_eyes" 195 "normal_eyes" 195 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 136 "normal_eyelashes" 136 }
- 		beards={ "all_beards" 29 "no_beard" 0 }
+ 		beards={ "all_beards" 23 "no_beard" 0 }
  		cloaks={ "no_cloak" 210 "no_cloak" 0 }
- 		hairstyles={ "all_hairstyles" 79 "all_hairstyles" 0 }
- 		legwear={ "western_war_legwear" 191 "all_legwear" 0 }
+ 		hairstyles={ "all_hairstyles" 59 "all_hairstyles" 0 }
+ 		legwear={ "western_common_legwear" 236 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
  		gene_bs_additive_headgears={ "additive_headgears" 255 "" 0 }
  		gene_bs_cloak_offset={ "cloak_offset" 255 "" 0 }
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
- 		clothes={ "western_war_nobility_clothes" 126 "most_clothes" 0 }
- 		headgear={ "ep2_western_era2_war_nobility" 43 "no_headgear" 0 }
+ 		clothes={ "ep2_western_era3_low_nobility_clothes" 232 "most_clothes" 0 }
+ 		headgear={ "ep2_western_era3_nobility" 231 "no_headgear" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
  		gene_cloak={ "cloak_additive" 255 "cloak_additive" 0 }
  }
@@ -140,19 +142,11 @@ challenge_character_rogier_albi={
 			invert=no
 		}
  {
-			hash=726151402
-			invert=no
-		}
- {
 			hash=681013727
 			invert=no
 		}
  {
-			hash=2495432340
-			invert=no
-		}
- {
-			hash=1921638387
+			hash=3672171019
 			invert=no
 		}
  {
@@ -160,11 +154,11 @@ challenge_character_rogier_albi={
 			invert=no
 		}
  {
-			hash=1219709797
+			hash=1563190100
 			invert=no
 		}
  {
-			hash=1563190100
+			hash=1485265044
 			invert=no
 		}
  {

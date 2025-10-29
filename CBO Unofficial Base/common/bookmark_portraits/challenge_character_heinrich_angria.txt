@@ -2,7 +2,8 @@
 # History database id:212600
 challenge_character_heinrich_angria={
 	type=male
-	id=2310858472
+	id=36319
+	random_seed=2310858472
 	age=0.490000
 	genes={ 		hair_color={ 219 229 121 61 }
  		skin_color={ 79 85 76 86 }
@@ -92,24 +93,25 @@ challenge_character_heinrich_angria={
  		face_detail_temple_def={ "temple_def" 159 "temple_def" 170 }
  		expression_brow_wrinkles={ "brow_wrinkles_04" 186 "brow_wrinkles_03" 195 }
  		expression_eye_wrinkles={ "eye_wrinkles_03" 255 "eye_wrinkles_01" 46 }
- 		expression_forehead_wrinkles={ "forehead_wrinkles_01" 191 "forehead_wrinkles_01" 12 }
+ 		expression_forehead_wrinkles={ "forehead_wrinkles_01" 255 "forehead_wrinkles_01" 12 }
  		expression_other={ "cheek_wrinkles_both_01" 0 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_5" 139 "complexion_5" 80 }
  		gene_height={ "normal_height" 132 "normal_height" 97 }
- 		gene_bs_body_type={ "body_fat_head_fat_low" 125 "body_fat_head_fat_low" 111 }
-	 		gene_bs_penis_size={ "penis_size" 100 "penis_size" 100 }
-	 		gene_bs_penis_thickness={ "penis_thickness" 72 "penis_thickness" 72 }
-	 		gene_bs_ball_size={ "ball_size" 114 "ball_size" 114 }
-	 		gene_bs_butt_size={ "butt_size" 153 "butt_size" 153 }
-	 		gene_bs_nipples={ "nipples" 105 "nipples" 105 }
-	 		gene_bs_hips={ "hips" 107 "hips" 107 }
-	 		gene_bs_shoulders={ "shoulders" 178 "shoulders" 178 }
-	 		gene_bs_waist={ "waist" 127 "waist" 127 }
-	 		gene_areolas={ "areolas_3" 0 "areolas_3" 0 }
-			gene_bs_body_fat_distribution={ "body_mid" 125 "body_mid" 125 }
+ 		gene_bs_body_type={ "body_fat_head_fat_low" 131 "body_fat_head_fat_low" 111 }
+	 		gene_bs_penis_size={ "penis_size" 109 "penis_size" 109 }
+	 		gene_bs_penis_thickness={ "penis_thickness" 159 "penis_thickness" 159 }
+	 		gene_bs_ball_size={ "ball_size" 25 "ball_size" 25 }
+	 		gene_bs_butt_size={ "butt_size" 11 "butt_size" 11 }
+	 		gene_bs_nipples={ "nipples" 56 "nipples" 56 }
+	 		gene_bs_hips={ "hips" 74 "hips" 74 }
+	 		gene_bs_shoulders={ "shoulders" 122 "shoulders" 122 }
+	 		gene_bs_waist={ "waist" 221 "waist" 221 }
+	 		gene_areolas={ "areolas_0" 0 "areolas_0" 0 }
+			gene_bs_body_fat_distribution={ "body_mid" 131 "body_mid" 131 }
 			gene_bs_upper_body_muscle={ "upper_body_muscle" 0 "upper_body_muscle" 0 }
 			gene_bs_lower_body_muscle={ "lower_body_muscle" 0 "lower_body_muscle" 0 }
 			gene_muscle_definition={ "body_muscle_definition" 0 "body_muscle_definition" 0 }
+			gene_bs_shrink_bookmark={ "shrink_bookmark" 255 "shrink_bookmark" 255 }
  		gene_bs_body_shape={ "body_shape_average" 81 "body_shape_average" 0 }
  		gene_bs_bust={ "bust_clothes" 32 "bust_shape_1_full" 38 }
  		gene_age={ "old_4" 250 "old_4" 88 }
@@ -118,13 +120,13 @@ challenge_character_heinrich_angria={
  		gene_body_hair={ "body_hair_sparse" 148 "body_hair_avg" 128 }
  		gene_hair_type={ "hair_curly" 157 "hair_wavy" 176 }
  		gene_baldness={ "male_pattern_baldness" 168 "male_pattern_baldness" 180 }
- 		eye_accessory={ "normal_eyes" 56 "normal_eyes" 56 }
+ 		eye_accessory={ "normal_eyes_no_shadow" 255 "normal_eyes" 56 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 4 "normal_eyelashes" 4 }
- 		beards={ "all_beards" 159 "no_beard" 0 }
+ 		beards={ "all_beards" 127 "no_beard" 0 }
  		cloaks={ "fp4_cloak_western" 255 "no_cloak" 0 }
  		cloak_hoods={ "fp4_western_cloak_hoods" 205 "no_cloak_hood" 0 }
- 		hairstyles={ "all_hairstyles" 189 "all_hairstyles" 0 }
+ 		hairstyles={ "all_hairstyles" 158 "all_hairstyles" 0 }
  		legwear={ "western_common_legwear" 159 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
  		gene_bs_additive_headgears={ "additive_headgears" 255 "" 0 }
@@ -135,7 +137,7 @@ challenge_character_heinrich_angria={
  		additive_headgear={ "ep2_western_era3_veils" 242 "no_additive" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
  }
-	entity={ 979141817 979141817 }
+	entity={ 2616704408 2616704408 }
 	tags={ {
 			hash=2125534279
 			invert=no
@@ -150,6 +152,10 @@ challenge_character_heinrich_angria={
 		}
  {
 			hash=2793867254
+			invert=no
+		}
+ {
+			hash=75156179
 			invert=no
 		}
  {

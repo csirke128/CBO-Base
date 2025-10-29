@@ -16,7 +16,191 @@
 		}
 	}
 
+	## TGP Chinese ##
 
+	add_accessory_modifiers = {
+		gene = clothes
+		template = tgp_chinese_imperial_clothes
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = tgp_chinese_war_nobility_clothes
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = tgp_chinese_royalty_clothes
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = tgp_chinese_commoner_clothes
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = tgp_chinese_high_nobility_clothes
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = tgp_chinese_era1_nobility_clothes
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = tgp_chinese_era2_nobility_clothes
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = tgp_chinese_buddhist_clothes
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = tgp_chinese_ministers
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = tgp_chinese_taoist_clothes
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = tgp_japanese_war_nobility_clothes
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = tgp_japanese_imperial_clothes
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = tgp_japanese_royalty_clothes
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = tgp_japanese_high_nobility_clothes
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = tgp_japanese_nobility_clothes
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = tgp_japanese_commoner_clothes
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+		}
+	}
+
+		add_accessory_modifiers = {
+		gene = clothes
+		template = tgp_korean_era1_nobility_clothes
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+		}
+	}
+
+		add_accessory_modifiers = {
+		gene = clothes
+		template = tgp_korean_era2_nobility_clothes
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = tgp_korean_imperial_clothes
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = tgp_japanese_shinto_clothes
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = tgp_japanese_buddhist_clothes
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = tgp_southeast_low_nobility_clothes
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = tgp_southeast_high_nobility_clothes
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+		}
+	}
 
 	### MPO - Khans of the Steppe ###
 
@@ -93,7 +277,7 @@
 			has_cp4_dlc_trigger = yes
 		}
 	}
-
+		
 	add_accessory_modifiers = {
 		gene = clothes
 		template = ccp4_sami_travel_clothes
@@ -256,7 +440,7 @@
 			has_ep3_dlc_trigger = yes
 		}
 	}
-	
+
 	## SP3 ##
 	add_accessory_modifiers = {
 		gene = clothes
@@ -431,7 +615,7 @@
 		}
 	}
 
-## AFR ##
+	## AFR ##
 
 	add_accessory_modifiers = {
 		gene = clothes
@@ -500,7 +684,7 @@
 		}
 	}
 
-## FP2 - The Fate of Iberia ##
+	## FP2 - The Fate of Iberia ##
 
 	add_accessory_modifiers = {
 		gene = clothes
@@ -566,7 +750,7 @@
 		}
 	}
 
-## FP1 ##
+	## FP1 ##
 
 	add_accessory_modifiers = {
 		gene = clothes

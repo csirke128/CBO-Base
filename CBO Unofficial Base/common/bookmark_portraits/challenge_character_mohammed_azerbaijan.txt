@@ -2,7 +2,8 @@
 # History database id:144052
 challenge_character_mohammed_azerbaijan={
 	type=male
-	id=1171906041
+	id=37477
+	random_seed=1171906041
 	age=0.410000
 	genes={ 		hair_color={ 88 242 19 247 }
  		skin_color={ 181 102 181 95 }
@@ -96,21 +97,22 @@ challenge_character_mohammed_azerbaijan={
  		expression_other={ "cheek_wrinkles_both_01" 0 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_3" 171 "complexion_1" 156 }
  		gene_height={ "normal_height" 134 "normal_height" 114 }
- 		gene_bs_body_type={ "body_fat_head_fat_medium" 98 "body_fat_head_fat_full" 146 }
-	 		gene_bs_penis_size={ "penis_size" 139 "penis_size" 139 }
-	 		gene_bs_penis_thickness={ "penis_thickness" 47 "penis_thickness" 47 }
-	 		gene_bs_ball_size={ "ball_size" 108 "ball_size" 108 }
-	 		gene_bs_butt_size={ "butt_size" 24 "butt_size" 24 }
-	 		gene_bs_nipples={ "nipples" 143 "nipples" 143 }
-	 		gene_bs_hips={ "hips" 39 "hips" 39 }
-	 		gene_bs_shoulders={ "shoulders" 131 "shoulders" 131 }
-	 		gene_bs_waist={ "waist" 117 "waist" 117 }
-	 		gene_areolas={ "areolas_0" 0 "areolas_0" 0 }
-			gene_bs_body_fat_distribution={ "body_mid" 98 "body_mid" 98 }
+ 		gene_bs_body_type={ "body_fat_head_fat_medium" 131 "body_fat_head_fat_full" 146 }
+	 		gene_bs_penis_size={ "penis_size" 112 "penis_size" 112 }
+	 		gene_bs_penis_thickness={ "penis_thickness" 95 "penis_thickness" 95 }
+	 		gene_bs_ball_size={ "ball_size" 126 "ball_size" 126 }
+	 		gene_bs_butt_size={ "butt_size" 67 "butt_size" 67 }
+	 		gene_bs_nipples={ "nipples" 95 "nipples" 95 }
+	 		gene_bs_hips={ "hips" 97 "hips" 97 }
+	 		gene_bs_shoulders={ "shoulders" 175 "shoulders" 175 }
+	 		gene_bs_waist={ "waist" 19 "waist" 19 }
+	 		gene_areolas={ "areolas_4" 0 "areolas_4" 0 }
+			gene_bs_body_fat_distribution={ "body_mid" 131 "body_mid" 131 }
 			gene_bs_upper_body_muscle={ "upper_body_muscle" 0 "upper_body_muscle" 0 }
 			gene_bs_lower_body_muscle={ "lower_body_muscle" 0 "lower_body_muscle" 0 }
 			gene_muscle_definition={ "body_muscle_definition" 0 "body_muscle_definition" 0 }
- 		gene_bs_body_shape={ "body_shape_rectangle_half" 218 "body_shape_rectangle_full" 0 }
+			gene_bs_shrink_bookmark={ "shrink_bookmark" 255 "shrink_bookmark" 255 }
+ 		gene_bs_body_shape={ "body_shape_rectangle_half" 249 "body_shape_rectangle_full" 0 }
  		gene_bs_bust={ "bust_clothes" 106 "bust_default" 168 }
  		gene_age={ "old_4" 241 "old_2" 167 }
  		gene_eyebrows_shape={ "far_spacing_high_thickness" 154 "far_spacing_low_thickness" 249 }
@@ -121,18 +123,18 @@ challenge_character_mohammed_azerbaijan={
  		eye_accessory={ "normal_eyes" 121 "normal_eyes" 121 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 14 "normal_eyelashes" 14 }
- 		beards={ "all_beards" 74 "no_beard" 0 }
- 		hairstyles={ "all_hairstyles" 15 "all_hairstyles" 0 }
- 		legwear={ "mena_nobility_legwear" 229 "all_legwear" 0 }
+ 		beards={ "all_beards" 59 "no_beard" 0 }
+ 		hairstyles={ "all_hairstyles" 11 "all_hairstyles" 0 }
+ 		legwear={ "mena_war_legwear" 75 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
  		gene_bs_additive_headgears={ "additive_headgears" 255 "" 0 }
  		gene_bs_cloak_offset={ "cloak_offset" 255 "" 0 }
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
- 		clothes={ "steppe_high_nobility_clothes" 238 "most_clothes" 0 }
- 		headgear={ "fp3_turkic_nobility" 160 "no_headgear" 0 }
+ 		clothes={ "fp3_iranian_high_nobility_clothes" 98 "most_clothes" 0 }
+ 		headgear={ "fp3_turkic_nobility" 108 "no_headgear" 0 }
  		gene_balding_hair_effect={ "shaved_baldness" 255 "no_baldness" 0 }
  }
-	entity={ 979141817 979141817 }
+	entity={ 2697330347 2697330347 }
 	tags={ {
 			hash=1989892411
 			invert=no
@@ -159,6 +161,10 @@ challenge_character_mohammed_azerbaijan={
 		}
  {
 			hash=1563190100
+			invert=no
+		}
+ {
+			hash=1945936758
 			invert=no
 		}
  }

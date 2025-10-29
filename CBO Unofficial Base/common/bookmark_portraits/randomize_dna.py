@@ -25,7 +25,8 @@ for file in os.listdir(os.curdir):
            "gene_areolas" in line or \
            "gene_bs_hips" in line or \
            "gene_bs_shoulders" in line or \
-           "gene_bs_waist" in line:
+           "gene_bs_waist" in line or \
+           "gene_bs_shrink_bookmark" in line:
            continue
         if "gene_bs_body_type" in line:
             new_lines.append(line)
@@ -206,6 +207,7 @@ for file in os.listdir(os.curdir):
             new_lines.append("			gene_bs_upper_body_muscle={ \"upper_body_muscle\" 0 \"upper_body_muscle\" 0 }\n")
             new_lines.append("			gene_bs_lower_body_muscle={ \"lower_body_muscle\" 0 \"lower_body_muscle\" 0 }\n")
             new_lines.append("			gene_muscle_definition={ \"body_muscle_definition\" 0 \"body_muscle_definition\" 0 }\n")
+            new_lines.append("			gene_bs_shrink_bookmark={ \"shrink_bookmark\" 255 \"shrink_bookmark\" 255 }\n")
             continue
         new_lines.append(line)
 

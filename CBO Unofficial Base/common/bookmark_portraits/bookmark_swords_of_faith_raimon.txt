@@ -2,7 +2,8 @@
 # History database id:223650
 bookmark_swords_of_faith_raimon={
 	type=male
-	id=3228942394
+	id=37950
+	random_seed=3228942394
 	age=0.380000
 	genes={ 		hair_color={ 213 201 168 190 }
  		skin_color={ 57 96 65 93 }
@@ -96,21 +97,22 @@ bookmark_swords_of_faith_raimon={
  		expression_other={ "cheek_wrinkles_both_01" 0 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_6" 168 "complexion_2" 181 }
  		gene_height={ "normal_height" 127 "normal_height" 135 }
- 		gene_bs_body_type={ "body_fat_head_fat_low" 121 "body_fat_head_fat_low" 128 }
-	 		gene_bs_penis_size={ "penis_size" 66 "penis_size" 66 }
-	 		gene_bs_penis_thickness={ "penis_thickness" 124 "penis_thickness" 124 }
-	 		gene_bs_ball_size={ "ball_size" 76 "ball_size" 76 }
-	 		gene_bs_butt_size={ "butt_size" 40 "butt_size" 40 }
-	 		gene_bs_nipples={ "nipples" 212 "nipples" 212 }
-	 		gene_bs_hips={ "hips" 139 "hips" 139 }
-	 		gene_bs_shoulders={ "shoulders" 122 "shoulders" 122 }
-	 		gene_bs_waist={ "waist" 115 "waist" 115 }
+ 		gene_bs_body_type={ "body_fat_head_fat_low" 117 "body_fat_head_fat_low" 128 }
+	 		gene_bs_penis_size={ "penis_size" 12 "penis_size" 12 }
+	 		gene_bs_penis_thickness={ "penis_thickness" 37 "penis_thickness" 37 }
+	 		gene_bs_ball_size={ "ball_size" 107 "ball_size" 107 }
+	 		gene_bs_butt_size={ "butt_size" 86 "butt_size" 86 }
+	 		gene_bs_nipples={ "nipples" 159 "nipples" 159 }
+	 		gene_bs_hips={ "hips" 54 "hips" 54 }
+	 		gene_bs_shoulders={ "shoulders" 168 "shoulders" 168 }
+	 		gene_bs_waist={ "waist" 109 "waist" 109 }
 	 		gene_areolas={ "areolas_0" 0 "areolas_0" 0 }
-			gene_bs_body_fat_distribution={ "body_mid" 121 "body_mid" 121 }
+			gene_bs_body_fat_distribution={ "body_mid" 117 "body_mid" 117 }
 			gene_bs_upper_body_muscle={ "upper_body_muscle" 0 "upper_body_muscle" 0 }
 			gene_bs_lower_body_muscle={ "lower_body_muscle" 0 "lower_body_muscle" 0 }
 			gene_muscle_definition={ "body_muscle_definition" 0 "body_muscle_definition" 0 }
- 		gene_bs_body_shape={ "body_shape_rectangle_half" 172 "body_shape_triangle_full" 0 }
+			gene_bs_shrink_bookmark={ "shrink_bookmark" 255 "shrink_bookmark" 255 }
+ 		gene_bs_body_shape={ "body_shape_rectangle_half" 182 "body_shape_triangle_full" 0 }
  		gene_bs_bust={ "bust_clothes" 97 "bust_shape_3_full" 152 }
  		gene_age={ "old_3" 117 "old_4" 167 }
  		gene_eyebrows_shape={ "avg_spacing_low_thickness" 186 "far_spacing_avg_thickness" 182 }
@@ -122,14 +124,14 @@ bookmark_swords_of_faith_raimon={
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 64 "normal_eyelashes" 64 }
  		beards={ "ep2_beards" 169 "no_beard" 0 }
- 		cloaks={ "no_cloak" 68 "no_cloak" 0 }
- 		hairstyles={ "all_hairstyles" 3 "all_hairstyles" 0 }
- 		legwear={ "western_war_legwear" 54 "all_legwear" 0 }
+ 		cloaks={ "fp4_cloak_western" 126 "no_cloak" 0 }
+ 		hairstyles={ "all_hairstyles" 2 "all_hairstyles" 0 }
+ 		legwear={ "western_common_legwear" 101 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
  		gene_bs_additive_headgears={ "additive_headgears" 255 "" 0 }
  		gene_bs_cloak_offset={ "cloak_offset" 255 "" 0 }
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
- 		clothes={ "western_war_nobility_clothes" 255 "most_clothes" 0 }
+ 		clothes={ "fp4_western_era3_high_nobility_clothes" 13 "most_clothes" 0 }
  		headgear={ "sp2_western_high_nobility" 140 "no_headgear" 0 }
  		additive_headgear={ "ep2_western_era2_veils" 131 "no_additive" 0 }
  		gene_balding_hair_effect={ "baldness_stage_1" 255 "no_baldness" 0 }
@@ -137,10 +139,6 @@ bookmark_swords_of_faith_raimon={
 	entity={ 2697330347 2697330347 }
 	tags={ {
 			hash=2125534279
-			invert=no
-		}
- {
-			hash=726151402
 			invert=no
 		}
  {
