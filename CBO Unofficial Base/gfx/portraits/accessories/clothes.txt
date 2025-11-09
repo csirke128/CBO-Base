@@ -3353,7 +3353,7 @@ f_clothes_sec_fp4_western_bedchamber_03_hi = {
 #####################################
 
 m_clothes_sec_sp3_western_roy_01 = {
-set_tags = "shrink_arms,shrink_chest,shrink_belly,shrink_hands"
+    set_tags = "shrink_arms,shrink_chest,shrink_belly,shrink_hands"
 	set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed"
 	entity = { required_tags = "undressed"		shared_pose_entity = torso }
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_sp3_western_roy_01_entity }
