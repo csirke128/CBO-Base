@@ -4262,8 +4262,6 @@ m_clothes_sec_tgp_japanese_nob_01_m3 = {
 set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed"
 	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed"
-	entity = { required_tags = "undressed"		shared_pose_entity = torso }
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_tgp_japanese_nob_01_m3_entity }
 }
 
@@ -4373,37 +4371,37 @@ set_tags = "shrink_arms,shrink_chest,shrink_belly"
 }
 
 m_clothes_sec_tgp_southeast_nob_01 = {
-set_tags = ""
+    set_tags = "breasts_clothed"
 	entity = { required_tags = "undressed"		shared_pose_entity = torso }
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_tgp_southeast_nob_01_entity }
 }
 
 m_clothes_sec_tgp_southeast_nob_02 = {
-set_tags = ""
+    set_tags = "breasts_clothed"
 	entity = { required_tags = "undressed"		shared_pose_entity = torso }
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_tgp_southeast_nob_02_entity }
 }
 
 f_clothes_sec_tgp_southeast_nob_01 = {
-set_tags = ""
+    set_tags = "breasts_clothed"
 	entity = { required_tags = "undressed"		shared_pose_entity = torso }
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_tgp_southeast_nob_01_entity }
 }
 
 f_clothes_sec_tgp_southeast_nob_01_hi = {
-set_tags = ""
+    set_tags = "breasts_clothed"
 	entity = { required_tags = "undressed"		shared_pose_entity = torso }
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_tgp_southeast_nob_01_hi_entity }
 }
 
 f_clothes_sec_tgp_southeast_nob_02 = {
-set_tags = ""
+    set_tags = "breasts_clothed"
 	entity = { required_tags = "undressed"		shared_pose_entity = torso }
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_tgp_southeast_nob_02_entity }
 }
 
 f_clothes_sec_tgp_southeast_nob_02_hi = {
-set_tags = ""
+    set_tags = "breasts_clothed"
 	entity = { required_tags = "undressed"		shared_pose_entity = torso }
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_tgp_southeast_nob_02_hi_entity }
 }
