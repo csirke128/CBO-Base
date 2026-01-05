@@ -2,7 +2,8 @@
 # History database id:107590
 bookmark_laamps_el_cid={
 	type=male
-	id=2121656939
+	id=35049
+	random_seed=2121656939
 	age=0.230000
 	genes={ 		hair_color={ 178 204 46 249 }
  		skin_color={ 173 115 176 116 }
@@ -96,17 +97,17 @@ bookmark_laamps_el_cid={
  		expression_other={ "cheek_wrinkles_both_01" 0 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_2" 130 "complexion_3" 76 }
  		gene_height={ "normal_height" 132 "normal_height" 135 }
- 		gene_bs_body_type={ "body_fat_head_fat_medium" 122 "body_fat_head_fat_medium" 130 }
-	 		gene_bs_penis_size={ "penis_size" 23 "penis_size" 23 }
-	 		gene_bs_penis_thickness={ "penis_thickness" 67 "penis_thickness" 67 }
-	 		gene_bs_ball_size={ "ball_size" 28 "ball_size" 28 }
-	 		gene_bs_butt_size={ "butt_size" 161 "butt_size" 161 }
-	 		gene_bs_nipples={ "nipples" 117 "nipples" 117 }
-	 		gene_bs_hips={ "hips" 61 "hips" 61 }
-	 		gene_bs_shoulders={ "shoulders" 180 "shoulders" 180 }
-	 		gene_bs_waist={ "waist" 174 "waist" 174 }
-	 		gene_areolas={ "areolas_0" 0 "areolas_0" 0 }
-			gene_bs_body_fat_distribution={ "body_mid" 122 "body_mid" 122 }
+ 		gene_bs_body_type={ "body_fat_head_fat_medium" 139 "body_fat_head_fat_medium" 130 }
+	 		gene_bs_penis_size={ "penis_size" 136 "penis_size" 136 }
+	 		gene_bs_penis_thickness={ "penis_thickness" 74 "penis_thickness" 74 }
+	 		gene_bs_ball_size={ "ball_size" 18 "ball_size" 18 }
+	 		gene_bs_butt_size={ "butt_size" 146 "butt_size" 146 }
+	 		gene_bs_nipples={ "nipples" 176 "nipples" 176 }
+	 		gene_bs_hips={ "hips" 50 "hips" 50 }
+	 		gene_bs_shoulders={ "shoulders" 99 "shoulders" 99 }
+	 		gene_bs_waist={ "waist" 80 "waist" 80 }
+	 		gene_areolas={ "areolas_1" 0 "areolas_1" 0 }
+			gene_bs_body_fat_distribution={ "body_mid" 139 "body_mid" 139 }
 			gene_bs_upper_body_muscle={ "upper_body_muscle" 0 "upper_body_muscle" 0 }
 			gene_bs_lower_body_muscle={ "lower_body_muscle" 0 "lower_body_muscle" 0 }
 			gene_muscle_definition={ "body_muscle_definition" 0 "body_muscle_definition" 0 }
@@ -122,7 +123,7 @@ bookmark_laamps_el_cid={
  		eye_accessory={ "normal_eyes" 106 "normal_eyes" 106 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 207 "normal_eyelashes" 207 }
- 		beards={ "all_beards" 236 "no_beard" 0 }
+ 		beards={ "all_beards" 187 "no_beard" 0 }
  		cloaks={ "no_cloak" 98 "no_cloak" 0 }
  		hairstyles={ "scripted_character_hairstyles_03" 125 "all_hairstyles" 0 }
  		legwear={ "fp1_common_legwear" 133 "all_legwear" 0 }
@@ -135,7 +136,7 @@ bookmark_laamps_el_cid={
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
  		props_right={ "fp2_iberian_christian_sword" 255 "no_props" 0 }
  		props_left={ "ep2_western_jousting_shield_01" 255 "no_props" 0 }
- 		gene_additive_animations_fat={ "fat_additive" 5 "fat_additive" 0 }
+ 		gene_additive_animations_fat={ "fat_additive" 28 "fat_additive" 0 }
  		gene_additive_animations_dwarf={ "dwarf_additive" 0 "dwarf_additive" 0 }
  }
 	entity={ 1083207840 1083207840 }
@@ -144,11 +145,19 @@ bookmark_laamps_el_cid={
 			invert=no
 		}
  {
-			hash=726151402
+			hash=4280794887
 			invert=no
 		}
  {
 			hash=681013727
+			invert=no
+		}
+ {
+			hash=726151402
+			invert=no
+		}
+ {
+			hash=75156179
 			invert=no
 		}
  {

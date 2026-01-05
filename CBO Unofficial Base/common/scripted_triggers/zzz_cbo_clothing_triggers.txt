@@ -3,15 +3,14 @@
     exists = this
     is_adult = yes
     age >= 18
-
     # Character must have a valid reasion to be naked.
     OR = {
-        faith = {
-            has_doctrine_parameter = naked_adherents_active
-        }
-        culture = { 
-            has_cultural_parameter = naked_culture_active
-        }
+		faith = { has_doctrine_parameter = naked_adherents_active }
+		culture = { has_cultural_parameter = naked_culture_active }
+		has_character_modifier = diplomacy_majesty_4090_no_raiment_modifier # Lunatic event where character goes naked instead of buying new clothes.
+		has_character_flag = is_naked # Special flag used in certain events.
+        has_trait_with_flag = is_naked
+        has_character_flag = sex_animation_event
         AND = {
             is_female = yes
             faith = {
@@ -60,10 +59,6 @@
                 has_council_position = councillor_court_chaplain
             }
         }
-        has_character_modifier = diplomacy_majesty_4090_no_raiment_modifier # Lunatic event where character goes naked instead of buying new clothes.
-        has_character_flag = is_naked # Special flag used in certain events.
-        has_trait_with_flag = is_naked
-        has_character_flag = sex_animation_event
     }
 }
 

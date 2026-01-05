@@ -2,7 +2,8 @@
 # History database id:41702
 bookmark_laamps_hassan_sabbah={
 	type=boy
-	id=3266551304
+	id=36729
+	random_seed=3266551304
 	age=0.160000
 	genes={ 		hair_color={ 98 244 53 241 }
  		skin_color={ 157 152 161 151 }
@@ -92,26 +93,26 @@ bookmark_laamps_hassan_sabbah={
  		face_detail_temple_def={ "temple_def" 242 "temple_def" 129 }
  		expression_brow_wrinkles={ "brow_wrinkles_03" 0 "brow_wrinkles_01" 218 }
  		expression_eye_wrinkles={ "eye_wrinkles_01" 83 "eye_wrinkles_03" 201 }
- 		expression_forehead_wrinkles={ "forehead_wrinkles_01" 28 "forehead_wrinkles_01" 93 }
- 		expression_other={ "cheek_wrinkles_both_01" 102 "cheek_wrinkles_both_01" 0 }
+ 		expression_forehead_wrinkles={ "forehead_wrinkles_01" 183 "forehead_wrinkles_01" 93 }
+ 		expression_other={ "cheek_wrinkles_both_01" 51 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_6" 182 "complexion_5" 180 }
  		gene_height={ "normal_height" 140 "normal_height" 121 }
- 		gene_bs_body_type={ "body_fat_head_fat_full" 158 "body_fat_head_fat_full" 139 }
-	 		gene_bs_penis_size={ "penis_size" 66 "penis_size" 66 }
-	 		gene_bs_penis_thickness={ "penis_thickness" 104 "penis_thickness" 104 }
-	 		gene_bs_ball_size={ "ball_size" 81 "ball_size" 81 }
-	 		gene_bs_butt_size={ "butt_size" 204 "butt_size" 204 }
-	 		gene_bs_nipples={ "nipples" 85 "nipples" 85 }
-	 		gene_bs_hips={ "hips" 39 "hips" 39 }
-	 		gene_bs_shoulders={ "shoulders" 118 "shoulders" 118 }
-	 		gene_bs_waist={ "waist" 144 "waist" 144 }
-	 		gene_areolas={ "areolas_1" 0 "areolas_1" 0 }
-			gene_bs_body_fat_distribution={ "body_mid" 158 "body_mid" 158 }
+ 		gene_bs_body_type={ "body_fat_head_fat_full" 95 "body_fat_head_fat_full" 139 }
+	 		gene_bs_penis_size={ "penis_size" 74 "penis_size" 74 }
+	 		gene_bs_penis_thickness={ "penis_thickness" 40 "penis_thickness" 40 }
+	 		gene_bs_ball_size={ "ball_size" 170 "ball_size" 170 }
+	 		gene_bs_butt_size={ "butt_size" 166 "butt_size" 166 }
+	 		gene_bs_nipples={ "nipples" 23 "nipples" 23 }
+	 		gene_bs_hips={ "hips" 119 "hips" 119 }
+	 		gene_bs_shoulders={ "shoulders" 120 "shoulders" 120 }
+	 		gene_bs_waist={ "waist" 208 "waist" 208 }
+	 		gene_areolas={ "areolas_2" 0 "areolas_2" 0 }
+			gene_bs_body_fat_distribution={ "body_mid" 95 "body_mid" 95 }
 			gene_bs_upper_body_muscle={ "upper_body_muscle" 0 "upper_body_muscle" 0 }
 			gene_bs_lower_body_muscle={ "lower_body_muscle" 0 "lower_body_muscle" 0 }
 			gene_muscle_definition={ "body_muscle_definition" 0 "body_muscle_definition" 0 }
 			gene_bs_shrink_bookmark={ "shrink_bookmark" 255 "shrink_bookmark" 255 }
- 		gene_bs_body_shape={ "body_shape_rectangle_half" 20 "body_shape_pear_half" 0 }
+ 		gene_bs_body_shape={ "body_shape_rectangle_half" 50 "body_shape_pear_half" 0 }
  		gene_bs_bust={ "bust_clothes" 68 "bust_shape_2_full" 203 }
  		gene_age={ "old_1" 125 "old_3" 19 }
  		gene_eyebrows_shape={ "avg_spacing_high_thickness" 222 "avg_spacing_high_thickness" 236 }
@@ -119,23 +120,35 @@ bookmark_laamps_hassan_sabbah={
  		gene_body_hair={ "body_hair_dense" 198 "body_hair_dense" 226 }
  		gene_hair_type={ "hair_curly" 114 "hair_curly" 163 }
  		gene_baldness={ "male_pattern_baldness" 186 "male_pattern_baldness" 95 }
- 		eye_accessory={ "normal_eyes" 123 "normal_eyes" 123 }
+ 		eye_accessory={ "normal_eyes_no_shadow" 255 "normal_eyes" 123 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 170 "normal_eyelashes" 170 }
  		beards={ "mena_beards_curly" 230 "no_beard" 0 }
- 		hairstyles={ "all_hairstyles" 224 "all_hairstyles" 0 }
+ 		hairstyles={ "all_hairstyles" 178 "all_hairstyles" 0 }
  		legwear={ "mena_nobility_legwear" 66 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
  		gene_bs_additive_headgears={ "additive_headgears" 255 "" 0 }
  		gene_bs_cloak_offset={ "cloak_offset" 255 "" 0 }
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
  		clothes={ "mena_commoner_clothes" 132 "most_clothes" 0 }
- 		headgear={ "fp3_iranian_low_nobility" 18 "no_headgear" 0 }
+ 		headgear={ "fp3_iranian_low_nobility" 75 "no_headgear" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
  }
-	entity={ 807438772 807438772 }
+	entity={ 2616704408 2616704408 }
 	tags={ {
 			hash=2125534279
+			invert=no
+		}
+ {
+			hash=681013727
+			invert=no
+		}
+ {
+			hash=75156179
+			invert=no
+		}
+ {
+			hash=3672171019
 			invert=no
 		}
  {
@@ -147,15 +160,7 @@ bookmark_laamps_hassan_sabbah={
 			invert=no
 		}
  {
-			hash=681013727
-			invert=no
-		}
- {
 			hash=1563190100
-			invert=no
-		}
- {
-			hash=3672171019
 			invert=no
 		}
  }
