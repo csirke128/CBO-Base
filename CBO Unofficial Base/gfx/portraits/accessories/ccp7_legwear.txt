@@ -1,0 +1,71 @@
+﻿#copy the contents over to the legwear.txt file then delete this one. or just leave it all here im not your dad
+
+
+###########################
+######   CCP7  ############
+###########################
+
+
+#### Emishi Commoner/Nobility #####
+# Male #
+m_legwear_sec_ccp_emishi_com_01 = {
+	set_tags = "shrink_legs,shrink_feet"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,penis_clothed"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_legwear_sec_ccp_emishi_com_01_entity }
+}
+m_legwear_sec_ccp_emishi_com_02 = {
+	set_tags = "shrink_legs,shrink_feet"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,penis_clothed"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_legwear_sec_ccp_emishi_com_02_entity }
+}
+m_legwear_sec_ccp_emishi_nob = {
+	set_tags = "shrink_legs,shrink_feet"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,penis_clothed"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_legwear_sec_ccp_emishi_nob_entity }
+}
+
+# Female #
+f_legwear_sec_ccp_emishi_com_01 = {
+	set_tags = "shrink_legs,shrink_feet"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,penis_clothed"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_legwear_sec_ccp_emishi_com_01_entity }
+}
+f_legwear_sec_ccp_emishi_com_02 = {
+	set_tags = "shrink_legs,shrink_feet"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,penis_clothed"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_legwear_sec_ccp_emishi_com_02_entity }
+}
+f_legwear_sec_ccp_emishi_nob = {
+	set_tags = "shrink_legs,shrink_feet"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,penis_clothed"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_legwear_sec_ccp_emishi_nob_entity }
+}
+
+#### Nivkh Commoner/Nobility #####
+# Male #
+m_legwear_sec_ccp_nivkh_com_01 = {
+	set_tags = "shrink_legs,shrink_feet"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,penis_clothed"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_legwear_sec_ccp_nivkh_com_01_entity }
+}
+m_legwear_sec_ccp_nivkh_com_02 = {
+	set_tags = "shrink_legs,shrink_feet"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,penis_clothed"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_legwear_sec_ccp_nivkh_com_02_entity }
+}
+
+# Female #
+f_legwear_sec_ccp_nivkh_com_01 = {
+	set_tags = "shrink_legs,shrink_feet"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,penis_clothed"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_legwear_sec_ccp_nivkh_com_01_entity }
+}

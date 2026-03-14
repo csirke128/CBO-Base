@@ -1,254 +1,238 @@
-﻿#copy the contents over to the clothes.txt file
-
+﻿#copy the contents over to the clothes.txt file then delete this one. or just leave it all here im not your dad
 
 ###########################
-######   CCP4  ############
+######   CCP7  ############
 ###########################
 
-#### Sami #####
 
+#### Emishi Commoner/Nobility #####
 # Male #
 
-m_clothes_sec_ccp4_sami_com_01 = {
+#outfit 1
+m_clothes_sec_ccp_emishi_com_01 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
     set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
 	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp4_sami_com_01_entity }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp_emishi_com_01_entity }
 }
-m_clothes_sec_ccp4_sami_lo_nob_01 = {
+m_clothes_sec_ccp_emishi_lo_nob_01 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
     set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
 	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp4_sami_lo_nob_01_entity }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp_emishi_lo_nob_01_entity }
 }
-m_clothes_sec_ccp4_sami_hi_nob_01 = {
+m_clothes_sec_ccp_emishi_hi_nob_01 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
     set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
 	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp4_sami_hi_nob_01_entity }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp_emishi_hi_nob_01_entity }
 }
-m_clothes_sec_ccp4_sami_roy_01 = {
+m_clothes_sec_ccp_emishi_hi_nob_01_emushi = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
     set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
 	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp4_sami_roy_01_entity }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp_emishi_hi_nob_01_emushi_entity }
 }
-
-
-m_clothes_sec_ccp4_sami_com_02 = {
+m_clothes_sec_ccp_emishi_roy_01 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
     set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
 	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp4_sami_com_02_entity }
-}
-m_clothes_sec_ccp4_sami_lo_nob_02 = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
-    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
-	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp4_sami_lo_nob_02_entity }
-}
-m_clothes_sec_ccp4_sami_hi_nob_02 = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
-    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
-	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp4_sami_hi_nob_02_entity }
-}
-m_clothes_sec_ccp4_sami_roy_02 = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
-    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
-	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp4_sami_roy_02_entity }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp_emishi_roy_01_entity }
 }
 
-m_clothes_sec_ccp4_sami_travel_01 = {
+#outfit 02
+m_clothes_sec_ccp_emishi_com_02 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
     set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
 	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp4_sami_travel_01_entity }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp_emishi_com_02_entity }
+}
+m_clothes_sec_ccp_emishi_lo_nob_02 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp_emishi_com_02_entity }
+}
+m_clothes_sec_ccp_emishi_hi_nob_02 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp_emishi_hi_nob_02_entity }
+}
+m_clothes_sec_ccp_emishi_hi_nob_02_emushi = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp_emishi_hi_nob_02_emushi_entity }
+}
+m_clothes_sec_ccp_emishi_roy_02 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp_emishi_roy_02_entity }
+}
+
+#outfit 03
+m_clothes_sec_ccp_emishi_com_03_fish = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp_emishi_com_03_fish_entity }
+}
+m_clothes_sec_ccp_emishi_com_03_fur = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp_emishi_com_03_fur_entity }
+}
+m_clothes_sec_ccp_emishi_lo_nob_03_fish = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp_emishi_lo_nob_03_fish_entity }
 }
 
 # Female #
 
-f_clothes_sec_ccp4_sami_com_01 = {
+#outfit 01
+f_clothes_sec_ccp_emishi_com_01 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
     set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
 	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_ccp4_sami_com_01_entity }	
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_ccp_emishi_com_01_entity }
 }
-f_clothes_sec_ccp4_sami_lo_nob_01 = {
+f_clothes_sec_ccp_emishi_lo_nob_01 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
     set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
 	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_ccp4_sami_lo_nob_01_entity }	
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_ccp_emishi_lo_nob_01_entity }
 }
-f_clothes_sec_ccp4_sami_hi_nob_01 = {
+f_clothes_sec_ccp_emishi_hi_nob_01 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
     set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
 	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_ccp4_sami_hi_nob_01_entity }	
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_ccp_emishi_hi_nob_01_entity }
 }
-f_clothes_sec_ccp4_sami_roy_01 = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_ccp4_sami_roy_01_entity }
-}
-f_clothes_sec_ccp4_sami_travel_01 = {
+
+#outfit 02
+f_clothes_sec_ccp_emishi_com_02 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
     set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
 	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_ccp4_sami_travel_01_entity }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_ccp_emishi_com_02_entity }
+}
+f_clothes_sec_ccp_emishi_lo_nob_02_a = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_ccp_emishi_lo_nob_02_a_entity }
+}
+f_clothes_sec_ccp_emishi_lo_nob_02_b = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_ccp_emishi_lo_nob_02_b_entity }
+}
+f_clothes_sec_ccp_emishi_hi_nob_02 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_ccp_emishi_hi_nob_02_entity }
+}
+f_clothes_sec_ccp_emishi_roy_02 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_ccp_emishi_roy_02_entity }
 }
 
+#outfit 03
+f_clothes_sec_ccp_emishi_com_03 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_ccp_emishi_com_03_entity }
+}
+f_clothes_sec_ccp_emishi_lo_nob_03 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_ccp_emishi_lo_nob_03_entity }
+}
+f_clothes_sec_ccp_emishi_hi_nob_03 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_ccp_emishi_hi_nob_03_entity }
+}
 
+#### Emishi War #####
+m_clothes_sec_ccp_emishi_war_nob_01 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp_emishi_war_nob_01_entity }
+}
+f_clothes_sec_ccp_emishi_war_nob_01 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_ccp_emishi_war_nob_01_entity }
+}
 
-#### Khanty #####
-
+#### Nivkh Commoner/Nobility ####
 # Male #
 
-m_clothes_sec_ccp4_khanty_com_01 = {
+#mpo kitbash com 01
+m_clothes_sec_ccp_nivkh_com_01 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
     set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
 	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp4_khanty_com_01_entity }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp_nivkh_com_01_entity }
 }
-m_clothes_sec_ccp4_khanty_com_01_hood = {
-	entity = { required_tags = "hood"		shared_pose_entity = torso }
-	entity = { required_tags = "snug_headgear"		shared_pose_entity = torso }
-	entity = { required_tags = "long_hair"		shared_pose_entity = torso }
+m_clothes_sec_ccp_nivkh_lo_nob_01 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
 	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp4_khanty_com_01_hood_entity }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp_nivkh_lo_nob_01_entity }
 }
 
-m_clothes_sec_ccp4_khanty_com_02 = {
+#outfit 03
+m_clothes_sec_ccp_nivkh_lo_nob_03_fish = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
     set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
 	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp4_khanty_com_02_entity }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp_nivkh_lo_nob_03_fish_entity }
 }
-
-m_clothes_sec_ccp4_khanty_com_03 = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
-    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
-	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp4_khanty_com_03_entity }
-}
-
-m_clothes_sec_ccp4_khanty_lo_nob_01 = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
-    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
-	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp4_khanty_lo_nob_01_entity }
-}
-m_clothes_sec_ccp4_khanty_lo_nob_01_hood = {
-	entity = { required_tags = "hood"		shared_pose_entity = torso }
-	entity = { required_tags = "snug_headgear"		shared_pose_entity = torso }
-	entity = { required_tags = "long_hair"		shared_pose_entity = torso }
-	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp4_khanty_lo_nob_01_hood_entity }
-}
-
-m_clothes_sec_ccp4_khanty_lo_nob_02 = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
-    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
-	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp4_khanty_lo_nob_02_entity }
-}
-
-m_clothes_sec_ccp4_khanty_hi_nob_01 = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
-    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
-	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp4_khanty_hi_nob_01_entity }
-}
-m_clothes_sec_ccp4_khanty_hi_nob_01_hood = {
-	entity = { required_tags = "hood"		shared_pose_entity = torso }
-	entity = { required_tags = "snug_headgear"		shared_pose_entity = torso }
-	entity = { required_tags = "long_hair"		shared_pose_entity = torso }
-	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp4_khanty_hi_nob_01_hood_entity }
-}
-
-m_clothes_sec_ccp4_khanty_hi_nob_02 = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
-    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
-	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp4_khanty_hi_nob_02_entity }
-}
-
-m_clothes_sec_ccp4_khanty_war_com_01 = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
-    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
-	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp4_khanty_war_com_01_entity }
-}
-m_clothes_sec_ccp4_khanty_war_lo_nob_01 = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
-    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
-	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp4_khanty_war_lo_nob_01_entity }
-}
-m_clothes_sec_ccp4_khanty_war_hi_nob_01 = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
-    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
-	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_ccp4_khanty_war_hi_nob_01_entity }
-}
-
 
 # Female #
 
-f_clothes_sec_ccp4_khanty_com_01 = {
+#mpo kitbash com 01
+f_clothes_sec_ccp_nivkh_com_01 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
     set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
 	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_ccp4_khanty_com_01_entity }	
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_ccp_nivkh_com_01_entity }
 }
-f_clothes_sec_ccp4_khanty_lo_nob_01 = {
+f_clothes_sec_ccp_nivkh_com_01_lo_nob = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
     set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
 	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_ccp4_khanty_lo_nob_01_entity }	
-}
-f_clothes_sec_ccp4_khanty_hi_nob_01 = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
-    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
-	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_ccp4_khanty_hi_nob_01_entity }	
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_ccp_nivkh_com_01_lo_nob_entity }
 }
 
-f_clothes_sec_ccp4_khanty_com_02 = {
+#female nivkh robe nob01
+#com
+f_clothes_sec_ccp_nivkh_nob_01_com = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
     set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
 	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_ccp4_khanty_com_02_entity }	
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_ccp_nivkh_nob_01_com_entity }
 }
-f_clothes_sec_ccp4_khanty_lo_nob_02 = {
+#lo nob
+f_clothes_sec_ccp_nivkh_lo_nob_01_fish = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
     set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
 	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_ccp4_khanty_lo_nob_02_entity }	
-}
-f_clothes_sec_ccp4_khanty_hi_nob_02 = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
-    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
-	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_ccp4_khanty_hi_nob_02_entity }	
-}
-
-f_clothes_sec_ccp4_khanty_war_com_01 = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
-    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
-	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_ccp4_khanty_war_com_01_entity }
-}
-f_clothes_sec_ccp4_khanty_war_lo_nob_01 = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
-    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
-	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_ccp4_khanty_war_lo_nob_01_entity }
-}
-f_clothes_sec_ccp4_khanty_war_hi_nob_01 = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
-    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
-	entity = { required_tags = "undressed"		shared_pose_entity = torso }
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_ccp4_khanty_war_hi_nob_01_entity }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_ccp_nivkh_lo_nob_01_fish_entity }
 }

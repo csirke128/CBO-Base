@@ -1,0 +1,78 @@
+﻿## these assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
+
+##ccp9
+
+
+m_clothes_ccp9_lia_nob_01 = { 
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_ccp9_lia_nob_01_entity }  
+
+}
+
+
+f_clothes_ccp9_lia_nob_01 = { 
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_ccp9_lia_nob_01_entity }  
+
+}
+
+m_clothes_ccp9_dal_nob_01 = { 
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_ccp9_dal_nob_01_entity }  
+
+}
+m_clothes_ccp9_min_nob_01 = { 
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_ccp9_min_nob_01_entity }  
+
+}
+m_clothes_ccp9_tan_nob_01 = { 
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_ccp9_tan_nob_01_entity }  
+
+}
+f_clothes_ccp9_uyg_nob_01 = { 
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_ccp9_uyg_nob_01_entity }  
+
+}
+f_clothes_ccp9_uyg_roy_01 = { 
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_ccp9_uyg_roy_01_entity }  
+
+}
+f_clothes_ccp9_tan_roy_01 = { 
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_ccp9_tan_roy_01_entity }  
+
+}
+f_clothes_ccp9_tan_nob_01 = { 
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_ccp9_tan_nob_01_entity }  
+
+}
+f_clothes_ccp9_min_nob_01 = { 
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,offset,short_skirt"
+    set_tags = "shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed,default_clothing"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_ccp9_min_nob_01_entity }  
+
+}
