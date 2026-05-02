@@ -519,6 +519,9 @@ entity = {
 	#### Blend shapes for enclosed helmets
 	attribute = { name = "bs_enclosed_helmet"												blend_shape = "female_bs_enclosed_helm" }
 
+	#### Blend shapes used to offset loose drapery from headgear(s) that intersect with cloaks and clothes. 
+	attribute = { name = "bs_headgear_offset"													blend_shape = "female_bs_neutral" }
+
 	### Animations
 	default_state = "none"
 	state = {	name = "none" 																	animation = "head_idle_1" }
@@ -1369,7 +1372,8 @@ entity = {
 	state = {	name = "AI_vengeful_asia"												animation = "head_AI_vengeful_asia" looping = no next_state = "AI_vengeful_asia" }
 	state = {	name = "japanese_drink"													animation = "head_japanese_drink" looping = no next_state = "japanese_drink_loop" }
 	state = {	name = "japanese_drink_loop"											animation = "head_drink_loop" looping = no next_state = "japanese_drink_loop" }
-
+	state = {	name = "holding_crutch"													animation = "head_holding_crutch" looping = no next_state = "holding_crutch" }
+    
 	#CBO
 	attribute = { name = "bs_fat_2"																blend_shape = "female_bs_fat_2" }
 	attribute = { name = "bs_muscular_type_1"													blend_shape = "female_bs_muscular_1" }
